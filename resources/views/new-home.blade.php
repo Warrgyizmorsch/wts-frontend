@@ -75,15 +75,14 @@
 
 
     <!-- Video Section  -->
+    <!-- Video Section  -->
     <section class="hero-video-section">
         <h2 class="new-section-title">Shaping a Brighter Future with WTS</h2>
         <div class="hero-video-wrapper">
-            <video class="hero-video" controls muted {{-- allow autoplay without user gesture --}} playsinline
-                preload="metadata" poster="{{ asset('new-home-images/wts-video-thumbnail.png') }}">
-                <source src="{{ asset('new-home-images/WTS_Video.mp4') }}" type="video/mp4">
-            </video>
-            <!-- <img src="/new-home-images/wts-logo.png" class="absolute-logo" style="" alt="">
-                <img src="/new-home-images/strip.webp" class="absolute-strip-img" alt=""> -->
+            <iframe class="hero-video" id="heroYoutubeVideo"
+                src="https://www.youtube.com/embed/00arWwxTs6w?enablejsapi=1&mute=1&playsinline=1" title="WTS Video"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
         </div>
     </section>
 
@@ -104,8 +103,8 @@
             width: 100%;
             height: 500px;
             object-fit: fill;
-            border-radius: 20px;
-            !important box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.29);
+            border-radius: 20px !important;
+            box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.29);
             display: block;
             background: black;
             padding: 25px 130px;
@@ -176,21 +175,33 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const video = document.querySelector('.hero-video');
+            const iframe = document.getElementById('heroYoutubeVideo');
+
+            const playVideo = () => {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'playVideo'
+                }), '*');
+            };
+
+            const pauseVideo = () => {
+                iframe.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'pauseVideo'
+                }), '*');
+            };
 
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        // Load if not already, then play
-                        if (video.paused) video.play().catch(() => { });
+                        playVideo();
                     } else {
-                        // Pause when out of view
-                        if (!video.paused) video.pause();
+                        pauseVideo();
                     }
                 });
-            }, { threshold: 0.5 }); // play only when at least 50% visible
+            }, { threshold: 0.5 });
 
-            observer.observe(video);
+            observer.observe(iframe);
         });
     </script>
 
@@ -264,8 +275,8 @@
                 <div class="swiper-wrapper">
                     @foreach($testimonials as $index => $video)
                         @php
-                            $videoId = Str::afterLast($video->url, '/');
-                            $loadingAttr = $index === 0 ? 'fetchpriority="high"' : 'loading="lazy"';
+    $videoId = Str::afterLast($video->url, '/');
+    $loadingAttr = $index === 0 ? 'fetchpriority="high"' : 'loading="lazy"';
                         @endphp
                         <div class="swiper-slide">
                             <div class="video-card">

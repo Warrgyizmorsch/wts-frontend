@@ -550,9 +550,8 @@
                                         style="height: 20px;"> {{ $f }}</li>
                             @endforeach
                         </ul>
-                        <a id="exploreBtn" href="{{ $countries[$firstKey]['route'] }}" style="text-decoration: none;">
-                            <button class="explore-btn">Explore More <img
-                                    src="/new-home-images/svg-icons/majesticons_arrow-up.svg"
+                        <a id="exploreBtn" href="/course-finder" style="text-decoration: none;">
+                            <button class="explore-btn">Explore Courses Now<img src="/new-home-images/svg-icons/majesticons_arrow-up.svg"
                                     style="height: 32px; margin-left: -6px;" alt=""></button>
                         </a>
                     </div>
@@ -1068,8 +1067,8 @@
                 <div class="swiper-wrapper">
                     @foreach($testimonials as $index => $video)
                         @php
-                            $videoId = Str::afterLast($video->url, '/');
-                            $loadingAttr = $index === 0 ? 'fetchpriority="high"' : 'loading="lazy"';
+    $videoId = Str::afterLast($video->url, '/');
+    $loadingAttr = $index === 0 ? 'fetchpriority="high"' : 'loading="lazy"';
                         @endphp
                         <div class="swiper-slide">
                             <div class="video-card">
