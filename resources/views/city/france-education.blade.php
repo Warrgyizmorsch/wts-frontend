@@ -443,8 +443,13 @@
 
 
                                 <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
-                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
+                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad
+                                    processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>
@@ -514,13 +519,13 @@
         <div class="new-journey-header">
             <h2 class="new-section-title">{{ $data['introduction']['title'] ?? '' }}</h2>
             <!-- <p>{{ $data['introduction']['subtitle'] ?? '' }}</p> -->
-             <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
+            <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
         </div>
 
 
     </section>
 
-    
+
 
     <!-- Our Services  -->
     <section class="sop-samples">
@@ -576,7 +581,10 @@
             </h2>
 
             <p class="section-subtext">
-                Discover the best opportunities to study at top France universities and build a successful global career. Our Study in France Consultants in {{ $cityName }} provide expert guidance on course selection, scholarships, and admissions, making your journey smooth and rewarding. Begin your path to international success today.
+                Discover the best opportunities to study at top France universities and build a successful global career.
+                Our Study in France Consultants in {{ $cityName }} provide expert guidance on course selection,
+                scholarships, and admissions, making your journey smooth and rewarding. Begin your path to international
+                success today.
             </p>
         </div>
 
@@ -604,8 +612,7 @@
             @endforeach
         </div>
 
-        <style>            
-
+        <style>
             .section-subtext {
                 margin-bottom: 2rem;
                 text-align: start;
@@ -623,7 +630,7 @@
                 background: #fff;
                 border-radius: 14px;
                 padding: 18px 16px;
-                box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
                 display: flex;
                 align-items: center;
                 gap: 12px;
@@ -640,7 +647,7 @@
 
             .university-card:hover {
                 transform: translateY(-6px);
-                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
             }
         </style>
     </section>
@@ -699,7 +706,9 @@
                 Popular French Courses Chosen by Indian Students
             </h2>
 
-            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful international career. Here are the top fields that students from India choose, along with popular specializations.</p>
+            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful
+                international career. Here are the top fields that students from India choose, along with popular
+                specializations.</p>
 
             <div class="support-grid-1">
                 <div class="support-item">
@@ -848,7 +857,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            WTS is one of the best France education consultants in {{ $cityName }}, offering complete guidance for studying in France, including course selection, university admissions, scholarships and visa support. With personalised counselling and end-to-end assistance, WTS helps students choose the right French universities based on their academic profile and goals.
+                            WTS is one of the best France education consultants in {{ $cityName }}, offering complete
+                            guidance for studying in France, including course selection, university admissions, scholarships
+                            and visa support. With personalised counselling and end-to-end assistance, WTS helps students
+                            choose the right French universities based on their academic profile and goals.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -857,7 +869,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Tuition varies by institution. Public universities range from €200–€700 per year for EU students and €3,000–€15,000 for non-EU students, while private institutions may charge €5,000–€20,000. WTS helps plan finances and explore scholarships.
+                            Tuition varies by institution. Public universities range from €200–€700 per year for EU students
+                            and €3,000–€15,000 for non-EU students, while private institutions may charge €5,000–€20,000.
+                            WTS helps plan finances and explore scholarships.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -866,17 +880,20 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, international students can work up to 20 hours per week. WTS advises on balancing work with studies to ensure academic success.
+                            Yes, international students can work up to 20 hours per week. WTS advises on balancing work with
+                            studies to ensure academic success.
                         </div>
                     </div>
-                    
+
                     <div class="new-faq-item">
                         <button class="new-faq-btn">
                             How do I apply for a student visa for France?
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Apply after receiving an admission offer, through the French consulate or Campus France portal, submitting documents like passport, offer letter, and proof of funds. WTS provides step-by-step guidance.
+                            Apply after receiving an admission offer, through the French consulate or Campus France portal,
+                            submitting documents like passport, offer letter, and proof of funds. WTS provides step-by-step
+                            guidance.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -885,16 +902,17 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Graduates can apply for a Temporary Resident Permit for 12 months, with STEM graduates eligible for up to 24 months. WTS helps plan your career after graduation.
+                            Graduates can apply for a Temporary Resident Permit for 12 months, with STEM graduates eligible
+                            for up to 24 months. WTS helps plan your career after graduation.
                         </div>
                     </div>
-                                    
+
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
 
     <script>
@@ -928,7 +946,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    
+
     <script>
         const statBoxes = document.querySelectorAll(".stat-box");
         const speed = 120;

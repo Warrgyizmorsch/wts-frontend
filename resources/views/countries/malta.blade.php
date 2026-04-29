@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Malta – A Gateway to Global Education and Career Success</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Malta – A Gateway to Global Education and Career
+                Success</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Malta consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in Malta.</p>
+                <p>WTS is a leading Study in Malta consultancy in India, offering complete support for choosing the right
+                    course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in Malta.</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,12 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top:30px;">Study in Malta and take the first step toward a globally recognised European education. Malta has become an emerging study destination due to its English-taught programs, affordable tuition fees, and strong academic standards. With internationally recognised institutions and a student-friendly environment, study in Malta for international students offers the perfect balance of quality education and lifestyle. Students choosing study in Malta for Indian students benefit from a safe country, Mediterranean culture, and access to European career opportunities.</p>
+                <p style="margin-top:30px;">Study in Malta and take the first step toward a globally recognised European
+                    education. Malta has become an emerging study destination due to its English-taught programs, affordable
+                    tuition fees, and strong academic standards. With internationally recognised institutions and a
+                    student-friendly environment, study in Malta for international students offers the perfect balance of
+                    quality education and lifestyle. Students choosing study in Malta for Indian students benefit from a
+                    safe country, Mediterranean culture, and access to European career opportunities.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/maltanew.webp" loading="lazy" alt="Study in malta">
@@ -78,28 +90,24 @@
     </section>
 
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in Malta?';
-    $sectionDescription = 'Malta is gaining popularity among international students for its high-quality education, English-speaking environment, and strategic location in Europe. The country offers globally recognised degrees, modern teaching methods, and strong links with European industries. For students planning to study in Malta, it provides a welcoming atmosphere, affordable living costs, and excellent academic exposure.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in Malta?';
+        $sectionDescription = 'Malta is gaining popularity among international students for its high-quality education, English-speaking environment, and strategic location in Europe. The country offers globally recognised degrees, modern teaching methods, and strong links with European industries. For students planning to study in Malta, it provides a welcoming atmosphere, affordable living costs, and excellent academic exposure.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System ', 'desc' => 'Malta follows a European-standard education system aligned with the Bologna Process. Institutions focus on practical learning, academic excellence, and skill-based education. Degrees awarded by a university in Malta for international students are recognised across Europe and other parts of the world.'],
-        ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'Academic programs in Malta are designed to meet global industry demands. Students can choose specialised programs with a strong focus on employability. Courses such as business, IT, hospitality, and healthcare offer practical exposure, making masters in Malta for international students a valuable career investment.'],
-        ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Malta attracts students from Europe, Asia, and Africa, creating a multicultural academic environment. Studying in such diversity enhances communication skills, cultural awareness, and global networking, which are essential for international careers.'],
-        ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Malta has growing industries in tourism, finance, gaming, IT, and healthcare. Universities maintain industry connections that offer internships, part-time work, and professional exposure. This makes study in Malta for international students ideal for gaining European work experience.'],
-        ['title' => '5. Research and Innovation ', 'desc' => 'Malta is developing its research ecosystem in areas such as technology, sustainability, and digital innovation. Students participate in applied research projects that enhance academic knowledge and practical skills.'],
-        ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Several institutions offer scholarships and fee reductions for international students. Affordable tuition and living costs make study in Malta an attractive option compared to other European destinations.'],
-        ['title' => '7. International Student Support Services  ', 'desc' => 'Universities in Malta provide strong support services, including academic advising, career guidance, accommodation assistance, and cultural integration programs to help international students settle comfortably.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
+        $cards = [
+            ['title' => '1. World-Class Education System ', 'desc' => 'Malta follows a European-standard education system aligned with the Bologna Process. Institutions focus on practical learning, academic excellence, and skill-based education. Degrees awarded by a university in Malta for international students are recognised across Europe and other parts of the world.'],
+            ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'Academic programs in Malta are designed to meet global industry demands. Students can choose specialised programs with a strong focus on employability. Courses such as business, IT, hospitality, and healthcare offer practical exposure, making masters in Malta for international students a valuable career investment.'],
+            ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Malta attracts students from Europe, Asia, and Africa, creating a multicultural academic environment. Studying in such diversity enhances communication skills, cultural awareness, and global networking, which are essential for international careers.'],
+            ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Malta has growing industries in tourism, finance, gaming, IT, and healthcare. Universities maintain industry connections that offer internships, part-time work, and professional exposure. This makes study in Malta for international students ideal for gaining European work experience.'],
+            ['title' => '5. Research and Innovation ', 'desc' => 'Malta is developing its research ecosystem in areas such as technology, sustainability, and digital innovation. Students participate in applied research projects that enhance academic knowledge and practical skills.'],
+            ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Several institutions offer scholarships and fee reductions for international students. Affordable tuition and living costs make study in Malta an attractive option compared to other European destinations.'],
+            ['title' => '7. International Student Support Services  ', 'desc' => 'Universities in Malta provide strong support services, including academic advising, career guidance, accommodation assistance, and cultural integration programs to help international students settle comfortably.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
 
-@include('./components/stats')
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -137,14 +145,14 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in Malta',
-        'highlight' => '',
-        'sub_heading' => 'Malta has well-established institutions offering globally recognised degrees and high academic standards.',
-        'footer' => 'Each Malta university for international students offers English-taught programs and strong academic support.'
-    ];
+            'heading' => 'Top Universities in Malta',
+            'highlight' => '',
+            'sub_heading' => 'Malta has well-established institutions offering globally recognised degrees and high academic standards.',
+            'footer' => 'Each Malta university for international students offers English-taught programs and strong academic support.'
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
@@ -157,18 +165,14 @@
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in Malta',
-        'desc' => 'Malta offers industry-relevant programs designed for global employability. These courses are popular among students choosing study in Malta for international students.',
-        'footer' => 'These programs are especially suitable for students pursuing masters in Malta for international students and long-term European careers.',
-    ];
+            'title' => 'Popular Courses to Study in Malta',
+            'desc' => 'Malta offers industry-relevant programs designed for global employability. These courses are popular among students choosing study in Malta for international students.',
+            'footer' => 'These programs are especially suitable for students pursuing masters in Malta for international students and long-term European careers.',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -183,84 +187,79 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in Malta',
-        'description' => 'The cost of studying in Malta is comparatively affordable, making it a preferred destination for international students seeking quality education within budget.',
+            'heading' => 'Cost of Studying in Malta',
+            'description' => 'The cost of studying in Malta is comparatively affordable, making it a preferred destination for international students seeking quality education within budget.',
         ];
         $livingFees = [
-                ['label' => 'Housing', 'value' => '€3,000 – €6,000', 'note' => 'Shared accommodation reduces costs'],
-                ['label' => 'Food', 'value' => '€2,000 – €3,000', 'note' => 'Home cooking is economical'],
-                ['label' => 'Transportation', 'value' => '€300 – €600', 'note' => 'Public transport is affordable'],
-                ['label' => 'Personal Expenses', 'value' => '€700 – €1,500', 'note' => 'Includes utilities and leisure'],
-                ['label' => 'Total', 'value' => '€6,000 – €10,000', 'note' => 'Varies by lifestyle'],
-            ];
+            ['label' => 'Housing', 'value' => '€3,000 – €6,000', 'note' => 'Shared accommodation reduces costs'],
+            ['label' => 'Food', 'value' => '€2,000 – €3,000', 'note' => 'Home cooking is economical'],
+            ['label' => 'Transportation', 'value' => '€300 – €600', 'note' => 'Public transport is affordable'],
+            ['label' => 'Personal Expenses', 'value' => '€700 – €1,500', 'note' => 'Includes utilities and leisure'],
+            ['label' => 'Total', 'value' => '€6,000 – €10,000', 'note' => 'Varies by lifestyle'],
+        ];
         $ukCostOfLivingRight = [
             'heading' => 'Living Expenses in Malta for Indian Students',
             'description' => 'Living costs in Malta are moderate compared to other European countries. On average, students spend €6,000 – €10,000 per year, depending on lifestyle and location.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in Malta: What to Expect?',
-        'desc' => 'Student life in Malta is relaxed, safe, and culturally rich. Universities offer student clubs, sports activities, cultural festivals, and networking events. With a Mediterranean lifestyle, English-speaking environment, and supportive campuses, Malta provides a balanced academic and personal experience for international students.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in Malta?',
-        'guide_steps' => [
-            'Research and Select Universities: Choose courses aligned with career goals.',
-            'Meet Entry Requirements: Academic qualifications and English proficiency are required.',
-            'Prepare Application Documents: Transcripts, SOP, and recommendation letters.',
-            'Submit Application: Apply directly to the chosen institution.',
-            'Receive Offer Letter: Conditional or unconditional offer is issued.',
-            'Confirm Admission and Apply for Visa: Accept the offer and proceed with visa application.',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in Malta: What to Expect?',
+            'desc' => 'Student life in Malta is relaxed, safe, and culturally rich. Universities offer student clubs, sports activities, cultural festivals, and networking events. With a Mediterranean lifestyle, English-speaking environment, and supportive campuses, Malta provides a balanced academic and personal experience for international students.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in Malta?',
+            'guide_steps' => [
+                'Research and Select Universities: Choose courses aligned with career goals.',
+                'Meet Entry Requirements: Academic qualifications and English proficiency are required.',
+                'Prepare Application Documents: Transcripts, SOP, and recommendation letters.',
+                'Submit Application: Apply directly to the chosen institution.',
+                'Receive Offer Letter: Conditional or unconditional offer is issued.',
+                'Confirm Admission and Apply for Visa: Accept the offer and proceed with visa application.',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in Malta',
-    'desc' => 'Students planning to study in Malta must submit the following documents:',
-    'list' => [
-        'Academic Transcripts',
-        'English Proficiency Test Scores (IELTS / TOEFL / PTE)',
-        'Letters of Recommendation',
-        'Statement of Purpose',
-        'Valid Passport',
-        'Financial Proof',
-        'Offer Letter from a Recognised Institution',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in Malta',
+            'desc' => 'Students planning to study in Malta must submit the following documents:',
+            'list' => [
+                'Academic Transcripts',
+                'English Proficiency Test Scores (IELTS / TOEFL / PTE)',
+                'Letters of Recommendation',
+                'Statement of Purpose',
+                'Valid Passport',
+                'Financial Proof',
+                'Offer Letter from a Recognised Institution',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'Malta Study Visa Process: Step-by-Step Guide',
-    'desc' => 'A study visa is required to study in Malta. The process includes securing admission, arranging finances, applying online, and submitting documents. Understanding each step helps students applying for study in Malta for international students avoid delays.',
-    'list' => [
-        'Receive Offer Letter from a Recognised Institution',
-        'Pay Tuition Fee Deposit',
-        'Arrange Financial Proof',
-        'Submit Visa Application',
-        'Provide Documents and Biometrics',
-        'Receive Visa Approval and Travel to Malta',
-        ],
-    'footer' => 'This structured process supports students planning to study in Malta for Indian students.'
-    ];
+        $guideContent = [
+            'title' => 'Malta Study Visa Process: Step-by-Step Guide',
+            'desc' => 'A study visa is required to study in Malta. The process includes securing admission, arranging finances, applying online, and submitting documents. Understanding each step helps students applying for study in Malta for international students avoid delays.',
+            'list' => [
+                'Receive Offer Letter from a Recognised Institution',
+                'Pay Tuition Fee Deposit',
+                'Arrange Financial Proof',
+                'Submit Visa Application',
+                'Provide Documents and Biometrics',
+                'Receive Visa Approval and Travel to Malta',
+            ],
+            'footer' => 'This structured process supports students planning to study in Malta for Indian students.'
+        ];
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
     @include('./components/cta-button')
 
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Why should I study in Malta?",

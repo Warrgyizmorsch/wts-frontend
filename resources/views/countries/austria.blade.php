@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Austria - A Gateway to Global Education and Career Success</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Austria - A Gateway to Global Education and Career
+                Success</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Austria  consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in Austria .</p>
+                <p>WTS is a leading Study in Austria consultancy in India, offering complete support for choosing the right
+                    course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in Austria .</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,13 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top:30px;">Study in Austria and take a step toward internationally recognised education in the heart of Europe. Known for its strong academic tradition, innovative research, and affordable education, Austria has become an attractive destination for global learners. With a wide range of public and private institutions, Austria universities for international students offer high-quality education combined with cultural richness and excellent career prospects. Choosing to study in Austria for international students means gaining global exposure while studying in a safe and student-friendly country.</p>
+                <p style="margin-top:30px;">Study in Austria and take a step toward internationally recognised education in
+                    the heart of Europe. Known for its strong academic tradition, innovative research, and affordable
+                    education, Austria has become an attractive destination for global learners. With a wide range of public
+                    and private institutions, Austria universities for international students offer high-quality education
+                    combined with cultural richness and excellent career prospects. Choosing to study in Austria for
+                    international students means gaining global exposure while studying in a safe and student-friendly
+                    country.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/austrianew.webp" loading="lazy" alt="Study in austria">
@@ -78,28 +91,24 @@
     </section>
 
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in Austria?';
-    $sectionDescription = 'Austria is gaining popularity among international students due to its affordable tuition fees, globally respected degrees, and strong focus on research and innovation. Located in Central Europe, Austria offers easy access to other European countries, making it an ideal destination for academic and cultural growth. For students planning to study in Austria for international students, the country provides a high standard of living, safety, and quality education.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in Austria?';
+        $sectionDescription = 'Austria is gaining popularity among international students due to its affordable tuition fees, globally respected degrees, and strong focus on research and innovation. Located in Central Europe, Austria offers easy access to other European countries, making it an ideal destination for academic and cultural growth. For students planning to study in Austria for international students, the country provides a high standard of living, safety, and quality education.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System ', 'desc' => 'Austria is home to prestigious public universities known for academic excellence and research-driven education. Degrees awarded by Austria universities for international students are internationally recognised, especially in engineering, arts, sciences, and humanities. Institutions focus on analytical thinking, innovation, and real-world learning.'],
-        ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'Austria offers flexible academic programs designed to meet global industry standards. Students can choose specialised courses and research-oriented pathways, including a bachelor degree in Austria for international students, which provides strong foundational knowledge and career readiness.'],
-        ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Austria welcomes students from all over the world, creating a multicultural academic environment. Studying in Austria allows students to experience European culture, learn new languages, and develop a global perspective while building international networks.'],
-        ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Austria has a strong economy with opportunities in engineering, manufacturing, tourism, finance, and technology. Universities collaborate with industries, offering internships, research projects, and work-based learning that improve employability after graduation.'],
-        ['title' => '5. Research and Innovation ', 'desc' => 'Austria is known for excellence in research and innovation, especially in science, technology, sustainability, and engineering. Students actively participate in funded research projects, gaining hands-on academic and professional experience.'],
-        ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'To make education affordable, Austria offers multiple funding options, including government and university-based Austria scholarship programs. These scholarships support international students by reducing tuition costs and living expenses.'],
-        ['title' => '7. International Student Support Services  ', 'desc' => 'Austrian universities provide extensive support services such as academic counselling, career guidance, accommodation assistance, and integration programs, ensuring international students adapt smoothly to academic and social life.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
+        $cards = [
+            ['title' => '1. World-Class Education System ', 'desc' => 'Austria is home to prestigious public universities known for academic excellence and research-driven education. Degrees awarded by Austria universities for international students are internationally recognised, especially in engineering, arts, sciences, and humanities. Institutions focus on analytical thinking, innovation, and real-world learning.'],
+            ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'Austria offers flexible academic programs designed to meet global industry standards. Students can choose specialised courses and research-oriented pathways, including a bachelor degree in Austria for international students, which provides strong foundational knowledge and career readiness.'],
+            ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Austria welcomes students from all over the world, creating a multicultural academic environment. Studying in Austria allows students to experience European culture, learn new languages, and develop a global perspective while building international networks.'],
+            ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Austria has a strong economy with opportunities in engineering, manufacturing, tourism, finance, and technology. Universities collaborate with industries, offering internships, research projects, and work-based learning that improve employability after graduation.'],
+            ['title' => '5. Research and Innovation ', 'desc' => 'Austria is known for excellence in research and innovation, especially in science, technology, sustainability, and engineering. Students actively participate in funded research projects, gaining hands-on academic and professional experience.'],
+            ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'To make education affordable, Austria offers multiple funding options, including government and university-based Austria scholarship programs. These scholarships support international students by reducing tuition costs and living expenses.'],
+            ['title' => '7. International Student Support Services  ', 'desc' => 'Austrian universities provide extensive support services such as academic counselling, career guidance, accommodation assistance, and integration programs, ensuring international students adapt smoothly to academic and social life.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
 
-@include('./components/stats')
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -143,14 +152,14 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in Austria',
-        'highlight' => '',
-        'sub_heading' => 'Austria is home to well-established institutions with strong academic reputations and research excellence.',
-        'footer' => 'These Austria universities for international students attract learners from across the globe and offer diverse academic pathways.'
-    ];
+            'heading' => 'Top Universities in Austria',
+            'highlight' => '',
+            'sub_heading' => 'Austria is home to well-established institutions with strong academic reputations and research excellence.',
+            'footer' => 'These Austria universities for international students attract learners from across the globe and offer diverse academic pathways.'
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
@@ -163,18 +172,14 @@
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/hospitality.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in Austria',
-        'desc' => 'Austria offers a wide range of globally recognised academic programs with strong career outcomes.',
-        'footer' => 'Many students prefer study in Austria for international students programs due to their affordability and academic depth.',
-    ];
+            'title' => 'Popular Courses to Study in Austria',
+            'desc' => 'Austria offers a wide range of globally recognised academic programs with strong career outcomes.',
+            'footer' => 'Many students prefer study in Austria for international students programs due to their affordability and academic depth.',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -188,83 +193,78 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in Austria',
-        'description' => 'Austria is one of the most affordable study destinations in Europe, especially at public universities. Proper planning and an Austria scholarship can further reduce expenses.',
+            'heading' => 'Cost of Studying in Austria',
+            'description' => 'Austria is one of the most affordable study destinations in Europe, especially at public universities. Proper planning and an Austria scholarship can further reduce expenses.',
         ];
         $livingFees = [
-                ['label' => 'Housing', 'value' => '€3,500 – €6,500', 'note' => 'Shared housing lowers costs'],
-                ['label' => 'Food', 'value' => '€2,000 – €3,000', 'note' => 'Student cafeterias are affordable'],
-                ['label' => 'Transportation', 'value' => '€400 – €800', 'note' => 'Student travel discounts available'],
-                ['label' => 'Personal Expenses', 'value' => '€1,000 – €1,700', 'note' => 'Utilities and leisure'],
-                ['label' => 'Total', 'value' => '€8,000 – €12,000', 'note' => 'Depends on city'],
-            ];
+            ['label' => 'Housing', 'value' => '€3,500 – €6,500', 'note' => 'Shared housing lowers costs'],
+            ['label' => 'Food', 'value' => '€2,000 – €3,000', 'note' => 'Student cafeterias are affordable'],
+            ['label' => 'Transportation', 'value' => '€400 – €800', 'note' => 'Student travel discounts available'],
+            ['label' => 'Personal Expenses', 'value' => '€1,000 – €1,700', 'note' => 'Utilities and leisure'],
+            ['label' => 'Total', 'value' => '€8,000 – €12,000', 'note' => 'Depends on city'],
+        ];
         $ukCostOfLivingRight = [
             'heading' => 'Living Expenses in Austria for International Students',
             'description' => 'The cost of living in Austria depends on the city and lifestyle. On average, students spend €8,000 – €12,000 per year.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in Austria: What to Expect?',
-        'desc' => 'Student life in Austria is safe, vibrant, and culturally rich. Universities offer student organisations, sports, cultural festivals, and academic clubs. With a high quality of life, excellent public transport, and strong student support services, Austria provides a balanced and enriching environment for global learners.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in Austria?',
-        'guide_steps' => [
-            'Research and Select Universities: Choose programs aligned with academic goals',
-            'Meet Entry Requirements: Academic qualifications and language proficiency',
-            'Prepare Application Documents: Transcripts, SOP, and certificates',
-            'Check Application Deadlines: Vary by university and intake',
-            'Receive Admission Letter: Confirmation from the institution',
-            'Apply for Student Visa: Begin visa and residence permit process',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in Austria: What to Expect?',
+            'desc' => 'Student life in Austria is safe, vibrant, and culturally rich. Universities offer student organisations, sports, cultural festivals, and academic clubs. With a high quality of life, excellent public transport, and strong student support services, Austria provides a balanced and enriching environment for global learners.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in Austria?',
+            'guide_steps' => [
+                'Research and Select Universities: Choose programs aligned with academic goals',
+                'Meet Entry Requirements: Academic qualifications and language proficiency',
+                'Prepare Application Documents: Transcripts, SOP, and certificates',
+                'Check Application Deadlines: Vary by university and intake',
+                'Receive Admission Letter: Confirmation from the institution',
+                'Apply for Student Visa: Begin visa and residence permit process',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in Austria',
-    'desc' => 'International students must prepare the following documents:',
-    'list' => [
-        'Academic Transcripts and Certificates',
-        'Proof of Language Proficiency (English or German)',
-        'Statement of Purpose',
-        'Valid Passport',
-        'Proof of Financial Means',
-        'Health Insuranc',
-        'Admission Letter from an Austrian University',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in Austria',
+            'desc' => 'International students must prepare the following documents:',
+            'list' => [
+                'Academic Transcripts and Certificates',
+                'Proof of Language Proficiency (English or German)',
+                'Statement of Purpose',
+                'Valid Passport',
+                'Proof of Financial Means',
+                'Health Insuranc',
+                'Admission Letter from an Austrian University',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'Austria Study Visa Process: Step-by-Step Guide ',
-    'desc' => 'A study visa is required to study in Austria for international students. The process includes admission confirmation, financial proof, application submission, and document verification.',
-    'list' => [
-        'Receive Admission Letter: From a recognised Austrian university',
-        'Arrange Financial Proof: Show sufficient funds for living and study ',
-        'Apply for Visa / Residence Permit: Submit application at the embassy',
-        'Submit Documents and Biometrics: Passport, admission letter, and insurance',
-        'Visa Approval and Travel: Enter Austria and complete local registration',
-        ],
-    'footer' => 'This process helps students prepare smoothly for academic life in Austria.'
-    ];
+        $guideContent = [
+            'title' => 'Austria Study Visa Process: Step-by-Step Guide ',
+            'desc' => 'A study visa is required to study in Austria for international students. The process includes admission confirmation, financial proof, application submission, and document verification.',
+            'list' => [
+                'Receive Admission Letter: From a recognised Austrian university',
+                'Arrange Financial Proof: Show sufficient funds for living and study ',
+                'Apply for Visa / Residence Permit: Submit application at the embassy',
+                'Submit Documents and Biometrics: Passport, admission letter, and insurance',
+                'Visa Approval and Travel: Enter Austria and complete local registration',
+            ],
+            'footer' => 'This process helps students prepare smoothly for academic life in Austria.'
+        ];
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
     @include('./components/cta-button')
 
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Why should international students study in Austria?",
@@ -281,13 +281,13 @@
             [
                 "question" => "4.	What are the top universities in Austria for international students?",
                 "answer" => "<p> Some popular Austria universities for international students include:</p>
-                <ol>
-                    <li>University of Vienna</li>
-                    <li>Vienna University of Technology (TU Wien)</li>
-                    <li>Graz University of Technology</li>
-                    <li>University of Innsbruck</li>
-                    <li>Johannes Kepler University Linz</li>
-                </ol>"
+                        <ol>
+                            <li>University of Vienna</li>
+                            <li>Vienna University of Technology (TU Wien)</li>
+                            <li>Graz University of Technology</li>
+                            <li>University of Innsbruck</li>
+                            <li>Johannes Kepler University Linz</li>
+                        </ol>"
             ],
             [
                 "question" => "5.	What is the cost of studying in Austria?",

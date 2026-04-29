@@ -3,7 +3,8 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in UAE - Build a Successful Global Career Through Education</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in UAE - Build a Successful Global Career Through
+                Education</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
                 <p>WTS is a leading Study in UAE consultancy in India, offering complete support for choosing the right
                     course and
@@ -56,6 +57,10 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
             </div>
         </div>
@@ -71,7 +76,13 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top: 30px;">Study in the UAE and take the first step toward a globally recognized education. The UAE offers a mix of world-class universities, advanced infrastructure, and industry-oriented programs that make it an attractive destination for students seeking international exposure. With diverse academic options and strong career prospects, students planning to study abroad UAE can benefit from innovative teaching methods, multicultural environments, and professional opportunities. A well-planned approach ensures a smooth transition so students can focus on achieving academic and professional success in one of the fastest-growing education hubs in the Middle East.</p>
+                <p style="margin-top: 30px;">Study in the UAE and take the first step toward a globally recognized
+                    education. The UAE offers a mix of world-class universities, advanced infrastructure, and
+                    industry-oriented programs that make it an attractive destination for students seeking international
+                    exposure. With diverse academic options and strong career prospects, students planning to study abroad
+                    UAE can benefit from innovative teaching methods, multicultural environments, and professional
+                    opportunities. A well-planned approach ensures a smooth transition so students can focus on achieving
+                    academic and professional success in one of the fastest-growing education hubs in the Middle East.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/uaenew.webp" loading="lazy" alt="Study in uae">
@@ -276,13 +287,13 @@
             [
                 "question" => "4.	How much does it cost to study in the UAE?",
                 "answer" => "Tuition fees vary by program and university. On average:
-                <ol>
-                    <li>Undergraduate: $8,000 - $20,000/year</li>
-                    <li>Master’s: $12,000 - $25,000/year</li>
-                    <li>MBA: $20,000 - $35,000/year</li>
-                    <li>PhD: $10,000 - $22,000/year</li>
-                </ol>
-                <p>Scholarships and financial planning can help manage costs.</p>"
+                        <ol>
+                            <li>Undergraduate: $8,000 - $20,000/year</li>
+                            <li>Master’s: $12,000 - $25,000/year</li>
+                            <li>MBA: $20,000 - $35,000/year</li>
+                            <li>PhD: $10,000 - $22,000/year</li>
+                        </ol>
+                        <p>Scholarships and financial planning can help manage costs.</p>"
             ],
             [
                 "question" => "5.	What is the living cost for international students in UAE?",
@@ -291,15 +302,15 @@
             [
                 "question" => "6.	What documents are required to apply for universities in the UAE?",
                 "answer" => "<p> Students planning to study in UAE from India need:</p>
-                <ol>
-                    <li>Academic transcripts</li>
-                    <li>English proficiency scores (IELTS / TOEFL / PTE)</li>
-                    <li>Letters of recommendation</li>
-                    <li>Statement of Purpose</li>
-                    <li>Valid passport</li>
-                    <li>Financial proof or scholarships</li>
-                    <li>Offer letter from an approved institution</li>
-                </ol>"
+                        <ol>
+                            <li>Academic transcripts</li>
+                            <li>English proficiency scores (IELTS / TOEFL / PTE)</li>
+                            <li>Letters of recommendation</li>
+                            <li>Statement of Purpose</li>
+                            <li>Valid passport</li>
+                            <li>Financial proof or scholarships</li>
+                            <li>Offer letter from an approved institution</li>
+                        </ol>"
             ],
         ];
     @endphp

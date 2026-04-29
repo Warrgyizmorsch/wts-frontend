@@ -58,6 +58,10 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
                 </div>
             </div>
         </div>
@@ -144,7 +148,7 @@
                 'course' => 'Health & Life Sciences',
                 'ranking' => 40
             ],
-             [
+            [
                 'name' => 'Kazan Federal University',
                 'logo' => 'images/universities/kazan.webp',
                 'course' => 'Health & Life Sciences',

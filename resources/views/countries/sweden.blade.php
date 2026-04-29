@@ -6,7 +6,7 @@
             <h1 class="main-heading" style="font-size: 34px;">Study in Sweden - Your Pathway to Global Education and
                 Career Success</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Sweden  consultancy in India, offering complete support for choosing the
+                <p>WTS is a leading Study in Sweden consultancy in India, offering complete support for choosing the
                     right
                     course and
                     university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
@@ -58,6 +58,10 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
             </div>
         </div>
@@ -73,12 +77,15 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top: 30px;">Study in Sweden for international students and take a step toward globally 
+                <p style="margin-top: 30px;">Study in Sweden for international students and take a step toward globally
                     respected education and innovation-driven careers.
-                    Sweden is known for its progressive teaching methods, sustainability-focused education, 
-                    and strong links between universities and industries. With world-ranked institutions, English-taught programs,
-                    and excellent post-study opportunities, Sweden has become a top choice for students planning to study in Sweden.
-                    The country offers a supportive academic environment where students can grow academically and professionally in one of Europe’s most advanced education systems.</p>
+                    Sweden is known for its progressive teaching methods, sustainability-focused education,
+                    and strong links between universities and industries. With world-ranked institutions, English-taught
+                    programs,
+                    and excellent post-study opportunities, Sweden has become a top choice for students planning to study in
+                    Sweden.
+                    The country offers a supportive academic environment where students can grow academically and
+                    professionally in one of Europe’s most advanced education systems.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/swedennew.webp" loading="lazy" alt="Study in sweden">
@@ -144,7 +151,7 @@
                 'course' => 'Health & Life Sciences',
                 'ranking' => 40
             ],
-             [
+            [
                 'name' => 'Linköping University',
                 'logo' => 'images/universities/linkoping.png',
                 'course' => 'Health & Life Sciences',
@@ -156,7 +163,7 @@
             'highlight' => '',
             'sub_heading' => 'Sweden is home to several globally ranked institutions known for academic excellence, research, and innovation.',
             'footer' => 'These Sweden universities for international students attract thousands of global learners every year.
-'
+        '
         ];
     @endphp
 

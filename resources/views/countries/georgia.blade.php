@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Georgia – A Gateway to Affordable Global Education and Career Opportunities</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Georgia – A Gateway to Affordable Global Education
+                and Career Opportunities</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Georgia  consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in Georgia.</p>
+                <p>WTS is a leading Study in Georgia consultancy in India, offering complete support for choosing the right
+                    course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in Georgia.</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,11 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top:30px;">Study in Georgia and begin your path toward an internationally recognised and affordable education. Georgia has quickly gained popularity among international students due to its quality universities, low tuition fees, and simple admission process. With globally accepted degrees, English-taught programs, and a student-friendly environment, study abroad Georgia has become a smart choice for students seeking quality education with global exposure.</p>
+                <p style="margin-top:30px;">Study in Georgia and begin your path toward an internationally recognised and
+                    affordable education. Georgia has quickly gained popularity among international students due to its
+                    quality universities, low tuition fees, and simple admission process. With globally accepted degrees,
+                    English-taught programs, and a student-friendly environment, study abroad Georgia has become a smart
+                    choice for students seeking quality education with global exposure.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/georgianew.webp" loading="lazy" alt="Study in georgia">
@@ -78,28 +89,24 @@
     </section>
 
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in Georgia?';
-    $sectionDescription = 'Georgia is emerging as a preferred destination for international education due to its affordable cost, European-standard education system, and welcoming atmosphere. The country offers a safe, multicultural environment and internationally recognised degrees. For students exploring study in Georgia for international students, the country provides excellent academic opportunities with minimal entry barriers.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in Georgia?';
+        $sectionDescription = 'Georgia is emerging as a preferred destination for international education due to its affordable cost, European-standard education system, and welcoming atmosphere. The country offers a safe, multicultural environment and internationally recognised degrees. For students exploring study in Georgia for international students, the country provides excellent academic opportunities with minimal entry barriers.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System ', 'desc' => 'Georgia follows European education standards and is part of the Bologna Process. Universities focus on academic excellence, practical learning, and globally aligned curricula. Degrees from Georgia country universities are recognised across Europe and many other countries worldwide.'],
-        ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the key benefits of study in Georgia is flexible admission requirements and career-focused programs. Universities offer industry-relevant courses with a strong emphasis on practical knowledge, making graduates job-ready for global markets.'],
-        ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Georgia welcomes students from Asia, Europe, Africa, and the Middle East, creating a truly multicultural learning environment. This exposure helps international students develop cross-cultural skills, global perspectives, and strong communication abilities.'],
-        ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Georgia provides growing opportunities in healthcare, business, IT, and engineering sectors. While studying, students gain academic knowledge that prepares them for international careers or further education abroad after graduation.'],
-        ['title' => '5. Research and Innovation ', 'desc' => 'Many Georgia country universities focus on modern teaching methods, innovation, and applied research. Students gain hands-on experience through laboratory work, case studies, and academic projects, especially in medical and technical fields.'],
-        ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Georgia offers affordable tuition fees compared to other European countries. Some universities also provide merit-based scholarships, making study abroad Georgia accessible to students from diverse financial backgrounds.'],
-        ['title' => '7. International Student Support Services  ', 'desc' => 'Universities in Georgia offer strong support systems, including academic guidance, accommodation assistance, and student orientation programs. These services help students adapt smoothly to academic and social life in Georgia.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
+        $cards = [
+            ['title' => '1. World-Class Education System ', 'desc' => 'Georgia follows European education standards and is part of the Bologna Process. Universities focus on academic excellence, practical learning, and globally aligned curricula. Degrees from Georgia country universities are recognised across Europe and many other countries worldwide.'],
+            ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the key benefits of study in Georgia is flexible admission requirements and career-focused programs. Universities offer industry-relevant courses with a strong emphasis on practical knowledge, making graduates job-ready for global markets.'],
+            ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Georgia welcomes students from Asia, Europe, Africa, and the Middle East, creating a truly multicultural learning environment. This exposure helps international students develop cross-cultural skills, global perspectives, and strong communication abilities.'],
+            ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Georgia provides growing opportunities in healthcare, business, IT, and engineering sectors. While studying, students gain academic knowledge that prepares them for international careers or further education abroad after graduation.'],
+            ['title' => '5. Research and Innovation ', 'desc' => 'Many Georgia country universities focus on modern teaching methods, innovation, and applied research. Students gain hands-on experience through laboratory work, case studies, and academic projects, especially in medical and technical fields.'],
+            ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Georgia offers affordable tuition fees compared to other European countries. Some universities also provide merit-based scholarships, making study abroad Georgia accessible to students from diverse financial backgrounds.'],
+            ['title' => '7. International Student Support Services  ', 'desc' => 'Universities in Georgia offer strong support systems, including academic guidance, accommodation assistance, and student orientation programs. These services help students adapt smoothly to academic and social life in Georgia.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
 
-@include('./components/stats')
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -143,37 +150,33 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in Georgia',
-        'highlight' => '',
-        'sub_heading' => 'Georgia is home to several well-recognised universities offering English-taught programs and international-standard education.',
-        'footer' => 'These Georgia country universities attract thousands of international students every year.'
-    ];
+            'heading' => 'Top Universities in Georgia',
+            'highlight' => '',
+            'sub_heading' => 'Georgia is home to several well-recognised universities offering English-taught programs and international-standard education.',
+            'footer' => 'These Georgia country universities attract thousands of international students every year.'
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
         $courses = [
-             ['title' => 'Medicine (MBBS / MD)', 'image' => 'images/courses/hospitality.jpg'],
+            ['title' => 'Medicine (MBBS / MD)', 'image' => 'images/courses/hospitality.jpg'],
             ['title' => 'Engineering', 'image' => 'images/courses/engineering.jpg'],
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in Georgia',
-        'desc' => 'Georgia offers a wide range of globally relevant programs, especially popular among international students seeking affordable education.',
-        'footer' => 'These programs are especially attractive for students interested in study in Georgia for international students due to quality education and reasonable costs.',
-    ];
+            'title' => 'Popular Courses to Study in Georgia',
+            'desc' => 'Georgia offers a wide range of globally relevant programs, especially popular among international students seeking affordable education.',
+            'footer' => 'These programs are especially attractive for students interested in study in Georgia for international students due to quality education and reasonable costs.',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -188,84 +191,79 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in Georgia',
-        'description' => 'One of the biggest advantages of study in Georgia is its affordability. Tuition fees and living costs are significantly lower compared to many European countries.',
+            'heading' => 'Cost of Studying in Georgia',
+            'description' => 'One of the biggest advantages of study in Georgia is its affordability. Tuition fees and living costs are significantly lower compared to many European countries.',
         ];
         $livingFees = [
-                ['label' => 'Housing', 'value' => '$1,200 – $2,500', 'note' => 'Shared accommodation reduces cost'],
-                ['label' => 'Food', 'value' => '$1,000 – $1,500', 'note' => 'Affordable local food'],
-                ['label' => 'Transportation', 'value' => '$200 – $400', 'note' => 'Public transport is economical'],
-                ['label' => 'Personal Expenses', 'value' => '$600 – $1,000', 'note' => 'Utilities and leisure'],
-                ['label' => 'Total', 'value' => '$3,000 – $5,000', 'note' => 'Varies by lifestyle'],
-            ];
+            ['label' => 'Housing', 'value' => '$1,200 – $2,500', 'note' => 'Shared accommodation reduces cost'],
+            ['label' => 'Food', 'value' => '$1,000 – $1,500', 'note' => 'Affordable local food'],
+            ['label' => 'Transportation', 'value' => '$200 – $400', 'note' => 'Public transport is economical'],
+            ['label' => 'Personal Expenses', 'value' => '$600 – $1,000', 'note' => 'Utilities and leisure'],
+            ['label' => 'Total', 'value' => '$3,000 – $5,000', 'note' => 'Varies by lifestyle'],
+        ];
         $ukCostOfLivingRight = [
             'heading' => 'Living Expenses in Georgia for International Students',
             'description' => 'Living costs in Georgia are affordable and student-friendly. On average, international students spend between $3,000 – $5,000 per year.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in Georgia: What to Expect?',
-        'desc' => 'Student life in Georgia is safe, affordable, and culturally rich. Universities offer a friendly campus environment with access to libraries, sports facilities, and student communities. With welcoming locals, historic cities, and modern infrastructure, study in Georgia for international students provides a balanced academic and personal experience.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in Georgia?',
-        'guide_steps' => [
-            'Choose University and Course: Select a recognised university and suitable program.',
-            'Check Eligibility Criteria: Academic qualification and basic English proficiency.',
-            'Prepare Documents: Academic transcripts, passport, and application form.',
-            'Receive Admission Letter: Universities issue offer letters quickly.',
-            'Pay Tuition Fees: Secure admission by paying the required fees.',
-            'Apply for Student Visa: Begin visa application after confirmation.',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in Georgia: What to Expect?',
+            'desc' => 'Student life in Georgia is safe, affordable, and culturally rich. Universities offer a friendly campus environment with access to libraries, sports facilities, and student communities. With welcoming locals, historic cities, and modern infrastructure, study in Georgia for international students provides a balanced academic and personal experience.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in Georgia?',
+            'guide_steps' => [
+                'Choose University and Course: Select a recognised university and suitable program.',
+                'Check Eligibility Criteria: Academic qualification and basic English proficiency.',
+                'Prepare Documents: Academic transcripts, passport, and application form.',
+                'Receive Admission Letter: Universities issue offer letters quickly.',
+                'Pay Tuition Fees: Secure admission by paying the required fees.',
+                'Apply for Student Visa: Begin visa application after confirmation.',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in Georgia',
-    'desc' => 'Students planning to study in Georgia for international students must prepare the following documents:',
-    'list' => [
-        'Academic Transcripts and Certificates',
-        'Valid Passport',
-        'Passport-size Photographs',
-        'University Offer Letter',
-        'Proof of Funds',
-        'Medical Fitness Certificate',
-        'Visa Application Form',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in Georgia',
+            'desc' => 'Students planning to study in Georgia for international students must prepare the following documents:',
+            'list' => [
+                'Academic Transcripts and Certificates',
+                'Valid Passport',
+                'Passport-size Photographs',
+                'University Offer Letter',
+                'Proof of Funds',
+                'Medical Fitness Certificate',
+                'Visa Application Form',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'Georgia Study Visa Process: Step-by-Step Guide',
-    'desc' => 'A study visa is required to study in Georgia. The process is straightforward and student-friendly.',
-    'list' => [
-        'Receive Offer Letter from a Recognised University',
-        'Pay Tuition Fees',
-        'Prepare Financial Proof',
-        'Submit Visa Application',
-        'Attend Visa Appointment (if required)',
-        'Receive Visa and Travel to Georgia',
-        ],
-    'footer' => 'This simple process makes study abroad Georgia an attractive option for international students.'
-    ];
+        $guideContent = [
+            'title' => 'Georgia Study Visa Process: Step-by-Step Guide',
+            'desc' => 'A study visa is required to study in Georgia. The process is straightforward and student-friendly.',
+            'list' => [
+                'Receive Offer Letter from a Recognised University',
+                'Pay Tuition Fees',
+                'Prepare Financial Proof',
+                'Submit Visa Application',
+                'Attend Visa Appointment (if required)',
+                'Receive Visa and Travel to Georgia',
+            ],
+            'footer' => 'This simple process makes study abroad Georgia an attractive option for international students.'
+        ];
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
     @include('./components/cta-button')
 
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Why should international students study in Georgia?",

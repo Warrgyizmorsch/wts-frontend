@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Japan – Your Pathway to Advanced Education and Global Careers</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Japan – Your Pathway to Advanced Education and Global
+                Careers</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Japan consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in Japan.</p>
+                <p>WTS is a leading Study in Japan consultancy in India, offering complete support for choosing the right
+                    course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in Japan.</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,12 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top:30px;">Study in Japan and take a step toward world-class education blended with cutting-edge technology, innovation, and rich cultural heritage. Japan offers globally respected degrees, advanced research facilities, and excellent career opportunities for international students. With a strong focus on academic excellence, discipline, and practical learning, study abroad Japan programs provide students with a unique and rewarding educational experience in one of the world’s most developed nations.</p>
+                <p style="margin-top:30px;">Study in Japan and take a step toward world-class education blended with
+                    cutting-edge technology, innovation, and rich cultural heritage. Japan offers globally respected
+                    degrees, advanced research facilities, and excellent career opportunities for international students.
+                    With a strong focus on academic excellence, discipline, and practical learning, study abroad Japan
+                    programs provide students with a unique and rewarding educational experience in one of the world’s most
+                    developed nations.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/japannew.webp" loading="lazy" alt="Study in Japan">
@@ -78,28 +90,24 @@
     </section>
 
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in Japan?';
-    $sectionDescription = 'Japan has become an increasingly popular destination for international students due to its high-quality education system, technological leadership, and safe living environment. Home to some of Asia’s top-ranked universities, Japan offers outstanding academic exposure along with global career prospects. For students planning to study in Japan, the country provides a unique blend of tradition, innovation, and international learning opportunities.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in Japan?';
+        $sectionDescription = 'Japan has become an increasingly popular destination for international students due to its high-quality education system, technological leadership, and safe living environment. Home to some of Asia’s top-ranked universities, Japan offers outstanding academic exposure along with global career prospects. For students planning to study in Japan, the country provides a unique blend of tradition, innovation, and international learning opportunities.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System ', 'desc' => 'Japan is known for its advanced education system and globally ranked universities. Japanese institutions emphasize research, innovation, and technical excellence, preparing students for competitive global industries. Degrees from Japan universities for international students are highly respected worldwide.'],
-        ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'Many Japanese universities offer flexible programs taught in English, especially at the postgraduate level. Courses are designed to meet global industry standards, with strong focus on technology, engineering, management, and research-based learning.'],
-        ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Japan welcomes students from all over the world, creating a multicultural academic environment. Studying in Japan helps students gain cross-cultural understanding, global perspectives, and strong interpersonal skills—essential for international careers.'],
-        ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Japan is a global leader in technology, robotics, automotive, electronics, and manufacturing. Universities maintain strong industry collaborations, offering internships, research projects, and employment opportunities that enhance career prospects after study abroad Japan.'],
-        ['title' => '5. Research and Innovation ', 'desc' => 'Japan is globally recognized for innovation and scientific research. Universities provide advanced laboratories and research funding, allowing students to actively participate in high-impact research, particularly in science, engineering, AI, and healthcare.'],
-        ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Japan offers generous funding options to international students. Government and university-funded Japan scholarship programs significantly reduce the financial burden. Many students also benefit from Japan scholarship for international students, making education more affordable.'],
-        ['title' => '7. International Student Support Services  ', 'desc' => 'Japanese universities offer dedicated support services, including academic guidance, language assistance, career counselling, and cultural integration programs, ensuring international students adapt smoothly to life in Japan.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
+        $cards = [
+            ['title' => '1. World-Class Education System ', 'desc' => 'Japan is known for its advanced education system and globally ranked universities. Japanese institutions emphasize research, innovation, and technical excellence, preparing students for competitive global industries. Degrees from Japan universities for international students are highly respected worldwide.'],
+            ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'Many Japanese universities offer flexible programs taught in English, especially at the postgraduate level. Courses are designed to meet global industry standards, with strong focus on technology, engineering, management, and research-based learning.'],
+            ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Japan welcomes students from all over the world, creating a multicultural academic environment. Studying in Japan helps students gain cross-cultural understanding, global perspectives, and strong interpersonal skills—essential for international careers.'],
+            ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Japan is a global leader in technology, robotics, automotive, electronics, and manufacturing. Universities maintain strong industry collaborations, offering internships, research projects, and employment opportunities that enhance career prospects after study abroad Japan.'],
+            ['title' => '5. Research and Innovation ', 'desc' => 'Japan is globally recognized for innovation and scientific research. Universities provide advanced laboratories and research funding, allowing students to actively participate in high-impact research, particularly in science, engineering, AI, and healthcare.'],
+            ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Japan offers generous funding options to international students. Government and university-funded Japan scholarship programs significantly reduce the financial burden. Many students also benefit from Japan scholarship for international students, making education more affordable.'],
+            ['title' => '7. International Student Support Services  ', 'desc' => 'Japanese universities offer dedicated support services, including academic guidance, language assistance, career counselling, and cultural integration programs, ensuring international students adapt smoothly to life in Japan.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
 
-@include('./components/stats')
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -137,14 +145,14 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in Japan',
-        'highlight' => '',
-        'sub_heading' => 'Japan is home to prestigious universities known for academic excellence, research output, and innovation.',
-        'footer' => 'These Japan universities for international students attract learners from across the globe and provide strong academic and career support.'
-    ];
+            'heading' => 'Top Universities in Japan',
+            'highlight' => '',
+            'sub_heading' => 'Japan is home to prestigious universities known for academic excellence, research output, and innovation.',
+            'footer' => 'These Japan universities for international students attract learners from across the globe and provide strong academic and career support.'
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
@@ -157,18 +165,14 @@
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in Japan',
-        'desc' => 'Japan offers a wide range of globally recognized academic programs with strong career outcomes. These programs attract students seeking advanced education and innovation-driven careers.',
-        'footer' => 'These courses are especially popular among students aiming to study in Japan for long-term global career growth.',
-    ];
+            'title' => 'Popular Courses to Study in Japan',
+            'desc' => 'Japan offers a wide range of globally recognized academic programs with strong career outcomes. These programs attract students seeking advanced education and innovation-driven careers.',
+            'footer' => 'These courses are especially popular among students aiming to study in Japan for long-term global career growth.',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -183,84 +187,79 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in Japan',
-        'description' => 'The cost of studying in Japan is relatively affordable compared to other developed countries. With proper financial planning and access to Japan scholarship for international students, education in Japan becomes highly cost-effective.',
+            'heading' => 'Cost of Studying in Japan',
+            'description' => 'The cost of studying in Japan is relatively affordable compared to other developed countries. With proper financial planning and access to Japan scholarship for international students, education in Japan becomes highly cost-effective.',
         ];
         $livingFees = [
-                ['label' => 'Housing', 'value' => '¥300,000 – ¥700,000', 'note' => 'Shared housing reduces cost'],
-                ['label' => 'Food', 'value' => '¥250,000 – ¥400,000', 'note' => 'Home cooking is economical'],
-                ['label' => 'Transportation', 'value' => '¥100,000 – ¥150,000', 'note' => 'Student passes available'],
-                ['label' => 'Personal Expenses', 'value' => '¥150,000 – ¥250,000', 'note' => 'Utilities and leisure'],
-                ['label' => 'Total', 'value' => '¥900,000 – ¥1,500,000', 'note' => 'Varies by city'],
-            ];
+            ['label' => 'Housing', 'value' => '¥300,000 – ¥700,000', 'note' => 'Shared housing reduces cost'],
+            ['label' => 'Food', 'value' => '¥250,000 – ¥400,000', 'note' => 'Home cooking is economical'],
+            ['label' => 'Transportation', 'value' => '¥100,000 – ¥150,000', 'note' => 'Student passes available'],
+            ['label' => 'Personal Expenses', 'value' => '¥150,000 – ¥250,000', 'note' => 'Utilities and leisure'],
+            ['label' => 'Total', 'value' => '¥900,000 – ¥1,500,000', 'note' => 'Varies by city'],
+        ];
         $ukCostOfLivingRight = [
             'heading' => 'Living Expenses in Japan for International Students',
             'description' => 'The cost of living in Japan depends on the city and lifestyle. On average, students spend between ¥900,000 – ¥1,500,000 per year.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in Japan: What to Expect?',
-        'desc' => 'Student life in Japan is safe, disciplined, and culturally enriching. Universities offer clubs, cultural activities, sports, and student organizations. With excellent public transport, advanced facilities, and strong academic support, Japan provides an ideal environment for learning and personal growth.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in Japan?',
-        'guide_steps' => [
-            'Research and Select Universities: Choose programs aligned with academic and career goals.',
-            'Meet Entry Requirements: Academic qualifications and language proficiency (English or Japanese).',
-            'Prepare Application Documents: Transcripts, SOP, and recommendation letters.',
-            'Check Application Deadlines: Vary by university and intake.',
-            'Receive Offer Letter: From the selected university.',
-            'Confirm Admission and Apply for Visa: Accept the offer and begin the visa process.',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in Japan: What to Expect?',
+            'desc' => 'Student life in Japan is safe, disciplined, and culturally enriching. Universities offer clubs, cultural activities, sports, and student organizations. With excellent public transport, advanced facilities, and strong academic support, Japan provides an ideal environment for learning and personal growth.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in Japan?',
+            'guide_steps' => [
+                'Research and Select Universities: Choose programs aligned with academic and career goals.',
+                'Meet Entry Requirements: Academic qualifications and language proficiency (English or Japanese).',
+                'Prepare Application Documents: Transcripts, SOP, and recommendation letters.',
+                'Check Application Deadlines: Vary by university and intake.',
+                'Receive Offer Letter: From the selected university.',
+                'Confirm Admission and Apply for Visa: Accept the offer and begin the visa process.',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in Japan',
-    'desc' => 'Students planning to study abroad Japan must submit the following documents:',
-    'list' => [
-        'Academic Transcripts',
-        'English or Japanese Language Proficiency Test Scores',
-        'Letters of Recommendation',
-        'Statement of Purpose',
-        'Valid Passport',
-        'Financial Proof or Japan scholarship documents',
-        'Offer Letter from a Recognized Institution',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in Japan',
+            'desc' => 'Students planning to study abroad Japan must submit the following documents:',
+            'list' => [
+                'Academic Transcripts',
+                'English or Japanese Language Proficiency Test Scores',
+                'Letters of Recommendation',
+                'Statement of Purpose',
+                'Valid Passport',
+                'Financial Proof or Japan scholarship documents',
+                'Offer Letter from a Recognized Institution',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'Japan Study Visa Process: Step-by-Step Guide',
-    'desc' => 'A study visa is required to study in Japan. The process includes securing admission, arranging finances, submitting an application, and document verification. Understanding these steps helps students pursuing study abroad Japan avoid delays.',
-    'list' => [
-        'Receive Offer Letter from a Recognized Japanese University',
-        'Pay Tuition Fee or Confirm Japan Scholarship for International Students',
-        'Arrange Financial Proof or Scholarship Documents',
-        'Apply for Certificate of Eligibility (COE)',
-        'Submit Visa Application at Japanese Embassy',
-        'Visa Approval and Travel to Japan',
-        ],
-    'footer' => 'This process helps students prepare confidently and focus on their academic goals.'
-    ];
+        $guideContent = [
+            'title' => 'Japan Study Visa Process: Step-by-Step Guide',
+            'desc' => 'A study visa is required to study in Japan. The process includes securing admission, arranging finances, submitting an application, and document verification. Understanding these steps helps students pursuing study abroad Japan avoid delays.',
+            'list' => [
+                'Receive Offer Letter from a Recognized Japanese University',
+                'Pay Tuition Fee or Confirm Japan Scholarship for International Students',
+                'Arrange Financial Proof or Scholarship Documents',
+                'Apply for Certificate of Eligibility (COE)',
+                'Submit Visa Application at Japanese Embassy',
+                'Visa Approval and Travel to Japan',
+            ],
+            'footer' => 'This process helps students prepare confidently and focus on their academic goals.'
+        ];
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
     @include('./components/cta-button')
 
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Is Japan a good destination for international students?",

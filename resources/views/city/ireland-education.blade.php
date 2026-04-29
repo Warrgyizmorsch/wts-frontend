@@ -443,8 +443,13 @@
 
 
                                 <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
-                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
+                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad
+                                    processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>
@@ -510,11 +515,11 @@
         <div class="new-journey-header">
             <h2 class="new-section-title">{{ $data['introduction']['title'] ?? '' }}</h2>
             <!-- <p>{{ $data['introduction']['subtitle'] ?? '' }}</p> -->
-             <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
+            <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
         </div>
     </section>
 
-    
+
     <!-- Our Services  -->
     <section class="sop-samples">
         <div class="heading-wrapper">
@@ -569,7 +574,9 @@
             </h2>
 
             <p class="section-subtext">
-                Kickstart Your Global Journey with Ireland’s Top Universities. WTS, your trusted Study in Ireland Consultants in {{ $cityName }}, helps you choose the right course, secure scholarships, and get admission smoothly. Start your study-abroad journey with confidence today!
+                Kickstart Your Global Journey with Ireland’s Top Universities. WTS, your trusted Study in Ireland
+                Consultants in {{ $cityName }}, helps you choose the right course, secure scholarships, and get admission
+                smoothly. Start your study-abroad journey with confidence today!
             </p>
         </div>
 
@@ -597,8 +604,7 @@
             @endforeach
         </div>
 
-        <style>            
-
+        <style>
             .section-subtext {
                 margin-bottom: 2rem;
                 text-align: start;
@@ -616,7 +622,7 @@
                 background: #fff;
                 border-radius: 14px;
                 padding: 18px 16px;
-                box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
                 display: flex;
                 align-items: center;
                 gap: 12px;
@@ -633,7 +639,7 @@
 
             .university-card:hover {
                 transform: translateY(-6px);
-                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
             }
         </style>
     </section>
@@ -692,7 +698,9 @@
                 Popular Irish Courses Chosen by Indian Students
             </h2>
 
-            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful international career. Here are the top fields that students from India choose, along with popular specializations.</p>
+            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful
+                international career. Here are the top fields that students from India choose, along with popular
+                specializations.</p>
 
             <div class="support-grid-1">
                 <div class="support-item">
@@ -841,7 +849,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            WTS is one of the best Ireland education consultants in {{ $cityName }}, providing end-to-end support for studying in Ireland, including course selection, university admissions, scholarships and student visa guidance. WTS offers personalised counselling to help students apply to suitable Irish universities based on their profile.
+                            WTS is one of the best Ireland education consultants in {{ $cityName }}, providing end-to-end
+                            support for studying in Ireland, including course selection, university admissions, scholarships
+                            and student visa guidance. WTS offers personalised counselling to help students apply to
+                            suitable Irish universities based on their profile.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -850,7 +861,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Tuition fees in Ireland typically range from €10,000 to €25,000 per year depending on the course. Living expenses average around €10,000-€12,000 annually, making Ireland an affordable destination for quality education.
+                            Tuition fees in Ireland typically range from €10,000 to €25,000 per year depending on the
+                            course. Living expenses average around €10,000-€12,000 annually, making Ireland an affordable
+                            destination for quality education.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -859,17 +872,20 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes! International students can work up to 20 hours per week during term time and full-time during holidays, helping you gain work experience and manage expenses while studying.
+                            Yes! International students can work up to 20 hours per week during term time and full-time
+                            during holidays, helping you gain work experience and manage expenses while studying.
                         </div>
                     </div>
-                    
+
                     <div class="new-faq-item">
                         <button class="new-faq-btn">
                             Are scholarships available for international students?
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Absolutely. Scholarships vary by university and student profile. WTS helps you identify the best options and guides you through the application process to maximize your chances of receiving financial support.
+                            Absolutely. Scholarships vary by university and student profile. WTS helps you identify the best
+                            options and guides you through the application process to maximize your chances of receiving
+                            financial support.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -878,16 +894,18 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Students can choose from university halls, private rentals, or shared apartments. Our consultants provide guidance to help you find safe, comfortable, and affordable housing near your campus.
+                            Students can choose from university halls, private rentals, or shared apartments. Our
+                            consultants provide guidance to help you find safe, comfortable, and affordable housing near
+                            your campus.
                         </div>
                     </div>
-                                    
+
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
 
     <script>
@@ -921,7 +939,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    
+
     <script>
         const statBoxes = document.querySelectorAll(".stat-box");
         const speed = 120;

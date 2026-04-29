@@ -122,9 +122,7 @@ Route::get('/services/test-preparation', function () {
 // services routes end
 
 // country routes start
-Route::get('/country/europe', function () {
-    return view('countries.europe');
-})->name('europe');
+
 
 Route::get('/country/study-in-uk', function () {
     $universities = University::where('country', 'united kingdom')
@@ -377,9 +375,6 @@ Route::get('/country/study-in-oman', function () {
     return redirect('/');
 })->name('oman');
 
-Route::get('/country/international', function () {
-    return view('countries.international');
-})->name('international');
 
 // country routes end
 
@@ -495,7 +490,7 @@ Route::get('/ielts-coaching', [IeltsPageController::class, 'test'])
 
 Route::get('/toefl-coaching', [ToeflPageController::class, 'test'])
     ->name('toefl.test');
-    
+
 Route::get('/pte-coaching', [PtePageController::class, 'test'])
     ->name('pte.test');
 

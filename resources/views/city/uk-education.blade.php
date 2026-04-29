@@ -386,7 +386,7 @@
     </style>
 
     <!-- Long content section  -->
-     <style>
+    <style>
         .ielts-long {
             padding: 40px 15px;
         }
@@ -557,8 +557,13 @@
 
 
                                 <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
-                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
+                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad
+                                    processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>
@@ -628,13 +633,13 @@
         <div class="new-journey-header">
             <h2 class="new-section-title">{{ $data['introduction']['title'] ?? '' }}</h2>
             <!-- <p>{{ $data['introduction']['subtitle'] ?? '' }}</p> -->
-             <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
+            <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
         </div>
 
 
     </section>
 
-    
+
 
     <!-- Our Services  -->
     <section class="sop-samples">
@@ -690,7 +695,9 @@
             </h2>
 
             <p class="section-subtext">
-                Choosing the right university is key to a successful UK education journey. At WTS, our expert UK study abroad consultants in {{ $cityName }} guide students toward top-ranked and globally recognised UK institutions. Below are some of the most preferred universities chosen by students from {{ $cityName }}.
+                Choosing the right university is key to a successful UK education journey. At WTS, our expert UK study
+                abroad consultants in {{ $cityName }} guide students toward top-ranked and globally recognised UK
+                institutions. Below are some of the most preferred universities chosen by students from {{ $cityName }}.
             </p>
         </div>
 
@@ -720,8 +727,7 @@
             @endforeach
         </div>
 
-        <style>            
-
+        <style>
             .section-subtext {
                 margin-bottom: 2rem;
                 text-align: start;
@@ -739,7 +745,7 @@
                 background: #fff;
                 border-radius: 14px;
                 padding: 18px 16px;
-                box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
                 display: flex;
                 align-items: center;
                 gap: 12px;
@@ -756,7 +762,7 @@
 
             .university-card:hover {
                 transform: translateY(-6px);
-                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
             }
         </style>
     </section>
@@ -815,7 +821,9 @@
                 Popular UK Courses Chosen by Indian Students
             </h2>
 
-            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful international career. Here are the top fields students from India choose, along with popular specializations.</p>
+            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful
+                international career. Here are the top fields students from India choose, along with popular
+                specializations.</p>
 
             <div class="support-grid-1">
                 <div class="support-item">
@@ -943,229 +951,266 @@
 
     <!-- Read more section  -->
     <section class="ielts-long">
-    <div class="container">
+        <div class="container">
 
-        <div class="long-box">
+            <div class="long-box">
 
-            <h2>UK Education Consultants in {{ $cityName }}</h2>
+                <h2>UK Education Consultants in {{ $cityName }}</h2>
 
-            <p>Looking for trusted UK education consultants in {{$cityName}} to help you start your study abroad journey? WTS Study Abroad Consultant is a leading name among UK education consultants in {{$cityName}}, providing expert guidance for university admissions, visa processing, and career planning in the United Kingdom.</p>
+                <p>Looking for trusted UK education consultants in {{$cityName}} to help you start your study abroad
+                    journey? WTS Study Abroad Consultant is a leading name among UK education consultants in {{$cityName}},
+                    providing expert guidance for university admissions, visa processing, and career planning in the United
+                    Kingdom.</p>
 
-            <p>At WTS, we understand that studying abroad is a life-changing decision. Our experienced counselors offer personalised support to help students select the right university, course, and career path. As reliable study abroad consultants for UK in {{$cityName}}, we guide you at every step  from course selection to visa approval.</p>
+                <p>At WTS, we understand that studying abroad is a life-changing decision. Our experienced counselors offer
+                    personalised support to help students select the right university, course, and career path. As reliable
+                    study abroad consultants for UK in {{$cityName}}, we guide you at every step from course selection to
+                    visa approval.</p>
 
-            <p>Whether you need admission assistance or visa support, our team of professional UK education consultants in {{$cityName}} ensures a smooth and successful application process.</p>
+                <p>Whether you need admission assistance or visa support, our team of professional UK education consultants
+                    in {{$cityName}} ensures a smooth and successful application process.</p>
 
-            <div class="read-btn-row">
-                <button class="read-toggle" id="readMore">Read More</button>
-            </div>
+                <div class="read-btn-row">
+                    <button class="read-toggle" id="readMore">Read More</button>
+                </div>
 
-            <div class="more-content" id="moreContent">
+                <div class="more-content" id="moreContent">
 
-                <h2>Why Choose WTS UK Education Consultant in {{ $cityName }}?</h2>
+                    <h2>Why Choose WTS UK Education Consultant in {{ $cityName }}?</h2>
 
-                <p>
-                    Choosing the right UK education consultants in {{ $cityName }} can make a significant difference in your study abroad success. WTS Study Abroad Consultant has helped hundreds of students secure admissions in top universities across the UK.
-                </p>
+                    <p>
+                        Choosing the right UK education consultants in {{ $cityName }} can make a significant difference in
+                        your study abroad success. WTS Study Abroad Consultant has helped hundreds of students secure
+                        admissions in top universities across the UK.
+                    </p>
 
-                <p>Here’s why students trust WTS as their preferred study in UK consultants in {{ $cityName }}:</p>
+                    <p>Here’s why students trust WTS as their preferred study in UK consultants in {{ $cityName }}:</p>
 
-                <ul>
-                    <li>Experienced and certified counselors</li>
-                    <li>High UK student visa success rate</li>
-                    <li>Personalised university and course guidance</li>
-                    <li>End-to-end admission and visa assistance</li>
-                    <li>Strong partnerships with UK universities</li>
-                    <li>Transparent and ethical consultancy services</li>
-                    <li>Fast response and dedicated support</li>
-                </ul>
+                    <ul>
+                        <li>Experienced and certified counselors</li>
+                        <li>High UK student visa success rate</li>
+                        <li>Personalised university and course guidance</li>
+                        <li>End-to-end admission and visa assistance</li>
+                        <li>Strong partnerships with UK universities</li>
+                        <li>Transparent and ethical consultancy services</li>
+                        <li>Fast response and dedicated support</li>
+                    </ul>
 
-                <p>As professional study abroad consultants for UK in {{ $cityName }}, our mission is to simplify the entire study abroad process and help students achieve their academic and career goals.</p>
+                    <p>As professional study abroad consultants for UK in {{ $cityName }}, our mission is to simplify the
+                        entire study abroad process and help students achieve their academic and career goals.</p>
 
-                <h2>Services Offered by Our UK Education Consultants in {{ $cityName }}</h2>
+                    <h2>Services Offered by Our UK Education Consultants in {{ $cityName }}</h2>
 
-                <p>At WTS Study Abroad Consultant, we provide complete support to students planning to study in the United Kingdom. Our experienced UK education consultants in {{ $cityName }} ensure that every stage of your application is handled professionally.</p>
+                    <p>At WTS Study Abroad Consultant, we provide complete support to students planning to study in the
+                        United Kingdom. Our experienced UK education consultants in {{ $cityName }} ensure that every stage
+                        of your application is handled professionally.</p>
 
-                <h3>University & Course Selection</h3>
-                <p>
-                    Choosing the right course is the most important step. Our expert study in UK consultants in {{ $cityName }} analyse your academic background, interests, and career goals 
-                    to recommend suitable universities and programs.
-                </p>
+                    <h3>University & Course Selection</h3>
+                    <p>
+                        Choosing the right course is the most important step. Our expert study in UK consultants in
+                        {{ $cityName }} analyse your academic background, interests, and career goals
+                        to recommend suitable universities and programs.
+                    </p>
 
-                <p>We help students select:</p>
-                <ul>
-                    <li>Undergraduate courses</li>
-                    <li>Postgraduate programs</li>
-                    <li>MBA and management courses</li>
-                    <li>Engineering and technology programs</li>
-                    <li>Healthcare and nursing courses</li>
-                    <li>Business and finance programs</li>
-                </ul>
+                    <p>We help students select:</p>
+                    <ul>
+                        <li>Undergraduate courses</li>
+                        <li>Postgraduate programs</li>
+                        <li>MBA and management courses</li>
+                        <li>Engineering and technology programs</li>
+                        <li>Healthcare and nursing courses</li>
+                        <li>Business and finance programs</li>
+                    </ul>
 
-                <h3>Application & Admission Assistance</h3>
-                <p>
-                    Our team of UK education consultants in {{ $cityName }} helps students prepare strong applications that increase their chances of admission.
-                </p>
+                    <h3>Application & Admission Assistance</h3>
+                    <p>
+                        Our team of UK education consultants in {{ $cityName }} helps students prepare strong applications
+                        that increase their chances of admission.
+                    </p>
 
-                <p>We assist with:</p>
-                <ul>
-                    <li>University applications</li>
-                    <li><a href="https://www.wtsvisa.com/services/sop-assistance">Statement of Purpose (SOP)</a></li>
-                    <li><a href="https://www.wtsvisa.com/letter-of-recommendation">Letter of Recommendation (LOR)</a></li>
-                    <li>Resume preparation</li>
-                    <li>Document verification</li>
-                    <li>Admission tracking</li>
-                </ul>
-                <p>As experienced study abroad consultants for UK in {{ $cityName }}, we ensure your application is submitted accurately and on time.</p>
+                    <p>We assist with:</p>
+                    <ul>
+                        <li>University applications</li>
+                        <li><a href="https://www.wtsvisa.com/services/sop-assistance">Statement of Purpose (SOP)</a></li>
+                        <li><a href="https://www.wtsvisa.com/letter-of-recommendation">Letter of Recommendation (LOR)</a>
+                        </li>
+                        <li>Resume preparation</li>
+                        <li>Document verification</li>
+                        <li>Admission tracking</li>
+                    </ul>
+                    <p>As experienced study abroad consultants for UK in {{ $cityName }}, we ensure your application is
+                        submitted accurately and on time.</p>
 
-                <h3>UK Student Visa Assistance</h3>
-                <p>
-                    Getting a student visa is one of the most critical steps in studying abroad. Our professional UK students visa consultant in {{ $cityName }} provides expert guidance to help students successfully obtain their UK student visa.
-                </p>
+                    <h3>UK Student Visa Assistance</h3>
+                    <p>
+                        Getting a student visa is one of the most critical steps in studying abroad. Our professional UK
+                        students visa consultant in {{ $cityName }} provides expert guidance to help students successfully
+                        obtain their UK student visa.
+                    </p>
 
-                <p>We provide:</p>
-                <ul>
-                    <li>Visa documentation guidance</li>
-                    <li>Financial documentation support</li>
-                    <li>Visa application form assistance</li>
-                    <li>Mock interview preparation</li>
-                    <li>Visa submission support</li>
-                </ul>
-                <p>With our experienced UK students visa consultant in {{ $cityName }}, students receive reliable support throughout the visa process.</p>
+                    <p>We provide:</p>
+                    <ul>
+                        <li>Visa documentation guidance</li>
+                        <li>Financial documentation support</li>
+                        <li>Visa application form assistance</li>
+                        <li>Mock interview preparation</li>
+                        <li>Visa submission support</li>
+                    </ul>
+                    <p>With our experienced UK students visa consultant in {{ $cityName }}, students receive reliable
+                        support throughout the visa process.</p>
 
-                <h2>Top Universities in the UK We Help Students Apply To</h2>
-                <p>As trusted UK education consultants in {{ $cityName }}, WTS Study Abroad Consultant works with leading universities across the United Kingdom. We help students secure admissions in institutions known for academic excellence and global recognition.</p>
+                    <h2>Top Universities in the UK We Help Students Apply To</h2>
+                    <p>As trusted UK education consultants in {{ $cityName }}, WTS Study Abroad Consultant works with
+                        leading universities across the United Kingdom. We help students secure admissions in institutions
+                        known for academic excellence and global recognition.</p>
 
-                <p>Some popular universities include:</p>
-                <ul>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/university-of-birmingham">University of Birmingham</a></li>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/university-of-manchester">University of Manchester</a></li>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/university-of-leeds">University of Leeds</a></li>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/university-of-glasgow">University of Glasgow</a></li>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/university-of-nottingham">University of Nottingham</a></li>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/university-of-liverpool">University of Liverpool</a></li>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/coventry-university">Coventry University</a></li>
-                    <li><a href="https://www.wtsvisa.com/universities/uk/university-of-greenwich">University of Greenwich</a></li>
-                </ul>
-                <p>Our experienced study in UK consultants in {{ $cityName }} help students choose universities that match their academic profile and career aspirations.</p>
+                    <p>Some popular universities include:</p>
+                    <ul>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/university-of-birmingham">University of
+                                Birmingham</a></li>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/university-of-manchester">University of
+                                Manchester</a></li>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/university-of-leeds">University of Leeds</a>
+                        </li>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/university-of-glasgow">University of
+                                Glasgow</a></li>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/university-of-nottingham">University of
+                                Nottingham</a></li>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/university-of-liverpool">University of
+                                Liverpool</a></li>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/coventry-university">Coventry University</a>
+                        </li>
+                        <li><a href="https://www.wtsvisa.com/universities/uk/university-of-greenwich">University of
+                                Greenwich</a></li>
+                    </ul>
+                    <p>Our experienced study in UK consultants in {{ $cityName }} help students choose universities that
+                        match their academic profile and career aspirations.</p>
 
-                <h2>Popular Courses to Study in the UK</h2>
-                <p>The United Kingdom offers a wide range of career-oriented programs for international students. Our knowledgeable UK education consultants in {{ $cityName }} guide students in selecting high-demand courses with excellent career prospects.</p>
+                    <h2>Popular Courses to Study in the UK</h2>
+                    <p>The United Kingdom offers a wide range of career-oriented programs for international students. Our
+                        knowledgeable UK education consultants in {{ $cityName }} guide students in selecting high-demand
+                        courses with excellent career prospects.</p>
 
-                <p>Popular courses include:</p>
-                <ul>
-                    <li><a href="https://www.wtsvisa.com/study/mba-in-uk">MBA in the UK</a></li>
-                    <li>MSc Data Science</li>
-                    <li>MSc Business Analytics</li>
-                    <li>Computer Science</li>
-                    <li>Nursing and Healthcare</li>
-                    <li><a href="https://www.wtsvisa.com/study/btech-in-uk">Engineering</a></li>
-                    <li><a href="https://www.wtsvisa.com/study/accounting-in-uk">Finance and Accounting</a></li>
-                    <li>Artificial Intelligence</li>
-                    <li><a href="https://www.wtsvisa.com/study/cyber-security-in-uk">Cybersecurity</a></li>
-                    <li>Project Management</li>
-                </ul>
-                <p>As reliable study abroad consultants for UK in {{ $cityName }}, we help students choose programs aligned with industry demand and future job opportunities.</p>
+                    <p>Popular courses include:</p>
+                    <ul>
+                        <li><a href="https://www.wtsvisa.com/study/mba-in-uk">MBA in the UK</a></li>
+                        <li>MSc Data Science</li>
+                        <li>MSc Business Analytics</li>
+                        <li>Computer Science</li>
+                        <li>Nursing and Healthcare</li>
+                        <li><a href="https://www.wtsvisa.com/study/btech-in-uk">Engineering</a></li>
+                        <li><a href="https://www.wtsvisa.com/study/accounting-in-uk">Finance and Accounting</a></li>
+                        <li>Artificial Intelligence</li>
+                        <li><a href="https://www.wtsvisa.com/study/cyber-security-in-uk">Cybersecurity</a></li>
+                        <li>Project Management</li>
+                    </ul>
+                    <p>As reliable study abroad consultants for UK in {{ $cityName }}, we help students choose programs
+                        aligned with industry demand and future job opportunities.</p>
 
-                <h2>UK Student Visa Process with Our UK Students Visa Consultant in {{ $cityName }}</h2>
-                <p>Applying for a student visa can be complicated, but our experienced UK students visa consultant in {{ $cityName }} simplifies the process and increases your chances of approval.</p>
+                    <h2>UK Student Visa Process with Our UK Students Visa Consultant in {{ $cityName }}</h2>
+                    <p>Applying for a student visa can be complicated, but our experienced UK students visa consultant in
+                        {{ $cityName }} simplifies the process and increases your chances of approval.
+                    </p>
 
-                <p>Here are the steps involved:</p>
-                <ol>
-                    <li>Step 1: Receive admission offer from a UK university</li>
-                    <li>Step 2: Prepare financial documents</li>
-                    <li>Step 3: Complete visa application form</li>
-                    <li>Step 4: Pay visa fees and healthcare surcharge</li>
-                    <li>Step 5: Submit biometric information</li>
-                    <li>Step 6: Attend visa interview (if required)</li>
-                    <li>Step 7: Receive visa decision</li>
-                </ol>
-                <p>Our dedicated UK students visa consultant in {{ $cityName }} ensures that every document is accurate and submitted on time.</p>
+                    <p>Here are the steps involved:</p>
+                    <ol>
+                        <li>Step 1: Receive admission offer from a UK university</li>
+                        <li>Step 2: Prepare financial documents</li>
+                        <li>Step 3: Complete visa application form</li>
+                        <li>Step 4: Pay visa fees and healthcare surcharge</li>
+                        <li>Step 5: Submit biometric information</li>
+                        <li>Step 6: Attend visa interview (if required)</li>
+                        <li>Step 7: Receive visa decision</li>
+                    </ol>
+                    <p>Our dedicated UK students visa consultant in {{ $cityName }} ensures that every document is accurate
+                        and submitted on time.</p>
 
-                <h2>Eligibility Requirements to Study in the UK</h2>
-                <p>Students planning to study in the UK must meet certain academic and language requirements. Our professional UK education consultants in {{ $cityName }} help students understand eligibility criteria and prepare accordingly.</p>
+                    <h2>Eligibility Requirements to Study in the UK</h2>
+                    <p>Students planning to study in the UK must meet certain academic and language requirements. Our
+                        professional UK education consultants in {{ $cityName }} help students understand eligibility
+                        criteria and prepare accordingly.</p>
 
-                <p>Basic requirements include:</p>
-                <ul>
-                    <li>Valid passport</li>
-                    <li>Academic transcripts</li>
-                    <li>English language test score (<a href="https://www.wtsvisa.com/ielts-coaching">IELTS</a> / <a href="https://www.wtsvisa.com/pte-coaching">PTE</a>)</li>
-                    <li>Financial proof</li>
-                    <li>Statement of Purpose</li>
-                    <li>Offer letter from a UK university</li>
-                </ul>
-                <p>As experienced study in UK consultants in {{ $cityName }}, we provide clear guidance to help students meet all eligibility requirements.</p>
+                    <p>Basic requirements include:</p>
+                    <ul>
+                        <li>Valid passport</li>
+                        <li>Academic transcripts</li>
+                        <li>English language test score (<a href="https://www.wtsvisa.com/ielts-coaching">IELTS</a> / <a
+                                href="https://www.wtsvisa.com/pte-coaching">PTE</a>)</li>
+                        <li>Financial proof</li>
+                        <li>Statement of Purpose</li>
+                        <li>Offer letter from a UK university</li>
+                    </ul>
+                    <p>As experienced study in UK consultants in {{ $cityName }}, we provide clear guidance to help students
+                        meet all eligibility requirements.</p>
 
-                <h2>Intake Periods for UK Universities</h2>
-                <p>Understanding university intake timelines is essential for successful admission. Our expert UK education consultants in {{ $cityName }} help students apply at the right time.</p>
+                    <h2>Intake Periods for UK Universities</h2>
+                    <p>Understanding university intake timelines is essential for successful admission. Our expert UK
+                        education consultants in {{ $cityName }} help students apply at the right time.</p>
 
-                <p>Major intakes in the UK:</p>
-                <ul>
-                    <li>September Intake</li>
-                    <li>January Intake</li>
-                    <li>May Intake</li>
-                </ul>
-                <p>Our team of study abroad consultants for UK in {{ $cityName }} ensures students meet deadlines and avoid delays.</p>
+                    <p>Major intakes in the UK:</p>
+                    <ul>
+                        <li>September Intake</li>
+                        <li>January Intake</li>
+                        <li>May Intake</li>
+                    </ul>
+                    <p>Our team of study abroad consultants for UK in {{ $cityName }} ensures students meet deadlines and
+                        avoid delays.</p>
 
-                <h2>Cost of Studying in the UK</h2>
-                <p>The cost of studying in the UK varies depending on the university and course. Our experienced UK education consultants in {{ $cityName }} provide transparent information about tuition fees and living expenses.</p>
+                    <h2>Cost of Studying in the UK</h2>
+                    <p>The cost of studying in the UK varies depending on the university and course. Our experienced UK
+                        education consultants in {{ $cityName }} provide transparent information about tuition fees and
+                        living expenses.</p>
 
-                <p>Estimated annual costs:</p>
-                <ul>
-                    <li><strong>Tuition Fees:</strong> ₹12,00,000 - ₹28,00,000</li>
-                    <li><strong>Living Expenses:</strong> ₹8,00,000 - ₹12,00,000</li>
-                </ul>
-                <p>Our trusted study in UK consultants in {{ $cityName }} also help students explore scholarships and financial aid options.</p>
+                    <p>Estimated annual costs:</p>
+                    <ul>
+                        <li><strong>Tuition Fees:</strong> ₹12,00,000 - ₹28,00,000</li>
+                        <li><strong>Living Expenses:</strong> ₹8,00,000 - ₹12,00,000</li>
+                    </ul>
+                    <p>Our trusted study in UK consultants in {{ $cityName }} also help students explore scholarships and
+                        financial aid options.</p>
 
-                <h2>Scholarships for Indian Students in the UK</h2>
-                <p>Many universities offer <a href="https://www.wtsvisa.com/blog/study-abroad-scholarship-guide-eligibility-types-how-to-apply">scholarships to international students</a>. As professional study abroad consultants for UK in {{ $cityName }}, we help students identify and apply for suitable scholarships.</p>
+                    <h2>Scholarships for Indian Students in the UK</h2>
+                    <p>Many universities offer <a
+                            href="https://www.wtsvisa.com/blog/study-abroad-scholarship-guide-eligibility-types-how-to-apply">scholarships
+                            to international students</a>. As professional study abroad consultants for UK in
+                        {{ $cityName }}, we help students identify and apply for suitable scholarships.
+                    </p>
 
-                <p>Popular scholarships include:</p>
-                <ul>
-                    <li>Chevening Scholarship</li>
-                    <li>Commonwealth Scholarship</li>
-                    <li>GREAT Scholarship</li>
-                    <li>University Merit Scholarships</li>
-                </ul>
-                <p>Our experienced UK education consultants in {{ $cityName }} guide students throughout the scholarship application process.</p>
+                    <p>Popular scholarships include:</p>
+                    <ul>
+                        <li>Chevening Scholarship</li>
+                        <li>Commonwealth Scholarship</li>
+                        <li>GREAT Scholarship</li>
+                        <li>University Merit Scholarships</li>
+                    </ul>
+                    <p>Our experienced UK education consultants in {{ $cityName }} guide students throughout the scholarship
+                        application process.</p>
 
-                <h2>Start Your Study Abroad Journey with WTS Study Abroad Consultant</h2>
+                    <h2>Start Your Study Abroad Journey with WTS Study Abroad Consultant</h2>
 
-                <p>
-                    If you are planning to study in the United Kingdom, choosing the right UK education consultants in {{ $cityName }} 
-                    is the first step toward success. WTS Study Abroad Consultant offers expert guidance, reliable visa support, 
-                    and personalised counselling to help students achieve their academic goals.
-                </p>
+                    <p>
+                        If you are planning to study in the United Kingdom, choosing the right UK education consultants in
+                        {{ $cityName }}
+                        is the first step toward success. WTS Study Abroad Consultant offers expert guidance, reliable visa
+                        support,
+                        and personalised counselling to help students achieve their academic goals.
+                    </p>
 
-                <p>Our experienced team of study in UK consultants in {{ $cityName }} is committed to providing high-quality services and ensuring a smooth admission and visa process. 
-                </p>
-                <p>Contact WTS today and take the first step toward studying in the UK with confidence.</p>
+                    <p>Our experienced team of study in UK consultants in {{ $cityName }} is committed to providing
+                        high-quality services and ensuring a smooth admission and visa process.
+                    </p>
+                    <p>Contact WTS today and take the first step toward studying in the UK with confidence.</p>
 
-                <div class="read-btn-row" style="margin-top:20px;">
-                    <button class="read-toggle" id="readLess">Read Less</button>
+                    <div class="read-btn-row" style="margin-top:20px;">
+                        <button class="read-toggle" id="readLess">Read Less</button>
+                    </div>
+
                 </div>
 
             </div>
 
         </div>
-
-    </div>
-</section>
-    <script>
-        const more = document.getElementById("moreContent");
-        const rm = document.getElementById("readMore");
-        const rl = document.getElementById("readLess");
-
-        rm.onclick = function () {
-            more.style.display = "block";
-            rm.style.display = "none";
-        }
-
-        rl.onclick = function () {
-            more.style.display = "none";
-            rm.style.display = "inline-block";
-            document.querySelector(".long-box").scrollIntoView({ behavior: "smooth" });
-        }
-    </script>
+    </section>
 
     <!-- FAQ Section -->
     <section class="new-faq-section">
@@ -1190,7 +1235,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            With years of experience, WTS provides personalised counselling, top university guidance, and expert visa support. As leading UK Education Consultants in {{ $cityName }}, we help students achieve their dream of studying in the UK with confidence.
+                            With years of experience, WTS provides personalised counselling, top university guidance, and
+                            expert visa support. As leading UK Education Consultants in {{ $cityName }}, we help students
+                            achieve their dream of studying in the UK with confidence.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -1199,7 +1246,8 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, you must show proof of funds to cover tuition fees and living expenses for the duration of your course as per UKVI requirements.
+                            Yes, you must show proof of funds to cover tuition fees and living expenses for the duration of
+                            your course as per UKVI requirements.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -1208,17 +1256,19 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, we guide students through every step of the CAS process, including document verification, compliance checks, and timely submission.
+                            Yes, we guide students through every step of the CAS process, including document verification,
+                            compliance checks, and timely submission.
                         </div>
                     </div>
-                    
+
                     <div class="new-faq-item">
                         <button class="new-faq-btn">
                             What are the chances of getting a UK study visa with your consultancy support?
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            With proper documentation and eligibility, students have high success rates. Our consultants help ensure accuracy, compliance, and strong application preparation.
+                            With proper documentation and eligibility, students have high success rates. Our consultants
+                            help ensure accuracy, compliance, and strong application preparation.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -1227,16 +1277,17 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, our team offers pre-departure guidance, travel support, accommodation assistance, and essential information for settling in the UK.
+                            Yes, our team offers pre-departure guidance, travel support, accommodation assistance, and
+                            essential information for settling in the UK.
                         </div>
                     </div>
-                                    
+
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
 
     <script>
@@ -1270,7 +1321,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    
+
     <script>
         const statBoxes = document.querySelectorAll(".stat-box");
         const speed = 120;

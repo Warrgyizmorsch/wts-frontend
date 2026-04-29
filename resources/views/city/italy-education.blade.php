@@ -446,6 +446,10 @@
                                     Trusted by 150+ students on Google for expert guidance and smooth study-abroad
                                     processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>
@@ -845,7 +849,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Italy offers globally recognised degrees, affordable tuition fees, a strong academic heritage, and modern universities. Students from {{$cityName}} prefer Italy for its quality education, wide range of English-taught programs, rich cultural experience, and excellent learning environment.
+                            Italy offers globally recognised degrees, affordable tuition fees, a strong academic heritage,
+                            and modern universities. Students from {{$cityName}} prefer Italy for its quality education,
+                            wide range of English-taught programs, rich cultural experience, and excellent learning
+                            environment.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -854,7 +861,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Italy Education Consultants in {{$cityName}} guide students in choosing the right university and course, assist with applications, provide SOP guidance, help with documentation, and support students throughout the admission process, making it smooth and transparent.
+                            Italy Education Consultants in {{$cityName}} guide students in choosing the right university and
+                            course, assist with applications, provide SOP guidance, help with documentation, and support
+                            students throughout the admission process, making it smooth and transparent.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -863,7 +872,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Popular courses in Italy include Engineering, Architecture, Design, Fashion, Business Management, Economics, Data Science, Artificial Intelligence, Hospitality, and Arts & Humanities.
+                            Popular courses in Italy include Engineering, Architecture, Design, Fashion, Business
+                            Management, Economics, Data Science, Artificial Intelligence, Hospitality, and Arts &
+                            Humanities.
                         </div>
                     </div>
 
@@ -873,7 +884,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, many Italian universities offer a wide range of English-taught bachelor’s and master’s programs, especially in fields like Engineering, Business, Design, and Science, making it suitable for international students.
+                            Yes, many Italian universities offer a wide range of English-taught bachelor’s and master’s
+                            programs, especially in fields like Engineering, Business, Design, and Science, making it
+                            suitable for international students.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -882,7 +895,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            The cost of studying in Italy is generally affordable compared to many other European countries. Tuition fees vary depending on the university and course, and several scholarship options are also available for eligible students.
+                            The cost of studying in Italy is generally affordable compared to many other European countries.
+                            Tuition fees vary depending on the university and course, and several scholarship options are
+                            also available for eligible students.
                         </div>
                     </div>
 

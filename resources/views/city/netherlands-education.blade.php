@@ -446,6 +446,10 @@
                                     Trusted by 150+ students on Google for expert guidance and smooth study-abroad
                                     processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>
@@ -570,7 +574,9 @@
             </h2>
 
             <p class="section-subtext">
-                Explore world-class education opportunities and take a strong step toward your global career with the help of our study in Netherlands consultants in {{$cityName}}. We assist students in identifying the right universities, exploring in-demand programs, and securing admissions in top Dutch institutions.
+                Explore world-class education opportunities and take a strong step toward your global career with the help
+                of our study in Netherlands consultants in {{$cityName}}. We assist students in identifying the right
+                universities, exploring in-demand programs, and securing admissions in top Dutch institutions.
             </p>
         </div>
 
@@ -843,7 +849,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            The Netherlands is a popular destination among {{$cityName}} students due to its globally recognised universities, wide range of English-taught programs, innovative teaching methods, and strong focus on research and practical learning. It also offers a safe, multicultural environment and excellent career exposure.
+                            The Netherlands is a popular destination among {{$cityName}} students due to its globally
+                            recognised universities, wide range of English-taught programs, innovative teaching methods, and
+                            strong focus on research and practical learning. It also offers a safe, multicultural
+                            environment and excellent career exposure.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -852,7 +861,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Professional Netherlands study abroad consultants guide students through university selection, course planning, application procedures, documentation support, and scholarship guidance. Their expertise helps students make informed decisions and avoid common mistakes during the admission process.
+                            Professional Netherlands study abroad consultants guide students through university selection,
+                            course planning, application procedures, documentation support, and scholarship guidance. Their
+                            expertise helps students make informed decisions and avoid common mistakes during the admission
+                            process.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -861,7 +873,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Students can choose from a wide range of programs including Engineering, Computer Science, Data Science, Business & Management, Finance, Economics, Life Sciences, Social Sciences, and Design. Study in Netherlands consultants help match the right course with your academic background and career goals.
+                            Students can choose from a wide range of programs including Engineering, Computer Science, Data
+                            Science, Business & Management, Finance, Economics, Life Sciences, Social Sciences, and Design.
+                            Study in Netherlands consultants help match the right course with your academic background and
+                            career goals.
                         </div>
                     </div>
 
@@ -871,7 +886,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, the Netherlands offers one of the highest numbers of English-taught programs in Europe. Most bachelor’s and master’s programs are taught entirely in English, making it an ideal destination for international students.
+                            Yes, the Netherlands offers one of the highest numbers of English-taught programs in Europe.
+                            Most bachelor’s and master’s programs are taught entirely in English, making it an ideal
+                            destination for international students.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -880,7 +897,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            An education consultant Netherlands provides personalised counselling, helps shortlist universities, assists with applications, SOP guidance, and scholarship options. This structured support ensures {{$cityName}} students follow the right path for studying in the Netherlands.
+                            An education consultant Netherlands provides personalised counselling, helps shortlist
+                            universities, assists with applications, SOP guidance, and scholarship options. This structured
+                            support ensures {{$cityName}} students follow the right path for studying in the Netherlands.
                         </div>
                     </div>
 

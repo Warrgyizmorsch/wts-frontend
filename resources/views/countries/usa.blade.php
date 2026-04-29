@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in USA - Transform Your Education into Global Career Success</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in USA - Transform Your Education into Global Career
+                Success</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in USA consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in USA.</p>
+                <p>WTS is a leading Study in USA consultancy in India, offering complete support for choosing the right
+                    course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in USA.</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,13 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top: 30px;">Study in the USA and take the first step toward a globally recognised education system. The United States of America is home to some of the world’s top-ranked universities, cutting-edge research facilities, and unmatched career opportunities. Known for academic flexibility, innovation, and global exposure, study in the United States of America offers students an excellent platform to build strong academic foundations and successful international careers. For those planning study in USA for Indian students, the country provides world-class education, cultural diversity, and strong post-study career pathways.</p>
+                <p style="margin-top: 30px;">Study in the USA and take the first step toward a globally recognised education
+                    system. The United States of America is home to some of the world’s top-ranked universities,
+                    cutting-edge research facilities, and unmatched career opportunities. Known for academic flexibility,
+                    innovation, and global exposure, study in the United States of America offers students an excellent
+                    platform to build strong academic foundations and successful international careers. For those planning
+                    study in USA for Indian students, the country provides world-class education, cultural diversity, and
+                    strong post-study career pathways.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/usanew.webp" loading="lazy" alt="Study in usa">
@@ -77,27 +90,23 @@
         </div>
     </section>
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in USA?';
-    $sectionDescription = 'The USA is one of the most preferred destinations for international students due to its high academic standards, diverse course options, and strong industry connections. With thousands of globally recognised institutions, study in the USA offers unmatched learning experiences and career prospects across multiple disciplines.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in USA?';
+        $sectionDescription = 'The USA is one of the most preferred destinations for international students due to its high academic standards, diverse course options, and strong industry connections. With thousands of globally recognised institutions, study in the USA offers unmatched learning experiences and career prospects across multiple disciplines.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System', 'desc' => 'The USA hosts many of the world’s top universities, known for academic excellence, research output, and innovation. Institutions focus on critical thinking, practical learning, and real-world applications, preparing students for global competitiveness.'],
-        ['title' => '2. Flexible and Career-Oriented Programs', 'desc' => 'One of the biggest advantages of study in the USA is academic flexibility. Students can choose majors, minors, and electives, allowing them to customize their education based on interests and career goals. This flexibility enhances employability and skill development.'],
-        ['title' => '3. Cultural Diversity and Global Exposure', 'desc' => 'The USA attracts students from all over the world, creating a multicultural learning environment. Studying in such diversity helps students develop global perspectives, cross-cultural communication skills, and lifelong international networks.'],
-        ['title' => '4. Career Opportunities and Industry Exposure', 'desc' => 'The USA is a global leader in technology, finance, healthcare, engineering, and business. Universities maintain strong ties with industries, offering internships, research projects, and practical training that boost career readiness, especially for those planning study in USA for Indian students.'],
-        ['title' => '5. Research and Innovation', 'desc' => 'American universities are pioneers in research and innovation. Students gain access to advanced laboratories, funded research projects, and opportunities to work with leading experts across fields like AI, biotechnology, data science, and engineering.'],
-        ['title' => '6. Scholarships and Financial Assistance', 'desc' => 'There are numerous options for study in USA scholarship, including merit-based, need-based, and university-funded awards. These scholarships help international students manage tuition fees and reduce the overall study cost in the USA.'],
-        ['title' => '7. International Student Support Services', 'desc' => 'Universities in the USA offer strong support systems, including academic advising, career counselling, health services, and international student offices that help students settle smoothly into academic and social life.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
-@include('./components/stats')
+        $cards = [
+            ['title' => '1. World-Class Education System', 'desc' => 'The USA hosts many of the world’s top universities, known for academic excellence, research output, and innovation. Institutions focus on critical thinking, practical learning, and real-world applications, preparing students for global competitiveness.'],
+            ['title' => '2. Flexible and Career-Oriented Programs', 'desc' => 'One of the biggest advantages of study in the USA is academic flexibility. Students can choose majors, minors, and electives, allowing them to customize their education based on interests and career goals. This flexibility enhances employability and skill development.'],
+            ['title' => '3. Cultural Diversity and Global Exposure', 'desc' => 'The USA attracts students from all over the world, creating a multicultural learning environment. Studying in such diversity helps students develop global perspectives, cross-cultural communication skills, and lifelong international networks.'],
+            ['title' => '4. Career Opportunities and Industry Exposure', 'desc' => 'The USA is a global leader in technology, finance, healthcare, engineering, and business. Universities maintain strong ties with industries, offering internships, research projects, and practical training that boost career readiness, especially for those planning study in USA for Indian students.'],
+            ['title' => '5. Research and Innovation', 'desc' => 'American universities are pioneers in research and innovation. Students gain access to advanced laboratories, funded research projects, and opportunities to work with leading experts across fields like AI, biotechnology, data science, and engineering.'],
+            ['title' => '6. Scholarships and Financial Assistance', 'desc' => 'There are numerous options for study in USA scholarship, including merit-based, need-based, and university-funded awards. These scholarships help international students manage tuition fees and reduce the overall study cost in the USA.'],
+            ['title' => '7. International Student Support Services', 'desc' => 'Universities in the USA offer strong support systems, including academic advising, career counselling, health services, and international student offices that help students settle smoothly into academic and social life.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -165,14 +174,14 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in USA',
-        'highlight' => '',
-        'sub_heading' => 'The United States is home to some of the world’s most prestigious universities, known for academic excellence, innovation, and employability.',
-        'footer' => 'These institutions attract thousands of international students each year and offer strong global career opportunities.'
-    ];
+            'heading' => 'Top Universities in USA',
+            'highlight' => '',
+            'sub_heading' => 'The United States is home to some of the world’s most prestigious universities, known for academic excellence, innovation, and employability.',
+            'footer' => 'These institutions attract thousands of international students each year and offer strong global career opportunities.'
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
@@ -184,18 +193,14 @@
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in USA',
-        'desc' => 'The USA offers a wide range of globally recognised programs with strong career outcomes. Universities are known for industry-aligned curricula and research-driven education.',
-        'footer' => 'These programs are highly popular among students planning to study in the USA and build international careers.',
-    ];
+            'title' => 'Popular Courses to Study in USA',
+            'desc' => 'The USA offers a wide range of globally recognised programs with strong career outcomes. Universities are known for industry-aligned curricula and research-driven education.',
+            'footer' => 'These programs are highly popular among students planning to study in the USA and build international careers.',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -210,8 +215,8 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in USA',
-        'description' => 'The cost of studying in the USA depends on the university, program, and level of study. While education in the USA can be expensive, scholarships and financial planning can make it affordable.'
+            'heading' => 'Cost of Studying in USA',
+            'description' => 'The cost of studying in the USA depends on the university, program, and level of study. While education in the USA can be expensive, scholarships and financial planning can make it affordable.'
         ];
         $livingFees = [
             ['label' => 'Housing', 'value' => '$6,000 - $14,000', 'note' => 'Shared accommodation reduces cost'],
@@ -225,71 +230,66 @@
             'description' => 'Living costs in the USA vary by city and lifestyle. On average, students spend between $10,000 - $18,000 per year.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in the USA: What to Expect?',
-        'desc' => 'Student life in the USA is dynamic and enriching. Universities offer clubs, sports, cultural events, research opportunities, and student organisations. With world-class campuses, modern facilities, and strong academic support, the USA provides a balanced and rewarding student experience, making it an ideal destination for study in the USA for Indian students.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in the USA?',
-        'guide_steps' => [
-            'Research and Select Universities: Choose programs aligned with academic and career goals',
-            'Meet Entry Requirements: Academic qualifications and English proficiency',
-            'Take Standardised Tests: SAT, ACT, GRE, or GMAT (as required)',
-            'Prepare Application Documents: Transcripts, SOP, and recommendation letters',
-            'Apply and Track Deadlines: Deadlines vary by university and intake',
-            'Receive Offer Letter: Accept admission and proceed with visa application',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in the USA: What to Expect?',
+            'desc' => 'Student life in the USA is dynamic and enriching. Universities offer clubs, sports, cultural events, research opportunities, and student organisations. With world-class campuses, modern facilities, and strong academic support, the USA provides a balanced and rewarding student experience, making it an ideal destination for study in the USA for Indian students.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in the USA?',
+            'guide_steps' => [
+                'Research and Select Universities: Choose programs aligned with academic and career goals',
+                'Meet Entry Requirements: Academic qualifications and English proficiency',
+                'Take Standardised Tests: SAT, ACT, GRE, or GMAT (as required)',
+                'Prepare Application Documents: Transcripts, SOP, and recommendation letters',
+                'Apply and Track Deadlines: Deadlines vary by university and intake',
+                'Receive Offer Letter: Accept admission and proceed with visa application',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in USA',
-    'desc' => 'Students planning to study in USA for Indian students must prepare the following documents:',
-    'list' => [
-        'Academic Transcripts',
-        'English Proficiency Test Scores (IELTS / TOEFL / PTE)',
-        'Standardised Test Scores (SAT / GRE / GMAT)',
-        'Letters of Recommendation',
-        'Statement of Purpose',
-        'Valid Passport',
-        'Financial Proof or Scholarship Documents',
-        'Offer Letter from a SEVP-approved institution',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in USA',
+            'desc' => 'Students planning to study in USA for Indian students must prepare the following documents:',
+            'list' => [
+                'Academic Transcripts',
+                'English Proficiency Test Scores (IELTS / TOEFL / PTE)',
+                'Standardised Test Scores (SAT / GRE / GMAT)',
+                'Letters of Recommendation',
+                'Statement of Purpose',
+                'Valid Passport',
+                'Financial Proof or Scholarship Documents',
+                'Offer Letter from a SEVP-approved institution',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'USA Study Visa Process: Step-by-Step Guide',
-    'desc' => 'A study visa is mandatory to study in the USA. The process includes securing admission, completing forms, paying fees, and attending a visa interview. Understanding each step helps students applying to study in the United States of America avoid delays.',
-    'list' => [
-        'Receive Acceptance from a SEVP-Approved Institution',
-        'Pay the SEVIS (Student and Exchange Visitor Information System) Fee',
-        'Complete the DS-160 Online Visa Application Form',
-        'Schedule Visa Interview at the US Embassy or Consulate',
-        'Attend Visa Interview with Required Documents',
-        'Receive F-1 Visa and Travel to the USA',
-        ],
-    'footer' => 'This process helps students planning study in the USA prepare confidently for their academic journey.'
-    ]
+        $guideContent = [
+            'title' => 'USA Study Visa Process: Step-by-Step Guide',
+            'desc' => 'A study visa is mandatory to study in the USA. The process includes securing admission, completing forms, paying fees, and attending a visa interview. Understanding each step helps students applying to study in the United States of America avoid delays.',
+            'list' => [
+                'Receive Acceptance from a SEVP-Approved Institution',
+                'Pay the SEVIS (Student and Exchange Visitor Information System) Fee',
+                'Complete the DS-160 Online Visa Application Form',
+                'Schedule Visa Interview at the US Embassy or Consulate',
+                'Attend Visa Interview with Required Documents',
+                'Receive F-1 Visa and Travel to the USA',
+            ],
+            'footer' => 'This process helps students planning study in the USA prepare confidently for their academic journey.'
+        ]
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
 
     @include('./components/cta-button')
-    
+
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Why should Indian students choose to study in the USA?",

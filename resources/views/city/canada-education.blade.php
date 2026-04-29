@@ -443,8 +443,13 @@
 
 
                                 <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
-                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
+                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad
+                                    processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>
@@ -510,11 +515,11 @@
         <div class="new-journey-header">
             <h2 class="new-section-title">{{ $data['introduction']['title'] ?? '' }}</h2>
             <!-- <p>{{ $data['introduction']['subtitle'] ?? '' }}</p> -->
-             <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
+            <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
         </div>
     </section>
 
-    
+
     <!-- Our Services  -->
     <section class="sop-samples">
         <div class="heading-wrapper">
@@ -569,7 +574,10 @@
             </h2>
 
             <p class="section-subtext">
-                Step into a world of opportunities with Canada’s top universities. WTS, your Study in Canada Consultants in {{ $cityName }}, helps you select the ideal course, secure scholarships, and gain admission to leading Canadian institutions. Experience a smooth, guided journey and take confident steps toward a successful international career.
+                Step into a world of opportunities with Canada’s top universities. WTS, your Study in Canada Consultants in
+                {{ $cityName }}, helps you select the ideal course, secure scholarships, and gain admission to leading
+                Canadian institutions. Experience a smooth, guided journey and take confident steps toward a successful
+                international career.
             </p>
         </div>
 
@@ -597,8 +605,7 @@
             @endforeach
         </div>
 
-        <style>            
-
+        <style>
             .section-subtext {
                 margin-bottom: 2rem;
                 text-align: start;
@@ -616,7 +623,7 @@
                 background: #fff;
                 border-radius: 14px;
                 padding: 18px 16px;
-                box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
                 display: flex;
                 align-items: center;
                 gap: 12px;
@@ -633,7 +640,7 @@
 
             .university-card:hover {
                 transform: translateY(-6px);
-                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
             }
         </style>
     </section>
@@ -692,7 +699,9 @@
                 Popular Canadian Courses Chosen by Indian Students
             </h2>
 
-            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful international career. Here are the top fields that students from India choose, along with popular specializations.</p>
+            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful
+                international career. Here are the top fields that students from India choose, along with popular
+                specializations.</p>
 
             <div class="support-grid-1">
                 <div class="support-item">
@@ -841,7 +850,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            WTS is one of the best Canada education consultants in {{ $cityName }}, helping students study in Canada with expert guidance on course selection, university admissions, scholarships and student visa support. With personalised counselling, WTS ensures students choose the right Canadian universities aligned with their academic and career plans.
+                            WTS is one of the best Canada education consultants in {{ $cityName }}, helping students study
+                            in Canada with expert guidance on course selection, university admissions, scholarships and
+                            student visa support. With personalised counselling, WTS ensures students choose the right
+                            Canadian universities aligned with their academic and career plans.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -850,7 +862,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Applying to Canadian universities involves selecting the right universities, preparing your documents, taking language tests, submitting applications, and applying for a study permit. WTS Canada Education Consultants provide complete guidance to make the process smooth and hassle-free.
+                            Applying to Canadian universities involves selecting the right universities, preparing your
+                            documents, taking language tests, submitting applications, and applying for a study permit. WTS
+                            Canada Education Consultants provide complete guidance to make the process smooth and
+                            hassle-free.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -859,17 +874,21 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Canada offers a Post-Graduation Work Permit (PGWP) that allows international students to work for up to 3 years after graduation. We also guides students on career options and pathways to permanent residency.
+                            Canada offers a Post-Graduation Work Permit (PGWP) that allows international students to work
+                            for up to 3 years after graduation. We also guides students on career options and pathways to
+                            permanent residency.
                         </div>
                     </div>
-                    
+
                     <div class="new-faq-item">
                         <button class="new-faq-btn">
                             What is the cost of studying and living in Canada?
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Tuition fees typically range from CAD 15,000 to CAD 35,000 per year, with living expenses around CAD 10,000 to CAD 15,000 annually. WTS helps students explore scholarships and plan finances effectively.
+                            Tuition fees typically range from CAD 15,000 to CAD 35,000 per year, with living expenses around
+                            CAD 10,000 to CAD 15,000 annually. WTS helps students explore scholarships and plan finances
+                            effectively.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -878,16 +897,17 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Most Canadian universities require English proficiency tests like IELTS or TOEFL. Some programs may also need GRE or GMAT scores. WTS assists in selecting the right exams for your program.
+                            Most Canadian universities require English proficiency tests like IELTS or TOEFL. Some programs
+                            may also need GRE or GMAT scores. WTS assists in selecting the right exams for your program.
                         </div>
                     </div>
-                                    
+
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
 
     <script>
@@ -921,7 +941,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    
+
     <script>
         const statBoxes = document.querySelectorAll(".stat-box");
         const speed = 120;

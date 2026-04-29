@@ -446,6 +446,10 @@
                                     Trusted by 150+ students on Google for expert guidance and smooth study-abroad
                                     processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>

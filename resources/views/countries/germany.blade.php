@@ -3,7 +3,8 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Germany - Your Pathway to International Education Excellence</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Germany - Your Pathway to International Education
+                Excellence</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
                 <p>WTS is a leading Study in Germany consultancy in India, offering complete support for choosing the right
                     course and
@@ -56,6 +57,10 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
             </div>
         </div>
@@ -71,7 +76,13 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top: 30px;">Study in Germany and take the first step toward a globally recognized education. Germany is known for its world-class universities, cutting-edge research, and strong industry connections. We guide students through university selection, visa processing, scholarships, and test preparation. With high-quality education, innovation, and excellent post-study career opportunities, Germany has become a preferred destination for students planning to study abroad in Germany. International students can focus on building a successful academic and professional future in one of Europe’s most dynamic educational hubs.</p>
+                <p style="margin-top: 30px;">Study in Germany and take the first step toward a globally recognized
+                    education. Germany is known for its world-class universities, cutting-edge research, and strong industry
+                    connections. We guide students through university selection, visa processing, scholarships, and test
+                    preparation. With high-quality education, innovation, and excellent post-study career opportunities,
+                    Germany has become a preferred destination for students planning to study abroad in Germany.
+                    International students can focus on building a successful academic and professional future in one of
+                    Europe’s most dynamic educational hubs.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/germanynew.webp" loading="lazy" alt="Study in germany">

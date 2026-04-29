@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Kuwait – A Gateway to Global Education and Career Success</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Kuwait – A Gateway to Global Education and Career
+                Success</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Kuwait consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in Kuwait.</p>
+                <p>WTS is a leading Study in Kuwait consultancy in India, offering complete support for choosing the right
+                    course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in Kuwait.</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,12 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top:30px;">Study in Kuwait and take the first step toward a globally recognized education. Kuwait is known for its high-quality universities, innovative research, and multicultural environment. Students planning to study abroad in Kuwait can choose from a wide range of programs and benefit from affordable tuition, modern campuses, and strong post-study career prospects. With its safe cities and welcoming culture, Kuwait is emerging as a top destination for international students seeking quality education and global opportunities.</p>
+                <p style="margin-top:30px;">Study in Kuwait and take the first step toward a globally recognized education.
+                    Kuwait is known for its high-quality universities, innovative research, and multicultural environment.
+                    Students planning to study abroad in Kuwait can choose from a wide range of programs and benefit from
+                    affordable tuition, modern campuses, and strong post-study career prospects. With its safe cities and
+                    welcoming culture, Kuwait is emerging as a top destination for international students seeking quality
+                    education and global opportunities.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/kuwaitnew.webp" loading="lazy" alt="Study in Kuwait">
@@ -78,28 +90,24 @@
     </section>
 
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in Kuwait?';
-    $sectionDescription = 'Kuwait has become a popular destination for international students due to its quality education system, internationally ranked universities, and strong connections with industries in Asia. Known as a hub for technology, engineering, and healthcare, Kuwait provides students with excellent academic exposure and career opportunities. Students looking to study in Kuwait from India will find an English-friendly, safe, and multicultural environment that fosters personal and professional growth.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in Kuwait?';
+        $sectionDescription = 'Kuwait has become a popular destination for international students due to its quality education system, internationally ranked universities, and strong connections with industries in Asia. Known as a hub for technology, engineering, and healthcare, Kuwait provides students with excellent academic exposure and career opportunities. Students looking to study in Kuwait from India will find an English-friendly, safe, and multicultural environment that fosters personal and professional growth.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System ', 'desc' => 'Kuwait is home to several internationally recognized universities for international students. Institutions emphasize research, innovation, and hands-on learning. Academic programs are designed to equip students with critical thinking, practical skills, and global perspectives, preparing them for careers worldwide.'],
-        ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the key advantages of study abroad in Kuwait is the flexibility in course selection. Students can choose programs aligned with industry needs, participate in internships, and gain practical exposure to complement classroom learning, ensuring they graduate with job-ready skills.'],
-        ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Kuwaitese universities welcome students from all over the world, offering a multicultural campus environment. Studying in Kuwait helps students build cross-cultural communication skills, develop international networks, and gain a global perspective.'],
-        ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Kuwait is a leading hub for technology, electronics, manufacturing, and healthcare. Universities collaborate with local and multinational companies, providing internships, research projects, and career support services that enhance employability for students planning to study in Kuwait.'],
-        ['title' => '5. Research and Innovation ', 'desc' => 'Kuwait is known for its cutting-edge research, especially in technology, biotechnology, and engineering. Kuwait universities for international students offer access to modern labs, research centers, and funding opportunities, allowing students to gain hands-on experience and contribute to innovation.'],
-        ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Various universities and organizations provide scholarships in Kuwait for international students. These financial aids help cover tuition fees and living expenses, making Kuwait an affordable and attractive option for higher education abroad.'],
-        ['title' => '7. International Student Support Services  ', 'desc' => 'Kuwaitese institutions provide robust support systems, including academic advising, career counselling, health services, and cultural integration programs, ensuring that international students feel supported and comfortable while studying in Kuwait.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
+        $cards = [
+            ['title' => '1. World-Class Education System ', 'desc' => 'Kuwait is home to several internationally recognized universities for international students. Institutions emphasize research, innovation, and hands-on learning. Academic programs are designed to equip students with critical thinking, practical skills, and global perspectives, preparing them for careers worldwide.'],
+            ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the key advantages of study abroad in Kuwait is the flexibility in course selection. Students can choose programs aligned with industry needs, participate in internships, and gain practical exposure to complement classroom learning, ensuring they graduate with job-ready skills.'],
+            ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Kuwaitese universities welcome students from all over the world, offering a multicultural campus environment. Studying in Kuwait helps students build cross-cultural communication skills, develop international networks, and gain a global perspective.'],
+            ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Kuwait is a leading hub for technology, electronics, manufacturing, and healthcare. Universities collaborate with local and multinational companies, providing internships, research projects, and career support services that enhance employability for students planning to study in Kuwait.'],
+            ['title' => '5. Research and Innovation ', 'desc' => 'Kuwait is known for its cutting-edge research, especially in technology, biotechnology, and engineering. Kuwait universities for international students offer access to modern labs, research centers, and funding opportunities, allowing students to gain hands-on experience and contribute to innovation.'],
+            ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Various universities and organizations provide scholarships in Kuwait for international students. These financial aids help cover tuition fees and living expenses, making Kuwait an affordable and attractive option for higher education abroad.'],
+            ['title' => '7. International Student Support Services  ', 'desc' => 'Kuwaitese institutions provide robust support systems, including academic advising, career counselling, health services, and cultural integration programs, ensuring that international students feel supported and comfortable while studying in Kuwait.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
 
-@include('./components/stats')
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -137,14 +145,14 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in Kuwait',
-        'highlight' => '',
-        'sub_heading' => 'Kuwait is home to several prestigious universities for international students, known for academic excellence and global rankings:',
-        'footer' => 'These universities attract international students each year and provide strong support for academics and careers.'
-    ];
+            'heading' => 'Top Universities in Kuwait',
+            'highlight' => '',
+            'sub_heading' => 'Kuwait is home to several prestigious universities for international students, known for academic excellence and global rankings:',
+            'footer' => 'These universities attract international students each year and provide strong support for academics and careers.'
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
@@ -156,18 +164,14 @@
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in Kuwait',
-        'desc' => 'Kuwait offers a broad range of programs recognized worldwide. Universities focus on practical, industry-oriented education, making study abroad in Kuwait rewarding for career-oriented students. Popular courses include:',
-        'footer' => '',
-    ];
+            'title' => 'Popular Courses to Study in Kuwait',
+            'desc' => 'Kuwait offers a broad range of programs recognized worldwide. Universities focus on practical, industry-oriented education, making study abroad in Kuwait rewarding for career-oriented students. Popular courses include:',
+            'footer' => '',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -182,84 +186,79 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in Kuwait',
-        'description' => 'The cost of studying in Kuwait varies by university and program. Scholarships and financial planning help students manage expenses effectively.',
+            'heading' => 'Cost of Studying in Kuwait',
+            'description' => 'The cost of studying in Kuwait varies by university and program. Scholarships and financial planning help students manage expenses effectively.',
         ];
         $livingFees = [
-                ['label' => 'Housing', 'value' => '$5,880 – $11,760', 'note' => 'Shared apartments etc.'],
-                ['label' => 'Food', 'value' => '$2,400 – $3,960', 'note' => 'Groceries & eating out'],
-                ['label' => 'Transportation', 'value' => '$780 – $1,560', 'note' => 'Buses/taxis'],
-                ['label' => 'Personal Expenses', 'value' => '$1,200 – $1,980', 'note' => 'Utilities & leisure'],
-                ['label' => 'Total', 'value' => '$10,000 – $20,000 (living)', 'note' => 'Estimated'],
-            ];
+            ['label' => 'Housing', 'value' => '$5,880 – $11,760', 'note' => 'Shared apartments etc.'],
+            ['label' => 'Food', 'value' => '$2,400 – $3,960', 'note' => 'Groceries & eating out'],
+            ['label' => 'Transportation', 'value' => '$780 – $1,560', 'note' => 'Buses/taxis'],
+            ['label' => 'Personal Expenses', 'value' => '$1,200 – $1,980', 'note' => 'Utilities & leisure'],
+            ['label' => 'Total', 'value' => '$10,000 – $20,000 (living)', 'note' => 'Estimated'],
+        ];
         $ukCostOfLivingRight = [
             'heading' => 'Living Expenses in Kuwait for International Students',
             'description' => 'The cost of living varies by city and lifestyle. On average, students spend between $3,000 – $6,000 per year.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in Kuwait: What to Expect?',
-        'desc' => 'Student life in Kuwait is vibrant and culturally rich. Universities offer clubs, sports, cultural events, and student societies. With safe cities, friendly locals, and robust academic support, Kuwait provides a balanced environment for learning, networking, and personal growth. Kuwait universities for international students also offer support for academic guidance, career counselling, and cultural integration.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in Kuwait?',
-        'guide_steps' => [
-            'Research and Select Universities: Choose programs aligned with academic and career goals.',
-            'Meet Entry Requirements: Academic transcripts and English proficiency tests may be required.',
-            'Prepare Application Documents: Transcripts, recommendation letters, and statement of purpose.',
-            'Check Application Deadlines: Deadlines vary by university and intake.',
-            'Receive Offer Letter: Conditional or unconditional offer from the university.',
-            'Confirm Admission and Apply for Visa: Accept the offer and complete the student visa process.',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in Kuwait: What to Expect?',
+            'desc' => 'Student life in Kuwait is vibrant and culturally rich. Universities offer clubs, sports, cultural events, and student societies. With safe cities, friendly locals, and robust academic support, Kuwait provides a balanced environment for learning, networking, and personal growth. Kuwait universities for international students also offer support for academic guidance, career counselling, and cultural integration.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in Kuwait?',
+            'guide_steps' => [
+                'Research and Select Universities: Choose programs aligned with academic and career goals.',
+                'Meet Entry Requirements: Academic transcripts and English proficiency tests may be required.',
+                'Prepare Application Documents: Transcripts, recommendation letters, and statement of purpose.',
+                'Check Application Deadlines: Deadlines vary by university and intake.',
+                'Receive Offer Letter: Conditional or unconditional offer from the university.',
+                'Confirm Admission and Apply for Visa: Accept the offer and complete the student visa process.',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in Kuwait',
-    'desc' => 'Students must submit the following to pursue study in Kuwait:',
-    'list' => [
-        'Academic Transcripts',
-        'English Proficiency Test Scores (TOEFL / IELTS / other)',
-        'Letters of Recommendation',
-        'Statement of Purpose',
-        'Valid Passport',
-        'Financial Proof or scholarship documents',
-        'Offer Letter from an Approved Institution',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in Kuwait',
+            'desc' => 'Students must submit the following to pursue study in Kuwait:',
+            'list' => [
+                'Academic Transcripts',
+                'English Proficiency Test Scores (TOEFL / IELTS / other)',
+                'Letters of Recommendation',
+                'Statement of Purpose',
+                'Valid Passport',
+                'Financial Proof or scholarship documents',
+                'Offer Letter from an Approved Institution',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'Kuwait Study Visa Process: Step-by-Step Guide',
-    'desc' => 'A study visa is mandatory to study in Kuwait. The process includes getting admission, arranging finances, submitting the online application, and completing document verification:',
-    'list' => [
-        'Receive Offer Letter from an Approved Institution: Official offer from a recognized Kuwaitese university.',
-        'Pay Tuition Fee Deposit: Secure your seat by paying the required deposit.',
-        'Arrange Financial Proof / Scholarship Documents: Show sufficient funds or proof of scholarships in Kuwait for international students.',
-        'Complete Online Visa Application: Submit your Kuwait student visa application online.',
-        'Submit Documents and Biometrics: Provide passport, offer letter, financial proof, academic transcripts, and SOP.',
-        'Visa Decision and Travel to Kuwait: Once approved, travel to Kuwait and register with immigration authorities.',
-        ],
-    'footer' => 'Following these steps helps students study abroad in Kuwait smoothly and focus on their academic goals.'
-    ];
+        $guideContent = [
+            'title' => 'Kuwait Study Visa Process: Step-by-Step Guide',
+            'desc' => 'A study visa is mandatory to study in Kuwait. The process includes getting admission, arranging finances, submitting the online application, and completing document verification:',
+            'list' => [
+                'Receive Offer Letter from an Approved Institution: Official offer from a recognized Kuwaitese university.',
+                'Pay Tuition Fee Deposit: Secure your seat by paying the required deposit.',
+                'Arrange Financial Proof / Scholarship Documents: Show sufficient funds or proof of scholarships in Kuwait for international students.',
+                'Complete Online Visa Application: Submit your Kuwait student visa application online.',
+                'Submit Documents and Biometrics: Provide passport, offer letter, financial proof, academic transcripts, and SOP.',
+                'Visa Decision and Travel to Kuwait: Once approved, travel to Kuwait and register with immigration authorities.',
+            ],
+            'footer' => 'Following these steps helps students study abroad in Kuwait smoothly and focus on their academic goals.'
+        ];
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
     @include('./components/cta-button')
 
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Why should I choose to study in Kuwait?",

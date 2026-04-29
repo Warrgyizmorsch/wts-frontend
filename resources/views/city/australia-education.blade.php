@@ -443,9 +443,13 @@
 
 
                                 <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
-                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
+                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad
+                                    processing.
                                 </p>
-
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
                             </div>
                         </div>
@@ -514,13 +518,13 @@
         <div class="new-journey-header">
             <h2 class="new-section-title">{{ $data['introduction']['title'] ?? '' }}</h2>
             <!-- <p>{{ $data['introduction']['subtitle'] ?? '' }}</p> -->
-             <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
+            <p>{!! $data['introduction']['subtitle'] ?? '' !!}</p>
         </div>
 
 
     </section>
 
-    
+
 
     <!-- Our Services  -->
     <section class="sop-samples">
@@ -576,7 +580,10 @@
             </h2>
 
             <p class="section-subtext">
-                Discover the best opportunities to study at top Australian universities and shape a successful global career. Our Study in Australia Consultants in {{ $cityName }} provide expert guidance on course selection, scholarships, and admissions to make your journey smooth and rewarding. Start your path to international success today.
+                Discover the best opportunities to study at top Australian universities and shape a successful global
+                career. Our Study in Australia Consultants in {{ $cityName }} provide expert guidance on course selection,
+                scholarships, and admissions to make your journey smooth and rewarding. Start your path to international
+                success today.
             </p>
         </div>
 
@@ -604,8 +611,7 @@
             @endforeach
         </div>
 
-        <style>            
-
+        <style>
             .section-subtext {
                 margin-bottom: 2rem;
                 text-align: start;
@@ -623,7 +629,7 @@
                 background: #fff;
                 border-radius: 14px;
                 padding: 18px 16px;
-                box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
                 display: flex;
                 align-items: center;
                 gap: 12px;
@@ -640,7 +646,7 @@
 
             .university-card:hover {
                 transform: translateY(-6px);
-                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
             }
         </style>
     </section>
@@ -699,7 +705,9 @@
                 Popular Australian Courses Chosen by Indian Students
             </h2>
 
-            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful international career. Here are the top fields that students from India choose, along with popular specializations.</p>
+            <p style="padding-bottom: 1rem;">Selecting the right course is the initial step in developing a successful
+                international career. Here are the top fields that students from India choose, along with popular
+                specializations.</p>
 
             <div class="support-grid-1">
                 <div class="support-item">
@@ -848,7 +856,10 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            WTS is the best Australian education consultant in {{ $cityName }}, known for personalised counselling, strong university networks, and complete support for UG and PG admissions in Australia, helping students make informed decisions based on their academic profile and career goals.
+                            WTS is the best Australian education consultant in {{ $cityName }}, known for personalised
+                            counselling, strong university networks, and complete support for UG and PG admissions in
+                            Australia, helping students make informed decisions based on their academic profile and career
+                            goals.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -857,7 +868,9 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Absolutely! WTS is recognized as one of the most trusted consultancies for studying in Australia, providing expert guidance on university selection, scholarships, visa assistance, and complete support throughout your study abroad journey.
+                            Absolutely! WTS is recognized as one of the most trusted consultancies for studying in
+                            Australia, providing expert guidance on university selection, scholarships, visa assistance, and
+                            complete support throughout your study abroad journey.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -866,17 +879,20 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, we help students adjust to life in Australia through pre-departure briefings and guidance on local culture, lifestyle, and academic environment, ensuring a smooth transition.
+                            Yes, we help students adjust to life in Australia through pre-departure briefings and guidance
+                            on local culture, lifestyle, and academic environment, ensuring a smooth transition.
                         </div>
                     </div>
-                    
+
                     <div class="new-faq-item">
                         <button class="new-faq-btn">
                             How much do WTS Australia education consultants charge?
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            WTS provides expert guidance at transparent and affordable rates. While consultancy services are offered to support students in planning and admissions, you may also need to pay university application or visa fees as required.
+                            WTS provides expert guidance at transparent and affordable rates. While consultancy services are
+                            offered to support students in planning and admissions, you may also need to pay university
+                            application or visa fees as required.
                         </div>
                     </div>
                     <div class="new-faq-item">
@@ -885,16 +901,18 @@
                             <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">
-                            Yes, our team ensures students receive support even after arriving in Australia. This includes guidance on accommodation, settling into the new environment, cultural adaptation, and connecting with essential resources for a smooth start.
+                            Yes, our team ensures students receive support even after arriving in Australia. This includes
+                            guidance on accommodation, settling into the new environment, cultural adaptation, and
+                            connecting with essential resources for a smooth start.
                         </div>
                     </div>
-                                    
+
                 </div>
             </div>
         </div>
     </section>
 
-    
+
 
 
     <script>
@@ -928,7 +946,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    
+
     <script>
         const statBoxes = document.querySelectorAll(".stat-box");
         const speed = 120;

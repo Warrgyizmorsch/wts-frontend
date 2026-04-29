@@ -394,7 +394,9 @@
                     <div class="home-hero-content">
 
                         <h1 class="hero-title">{{ $data['hero']['title'] ?? '' }}</h1>
-                        <p>WTS is leading Study Abroad Consultants in {{ $cityName }}, offering complete guidance for course and university selection, applications, scholarships, visa success and the smoothest transition to studying abroad.</p>
+                        <p>WTS is leading Study Abroad Consultants in {{ $cityName }}, offering complete guidance for course
+                            and university selection, applications, scholarships, visa success and the smoothest transition
+                            to studying abroad.</p>
 
                         <div style="margin-bottom: 30px; text-align: left;">
                             <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
@@ -443,8 +445,13 @@
 
 
                                 <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
-                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
+                                    Trusted by 150+ students on Google for expert guidance and smooth study-abroad
+                                    processing.
                                 </p>
+                                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                                    style="text-decoration: none;">
+                                    Book Free Consultation
+                                </a>
 
 
                             </div>
@@ -1139,7 +1146,7 @@
                             chances of securing financial support.
                         </div>
                     </div>
-                    
+
                     <div class="new-faq-item">
                         <button class="new-faq-btn">
                             How long does the application process take?
@@ -1160,7 +1167,7 @@
                             requirements and timely submissions.
                         </div>
                     </div>
-                    
+
                     <div class="new-faq-item">
                         <button class="new-faq-btn">
                             Do you help with education loans?
@@ -1196,123 +1203,122 @@
         </div>
     </section>
 
-   <section class="city-section">
-    <h2 class="city-title">Find Expert Study Abroad Consultants in Your City</h2>
+    <section class="city-section">
+        <h2 class="city-title">Find Expert Study Abroad Consultants in Your City</h2>
 
-    <div class="city-list-wrapper">
-        <div class="city-list" id="cityList">
-            @foreach (collect($otherCities)->sort() as $item)
-                <a href="{{ url('/study-abroad-consultants-in-' . $item) }}" class="city-item">
-                    {{ ucwords(str_replace('-', ' ', $item)) }}
-                </a>
-            @endforeach
+        <div class="city-list-wrapper">
+            <div class="city-list" id="cityList">
+                @foreach (collect($otherCities)->sort() as $item)
+                    <a href="{{ url('/study-abroad-consultants-in-' . $item) }}" class="city-item">
+                        {{ ucwords(str_replace('-', ' ', $item)) }}
+                    </a>
+                @endforeach
+            </div>
+
+            <button class="city-toggle-btn" id="cityToggleBtn" onclick="toggleCities()">
+                Read More
+            </button>
         </div>
 
-        <button class="city-toggle-btn" id="cityToggleBtn" onclick="toggleCities()">
-            Read More
-        </button>
-    </div>
+        <style>
+            .city-section {
+                padding: 20px;
+            }
 
-    <style>
-        .city-section {
-            padding: 20px;
-        }
+            .city-title {
+                text-align: center;
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
 
-        .city-title {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 30px;
-        }
+            .city-list-wrapper {
+                position: relative;
+            }
 
-        .city-list-wrapper {
-            position: relative;
-        }
+            .city-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+                overflow: hidden;
+                transition: max-height 0.4s ease;
+            }
 
-        .city-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-            overflow: hidden;
-            transition: max-height 0.4s ease;
-        }
+            .city-item {
+                padding: 5px 8px;
+                background: #fff;
+                border-radius: 2rem;
+                font-size: 14px;
+                font-weight: 600;
+                color: #333;
+                text-decoration: none;
+                border: 1px solid #ddd;
+                white-space: nowrap;
+            }
 
-        .city-item {
-            padding: 5px 8px;
-            background: #fff;
-            border-radius: 2rem;
-            font-size: 14px;
-            font-weight: 600;
-            color: #333;
-            text-decoration: none;
-            border: 1px solid #ddd;
-            white-space: nowrap;
-        }
+            .city-item:hover {
+                background: #1c2c59;
+                color: #fff;
+            }
 
-        .city-item:hover {
-            background: #1c2c59;
-            color: #fff;
-        }
+            /* Button right aligned */
+            .city-toggle-btn {
+                margin: 14px auto 0;
+                display: block;
+                background: none;
+                border: none;
+                color: #1c2c59;
+                font-weight: 700;
+                cursor: pointer;
+                font-size: 15px;
+                text-align: center;
+            }
+        </style>
 
-        /* Button right aligned */
-       .city-toggle-btn {
-    margin: 14px auto 0;
-    display: block;
-    background: none;
-    border: none;
-    color: #1c2c59;
-    font-weight: 700;
-    cursor: pointer;
-    font-size: 15px;
-    text-align: center;
-}
+        <script>
+            const cityList = document.getElementById('cityList');
+            const btn = document.getElementById('cityToggleBtn');
 
-    </style>
+            let collapsedHeight = 0;
+            let expanded = false;
 
-    <script>
-        const cityList = document.getElementById('cityList');
-        const btn = document.getElementById('cityToggleBtn');
+            window.addEventListener('load', () => {
+                const items = Array.from(cityList.children);
 
-        let collapsedHeight = 0;
-        let expanded = false;
+                let rows = [];
+                items.forEach(item => {
+                    const top = item.offsetTop;
+                    if (!rows.includes(top)) rows.push(top);
+                });
 
-        window.addEventListener('load', () => {
-            const items = Array.from(cityList.children);
+                // Height till 3rd row end
+                if (rows.length >= 3) {
+                    const thirdRowTop = rows[2];
+                    const thirdRowItems = items.filter(i => i.offsetTop === thirdRowTop);
+                    const lastItem = thirdRowItems[thirdRowItems.length - 1];
+                    collapsedHeight = lastItem.offsetTop + lastItem.offsetHeight;
+                } else {
+                    collapsedHeight = cityList.scrollHeight;
+                    btn.style.display = 'none';
+                }
 
-            let rows = [];
-            items.forEach(item => {
-                const top = item.offsetTop;
-                if (!rows.includes(top)) rows.push(top);
+                cityList.style.maxHeight = collapsedHeight + 'px';
             });
 
-            // Height till 3rd row end
-            if (rows.length >= 3) {
-                const thirdRowTop = rows[2];
-                const thirdRowItems = items.filter(i => i.offsetTop === thirdRowTop);
-                const lastItem = thirdRowItems[thirdRowItems.length - 1];
-                collapsedHeight = lastItem.offsetTop + lastItem.offsetHeight;
-            } else {
-                collapsedHeight = cityList.scrollHeight;
-                btn.style.display = 'none';
+            function toggleCities() {
+                expanded = !expanded;
+
+                if (expanded) {
+                    cityList.style.maxHeight = cityList.scrollHeight + 'px';
+                    btn.innerText = 'Read Less';
+                } else {
+                    cityList.style.maxHeight = collapsedHeight + 'px';
+                    btn.innerText = 'Read More';
+                }
             }
-
-            cityList.style.maxHeight = collapsedHeight + 'px';
-        });
-
-        function toggleCities() {
-            expanded = !expanded;
-
-            if (expanded) {
-                cityList.style.maxHeight = cityList.scrollHeight + 'px';
-                btn.innerText = 'Read Less';
-            } else {
-                cityList.style.maxHeight = collapsedHeight + 'px';
-                btn.innerText = 'Read More';
-            }
-        }
-    </script>
-</section>
+        </script>
+    </section>
 
 
 
@@ -1321,7 +1327,8 @@
         <div class="study-guide-container" style="margin-bottom: 0px;">
             <div class="study-guide-content">
                 <h2 style="font-weight: 600; color: #000;">Ready to Begin Your Study Abroad Journey?</h2>
-                <p style="color: #000;">Your dream university is just one decision away. Get expert guidance, faster admissions and step-by-step
+                <p style="color: #000;">Your dream university is just one decision away. Get expert guidance, faster
+                    admissions and step-by-step
                     visa support with WTS.</p>
                 <p style="color: #000;"><b>Start Your Application Now</b></p>
                 <a href="#" class="herov1-btn smooth-scroll-btn" style="margin: 0px; color: #000;">
@@ -1366,7 +1373,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-    
+
     <script>
         const statBoxes = document.querySelectorAll(".stat-box");
         const speed = 120;

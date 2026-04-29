@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Australia - Where Quality Education Meets Career Opportunity</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Australia - Where Quality Education Meets Career
+                Opportunity</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Australia consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in Australia.</p>
+                <p>WTS is a leading Study in Australia consultancy in India, offering complete support for choosing the
+                    right course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in Australia.</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,12 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top:30px;">Study in Australia and take the first step toward a globally respected education system. Australia is known for its high academic standards, innovative teaching methods, and excellent post-study career opportunities. With world-ranked universities and a strong focus on practical learning, Australia has become a top choice for students planning to study abroad. The country offers a safe, multicultural, and English-speaking environment where students can build strong academic foundations and successful global careers.</p>
+                <p style="margin-top:30px;">Study in Australia and take the first step toward a globally respected education
+                    system. Australia is known for its high academic standards, innovative teaching methods, and excellent
+                    post-study career opportunities. With world-ranked universities and a strong focus on practical
+                    learning, Australia has become a top choice for students planning to study abroad. The country offers a
+                    safe, multicultural, and English-speaking environment where students can build strong academic
+                    foundations and successful global careers.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/australianew.webp" loading="lazy" alt="Study in australia">
@@ -78,28 +90,24 @@
     </section>
 
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in Australia?';
-    $sectionDescription = 'Australia is one of the most popular destinations for international education due to its globally recognised degrees, modern campuses, and strong industry connections. The country offers outstanding academic exposure along with long-term career opportunities, making it an ideal choice for students looking to study in Australia.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in Australia?';
+        $sectionDescription = 'Australia is one of the most popular destinations for international education due to its globally recognised degrees, modern campuses, and strong industry connections. The country offers outstanding academic exposure along with long-term career opportunities, making it an ideal choice for students looking to study in Australia.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System ', 'desc' => 'Australia is home to globally ranked universities that focus on research, innovation, and practical learning. Australian institutions emphasise critical thinking, problem-solving, and real-world skills, ensuring graduates are well-prepared for the global job market.'],
-        ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the major benefits of studying in Australia is its flexible education system. Students can choose specialised programs aligned with industry demand, gain hands-on experience through internships, and benefit from work-integrated learning models that enhance employability.'],
-        ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Australia welcomes students from all over the world, creating a diverse and inclusive learning environment. Studying in such a multicultural society helps students develop global perspectives, strong communication skills, and valuable international networks.'],
-        ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Australia has strong industries in IT, engineering, healthcare, business, education, and hospitality. Universities maintain close ties with employers, offering part-time work, internships, and post-study work opportunities that support career growth after graduation.'],
-        ['title' => '5. Research and Innovation ', 'desc' => 'Australian universities are globally recognised for research excellence, especially in science, technology, healthcare, engineering, and environmental studies. Students actively participate in research projects, gaining academic depth and practical experience.'],
-        ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Australia offers various scholarships for international students to help reduce tuition costs. Students also manage expenses through financial planning options while understanding the study in Australia cost structure before applying.'],
-        ['title' => '7. International Student Support Services  ', 'desc' => 'Australian institutions provide strong student support services, including academic counselling, career guidance, health services, and cultural integration programs, ensuring international students settle smoothly.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
+        $cards = [
+            ['title' => '1. World-Class Education System ', 'desc' => 'Australia is home to globally ranked universities that focus on research, innovation, and practical learning. Australian institutions emphasise critical thinking, problem-solving, and real-world skills, ensuring graduates are well-prepared for the global job market.'],
+            ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the major benefits of studying in Australia is its flexible education system. Students can choose specialised programs aligned with industry demand, gain hands-on experience through internships, and benefit from work-integrated learning models that enhance employability.'],
+            ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Australia welcomes students from all over the world, creating a diverse and inclusive learning environment. Studying in such a multicultural society helps students develop global perspectives, strong communication skills, and valuable international networks.'],
+            ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Australia has strong industries in IT, engineering, healthcare, business, education, and hospitality. Universities maintain close ties with employers, offering part-time work, internships, and post-study work opportunities that support career growth after graduation.'],
+            ['title' => '5. Research and Innovation ', 'desc' => 'Australian universities are globally recognised for research excellence, especially in science, technology, healthcare, engineering, and environmental studies. Students actively participate in research projects, gaining academic depth and practical experience.'],
+            ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Australia offers various scholarships for international students to help reduce tuition costs. Students also manage expenses through financial planning options while understanding the study in Australia cost structure before applying.'],
+            ['title' => '7. International Student Support Services  ', 'desc' => 'Australian institutions provide strong student support services, including academic counselling, career guidance, health services, and cultural integration programs, ensuring international students settle smoothly.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
 
-@include('./components/stats')
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -149,14 +157,14 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in Australia',
-        'highlight' => '',
-        'sub_heading' => 'Australia is home to prestigious universities known for academic excellence, innovation, and research output.',
-        'footer' => 'These universities attract thousands of international students every year and offer excellent career support services.'
-    ];
+            'heading' => 'Top Universities in Australia',
+            'highlight' => '',
+            'sub_heading' => 'Australia is home to prestigious universities known for academic excellence, innovation, and research output.',
+            'footer' => 'These universities attract thousands of international students every year and offer excellent career support services.'
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
@@ -168,18 +176,14 @@
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/hospitality.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in Australia',
-        'desc' => 'Australia offers a wide range of globally recognised programs designed to meet industry needs and career goals.',
-        'footer' => 'These courses are highly preferred by students planning to study in Australia due to strong employment outcomes.',
-    ];
+            'title' => 'Popular Courses to Study in Australia',
+            'desc' => 'Australia offers a wide range of globally recognised programs designed to meet industry needs and career goals.',
+            'footer' => 'These courses are highly preferred by students planning to study in Australia due to strong employment outcomes.',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -194,84 +198,79 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in Australia',
-        'description' => 'The cost of studying in Australia depends on the course, university, and level of education. With proper planning, education in Australia can be made affordable.',
+            'heading' => 'Cost of Studying in Australia',
+            'description' => 'The cost of studying in Australia depends on the course, university, and level of education. With proper planning, education in Australia can be made affordable.',
         ];
         $livingFees = [
-                ['label' => 'Housing', 'value' => 'AUD 8,000 - 15,000', 'note' => 'Shared accommodation reduces cost'],
-                ['label' => 'Food', 'value' => 'AUD 4,000 - 6,000', 'note' => 'Home cooking is economical'],
-                ['label' => 'Transportation', 'value' => 'AUD 1,200 - 2,000', 'note' => 'Student travel concessions available'],
-                ['label' => 'Personal Expenses', 'value' => 'AUD 3,000 - 4,000', 'note' => 'Includes utilities and leisure'],
-                ['label' => 'Total', 'value' => 'AUD 20,000 - 25,000', 'note' => 'Costs vary by city'],
-            ];
+            ['label' => 'Housing', 'value' => 'AUD 8,000 - 15,000', 'note' => 'Shared accommodation reduces cost'],
+            ['label' => 'Food', 'value' => 'AUD 4,000 - 6,000', 'note' => 'Home cooking is economical'],
+            ['label' => 'Transportation', 'value' => 'AUD 1,200 - 2,000', 'note' => 'Student travel concessions available'],
+            ['label' => 'Personal Expenses', 'value' => 'AUD 3,000 - 4,000', 'note' => 'Includes utilities and leisure'],
+            ['label' => 'Total', 'value' => 'AUD 20,000 - 25,000', 'note' => 'Costs vary by city'],
+        ];
         $ukCostOfLivingRight = [
             'heading' => 'Living Expenses in Australia for Indian Students',
             'description' => 'The study in Australia cost for Indian students also includes living expenses, which vary by city and lifestyle. On average, students spend between AUD 20,000 - 25,000 per year.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in Australia: What to Expect?',
-        'desc' => 'Student life in Australia is vibrant, safe, and enriching. Universities offer clubs, sports, cultural events, and student societies that help international students integrate easily. With modern cities, friendly locals, and strong academic support, Australia provides a balanced lifestyle that supports both education and personal growth.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in Australia?',
-        'guide_steps' => [
-            'Research and Select Universities: Choose courses aligned with academic and career goals',
-            'Meet Entry Requirements: Academic qualifications and English proficiency are essential',
-            'Prepare Application Documents: Academic transcripts, SOP, and recommendation letters',
-            'Check Application Deadlines: Intake periods vary by institution',
-            'Receive Offer Letter: Conditional or unconditional offer from the university',
-            'Confirm Admission and Apply for Visa: Accept the offer and proceed with the visa application',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in Australia: What to Expect?',
+            'desc' => 'Student life in Australia is vibrant, safe, and enriching. Universities offer clubs, sports, cultural events, and student societies that help international students integrate easily. With modern cities, friendly locals, and strong academic support, Australia provides a balanced lifestyle that supports both education and personal growth.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in Australia?',
+            'guide_steps' => [
+                'Research and Select Universities: Choose courses aligned with academic and career goals',
+                'Meet Entry Requirements: Academic qualifications and English proficiency are essential',
+                'Prepare Application Documents: Academic transcripts, SOP, and recommendation letters',
+                'Check Application Deadlines: Intake periods vary by institution',
+                'Receive Offer Letter: Conditional or unconditional offer from the university',
+                'Confirm Admission and Apply for Visa: Accept the offer and proceed with the visa application',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in Australia',
-    'desc' => 'Students planning to study in Australia must prepare the following documents:',
-    'list' => [
-        'Academic Transcripts',
-        'English Proficiency Test Scores (IELTS / TOEFL / PTE) ',
-        'Letters of Recommendation',
-        'Statement of Purpose',
-        'Valid Passport ',
-        'Financial Proof',
-        'Offer Letter from an Australian Institution',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in Australia',
+            'desc' => 'Students planning to study in Australia must prepare the following documents:',
+            'list' => [
+                'Academic Transcripts',
+                'English Proficiency Test Scores (IELTS / TOEFL / PTE) ',
+                'Letters of Recommendation',
+                'Statement of Purpose',
+                'Valid Passport ',
+                'Financial Proof',
+                'Offer Letter from an Australian Institution',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'Australia Study Visa Process: Step-by-Step Guide ',
-    'desc' => 'A study in Australia visa is mandatory for international students. The process includes securing admission, arranging finances, applying online, and submitting documents. Understanding each step helps students avoid delays and ensures a smooth visa experience.',
-    'list' => [
-        'Receive Offer Letter from an Approved Institution',
-        'Pay Tuition Fee Deposit',
-        'Arrange Financial Proof',
-        'Apply for Student Visa (Subclass 500)',
-        'Submit Documents and Biometrics',
-        'Visa Approval and Travel to Australia',
-        ],
-    'footer' => 'After arrival, students must comply with visa conditions and enrolment requirements.'
-    ];
+        $guideContent = [
+            'title' => 'Australia Study Visa Process: Step-by-Step Guide ',
+            'desc' => 'A study in Australia visa is mandatory for international students. The process includes securing admission, arranging finances, applying online, and submitting documents. Understanding each step helps students avoid delays and ensures a smooth visa experience.',
+            'list' => [
+                'Receive Offer Letter from an Approved Institution',
+                'Pay Tuition Fee Deposit',
+                'Arrange Financial Proof',
+                'Apply for Student Visa (Subclass 500)',
+                'Submit Documents and Biometrics',
+                'Visa Approval and Travel to Australia',
+            ],
+            'footer' => 'After arrival, students must comply with visa conditions and enrolment requirements.'
+        ];
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
     @include('./components/cta-button')
 
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Why should I study in Australia?",

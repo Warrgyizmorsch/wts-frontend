@@ -5,7 +5,7 @@
     </script>
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    
+
     <script>
         function openCalendly(e) {
             e.preventDefault();
@@ -47,9 +47,9 @@
                             @endforeach
                         </ul>
                         <a id="exploreBtn" href="/course-finder" style="text-decoration: none;">
-                            <button class="explore-btn" >Explore Courses Now<img
-                                src="/new-home-images/svg-icons/majesticons_arrow-up.svg"
-                                style="height: 32px; margin-left: -6px;" alt=""></button>
+                            <button class="explore-btn">Explore Courses Now<img
+                                    src="/new-home-images/svg-icons/majesticons_arrow-up.svg"
+                                    style="height: 32px; margin-left: -6px;" alt=""></button>
                         </a>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <source src="{{ asset('new-home-images/WTS_Video.mp4') }}" type="video/mp4">
             </video>
             <!-- <img src="/new-home-images/wts-logo.png" class="absolute-logo" style="" alt="">
-            <img src="/new-home-images/strip.webp" class="absolute-strip-img" alt=""> -->
+                <img src="/new-home-images/strip.webp" class="absolute-strip-img" alt=""> -->
         </div>
     </section>
 
@@ -104,8 +104,8 @@
             width: 100%;
             height: 500px;
             object-fit: fill;
-            border-radius: 20px; !important
-            box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.29);
+            border-radius: 20px;
+            !important box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.29);
             display: block;
             background: black;
             padding: 25px 130px;
@@ -286,8 +286,10 @@
                 </div>
 
                 <!-- Custom Navigation -->
-                <button class="custom-swiper-prev"><img src="/new-home-images/svg-icons/right-arrow.svg" style="transform: rotate(180deg); height: 20px;" alt="left-arrow"></button>
-                <button class="custom-swiper-next"><img src="/new-home-images/svg-icons/right-arrow.svg" style="height: 20px;" alt="right-arrow"></button>
+                <button class="custom-swiper-prev"><img src="/new-home-images/svg-icons/right-arrow.svg"
+                        style="transform: rotate(180deg); height: 20px;" alt="left-arrow"></button>
+                <button class="custom-swiper-next"><img src="/new-home-images/svg-icons/right-arrow.svg"
+                        style="height: 20px;" alt="right-arrow"></button>
             </div>
         </div>
     </section>
@@ -297,16 +299,18 @@
         <div class="study-guide-container">
             <div class="study-guide-content">
                 <h2 style="font-weight: 600;">Find the Best Foreign Education Consultants for Your Study Abroad Journey</h2>
-                <p>Connect with experienced foreign education consultants to explore top universities, check eligibility, compare courses, and get expert guidance for your international education - all in one place.
+                <p>Connect with experienced foreign education consultants to explore top universities, check eligibility,
+                    compare courses, and get expert guidance for your international education - all in one place.
                 </p>
-                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal" style="text-decoration: none;">
+                <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                    style="text-decoration: none;">
                     Book a Free consultation
                     <span>➜</span>
                 </a>
                 <!-- <button class="study-guide-button" onclick="openRegistrationModal(event)">
-                    Book an Appointment
-                    <span>➜</span>
-                </button> -->
+                        Book an Appointment
+                        <span>➜</span>
+                    </button> -->
             </div>
             <div class="study-guide-image">
                 <img src="/new-home-images/plane-2.png" alt="Plane Image">
@@ -318,296 +322,297 @@
 
 
 
-<!-- Meet Our Counsellors Section -->
-
-<section class="counsellor-section">
-
-<style>
-
-.counsellor-section{
-text-align:center;
-}
-
-.counsellor-section .sub{
-color:#555;
-max-width:720px;
-margin:0 auto 45px;
-font-size:16px;
-line-height:1.6;
-}
-
-/* GRID */
-
-.counsellor-wrap{
-display:flex;
-flex-wrap:wrap;
-gap:30px;
-justify-content:center;
-}
-
-/* CARD */
-
-.counsellor-card{
-width:380px;
-min-height:400px;
-background:#fff;
-border-radius:18px;
-padding:30px 25px;
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-position:relative;
-transition:all .35s ease;
-}
-
-.counsellor-card:hover{
-transform:scale(1.05);
-box-shadow:
-0 0 0 2px rgba(0,123,255,.2),
-0 15px 40px rgba(0,0,0,.18);
-}
-
-/* BADGE */
-
-.badge{
-position:absolute;
-top:18px;
-right:18px;
-background:#cfd8ee;
-color:#18336c;
-padding:5px 12px;
-border-radius:14px;
-font-size:13px;
-}
-
-/* IMAGE */
-
-.counsellor-img{
-width:90px;
-height:90px;
-border-radius:50%;
-margin:0 auto 12px;
-object-fit:cover;
-display:block;
-}
-
-/* TEXT */
-
-.counsellor-name{
-font-weight:600;
-font-size:18px;
-}
-
-.counsellor-role{
-color:#777;
-font-size:14px;
-margin-bottom:6px;
-}
-
-.counsellor-desc{
-font-size:14px;
-margin:12px 0;
-color:#555;
-line-height:1.5;
-}
-
-/* META */
-
-.counsellor-meta{
-display:flex;
-justify-content:space-around;
-margin:18px 0;
-font-size:14px;
-}
-
-/* BUTTON */
-
-.counsellor-section .study-guide-button{
-background:#F7941F;
-border:none;
-color:#fff;
-padding:10px;
-font-size:1rem;
-font-weight:700;
-border-radius:8px;
-cursor:pointer;
-
-display:block;
-width:100%;
-text-align:center;
-
-position:relative;
-overflow:hidden;
-transition:all 0.4s ease;
-box-shadow:0 4px 12px rgba(247,148,31,0.4);
+    <!-- Meet Our Counsellors Section -->
+
+    <section class="counsellor-section">
+
+        <style>
+            .counsellor-section {
+                text-align: center;
+            }
+
+            .counsellor-section .sub {
+                color: #555;
+                max-width: 720px;
+                margin: 0 auto 45px;
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            /* GRID */
+
+            .counsellor-wrap {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                justify-content: center;
+            }
+
+            /* CARD */
+
+            .counsellor-card {
+                width: 380px;
+                min-height: 400px;
+                background: #fff;
+                border-radius: 18px;
+                padding: 30px 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+                position: relative;
+                transition: all .35s ease;
+            }
+
+            .counsellor-card:hover {
+                transform: scale(1.05);
+                box-shadow:
+                    0 0 0 2px rgba(0, 123, 255, .2),
+                    0 15px 40px rgba(0, 0, 0, .18);
+            }
+
+            /* BADGE */
+
+            .badge {
+                position: absolute;
+                top: 18px;
+                right: 18px;
+                background: #cfd8ee;
+                color: #18336c;
+                padding: 5px 12px;
+                border-radius: 14px;
+                font-size: 13px;
+            }
+
+            /* IMAGE */
+
+            .counsellor-img {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                margin: 0 auto 12px;
+                object-fit: cover;
+                display: block;
+            }
+
+            /* TEXT */
+
+            .counsellor-name {
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            .counsellor-role {
+                color: #777;
+                font-size: 14px;
+                margin-bottom: 6px;
+            }
+
+            .counsellor-desc {
+                font-size: 14px;
+                margin: 12px 0;
+                color: #555;
+                line-height: 1.5;
+            }
+
+            /* META */
+
+            .counsellor-meta {
+                display: flex;
+                justify-content: space-around;
+                margin: 18px 0;
+                font-size: 14px;
+            }
+
+            /* BUTTON */
+
+            .counsellor-section .study-guide-button {
+                background: #F7941F;
+                border: none;
+                color: #fff;
+                padding: 10px;
+                font-size: 1rem;
+                font-weight: 700;
+                border-radius: 8px;
+                cursor: pointer;
+
+                display: block;
+                width: 100%;
+                text-align: center;
+
+                position: relative;
+                overflow: hidden;
+                transition: all 0.4s ease;
+                box-shadow: 0 4px 12px rgba(247, 148, 31, 0.4);
 
-text-decoration:none;
-}
+                text-decoration: none;
+            }
+
+            /* Shine Effect */
 
-/* Shine Effect */
+            .counsellor-section .study-guide-button::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.25);
+                transform: skewX(-20deg);
+                transition: 0.6s;
+            }
 
-.counsellor-section .study-guide-button::before{
-content:"";
-position:absolute;
-top:0;
-left:-100%;
-width:100%;
-height:100%;
-background:rgba(255,255,255,0.25);
-transform:skewX(-20deg);
-transition:0.6s;
-}
+            .counsellor-section .study-guide-button:hover {
+                transform: translateY(-3px) scale(1.03);
+                box-shadow: 0 8px 20px rgba(247, 148, 31, 0.6);
+            }
 
-.counsellor-section .study-guide-button:hover{
-transform:translateY(-3px) scale(1.03);
-box-shadow:0 8px 20px rgba(247,148,31,0.6);
-}
+            .counsellor-section .study-guide-button:hover::before {
+                left: 200%;
+            }
 
-.counsellor-section .study-guide-button:hover::before{
-left:200%;
-}
+            .container {
+                max-width: 1280px;
+                margin: 0 auto;
+                padding: 0 16px;
+            }
 
-.container{
-max-width:1280px;
-margin:0 auto;
-padding:0 16px;
-}
+            /* LARGE SCREEN */
 
-/* LARGE SCREEN */
+            @media(max-width:1200px) {
+                .counsellor-card {
+                    width: 340px;
+                }
+            }
 
-@media(max-width:1200px){
-.counsellor-card{
-width:340px;
-}
-}
+            /* TABLET */
 
-/* TABLET */
+            @media(max-width:992px) {
+                .counsellor-card {
+                    width: 46%;
+                }
+            }
 
-@media(max-width:992px){
-.counsellor-card{
-width:46%;
-}
-}
+            /* MOBILE FIX */
 
-/* MOBILE FIX */
+            @media(max-width:600px) {
 
-@media(max-width:600px){
+                .counsellor-section .sub {
+                    font-size: 14px;
+                    margin-bottom: 30px;
+                }
 
-.counsellor-section .sub{
-font-size:14px;
-margin-bottom:30px;
-}
+                .counsellor-card {
+                    width: 100%;
+                    min-height: auto;
+                    padding: 25px 20px;
+                }
 
-.counsellor-card{
-width:100%;
-min-height:auto;
-padding:25px 20px;
-}
+                /* IMAGE */
 
-/* IMAGE */
+                .counsellor-img {
+                    width: 80px;
+                    height: 80px;
+                }
 
-.counsellor-img{
-width:80px;
-height:80px;
-}
+                /* BADGE FIX (FACE COVER NA HO) */
 
-/* BADGE FIX (FACE COVER NA HO) */
+                .badge {
+                    position: static;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
 
-.badge{
-position:static;
-display:inline-block;
-margin-bottom:10px;
-}
+            }
+        </style>
 
-}
+        <div class="container">
 
-</style>
+            <div class="section-head">
+                <h2 class="new-section-title visible">Meet Our Counsellors</h2>
+            </div>
 
-<div class="container">
+            <div class="counsellor-wrap">
 
-<div class="section-head">
-<h2 class="new-section-title visible">Meet Our Counsellors</h2>
-</div>
+                <!-- CARD 1 -->
 
-<div class="counsellor-wrap">
+                <div class="counsellor-card">
+                    <span class="badge">Senior Counsellor</span>
 
-<!-- CARD 1 -->
+                    <img src="/images/universities/Dhara.png" class="counsellor-img">
 
-<div class="counsellor-card">
-<span class="badge">Senior Counsellor</span>
+                    <div class="counsellor-name">Dhara</div>
+                    <div class="counsellor-role">Study Abroad Counsellor</div>
 
-<img src="/images/universities/Dhara.png" class="counsellor-img">
+                    <p class="counsellor-desc">
+                        Helping students choose the right universities and guiding them through the complete admission
+                        process.
+                    </p>
 
-<div class="counsellor-name">Dhara</div>
-<div class="counsellor-role">Study Abroad Counsellor</div>
+                    <div class="counsellor-meta">
+                        <span>⭐ 5<br>52 Reviews</span>
+                        <span>3000+<br>Students Guided</span>
+                    </div>
 
-<p class="counsellor-desc">
-Helping students choose the right universities and guiding them through the complete admission process.
-</p>
+                    <a href="javascript:void(0)" class="study-guide-button" onclick="openRegistrationModal(event)">
+                        Book FREE Counselling
+                    </a>
 
-<div class="counsellor-meta">
-<span>⭐ 5<br>52 Reviews</span>
-<span>3000+<br>Students Guided</span>
-</div>
+                </div>
 
-<a href="javascript:void(0)" class="study-guide-button" onclick="openRegistrationModal(event)">
-Book FREE Counselling
-</a>
+                <!-- CARD 2 -->
 
-</div>
+                <div class="counsellor-card">
+                    <span class="badge">Senior Counsellor</span>
 
-<!-- CARD 2 -->
+                    <img src="/images/universities/Afrin.png" class="counsellor-img">
 
-<div class="counsellor-card">
-<span class="badge">Senior Counsellor</span>
+                    <div class="counsellor-name">Afrin</div>
+                    <div class="counsellor-role">Study Abroad Counsellor</div>
 
-<img src="/images/universities/Afrin.png" class="counsellor-img">
+                    <p class="counsellor-desc">
+                        Expert in student counselling with years of experience helping students achieve their global
+                        education dreams.
+                    </p>
 
-<div class="counsellor-name">Afrin</div>
-<div class="counsellor-role">Study Abroad Counsellor</div>
+                    <div class="counsellor-meta">
+                        <span>⭐ 5<br>65 Reviews</span>
+                        <span>4500+<br>Students Guided</span>
+                    </div>
 
-<p class="counsellor-desc">
-Expert in student counselling with years of experience helping students achieve their global education dreams.
-</p>
+                    <a href="javascript:void(0)" class="study-guide-button" onclick="openRegistrationModal(event)">
+                        Book FREE Counselling
+                    </a>
 
-<div class="counsellor-meta">
-<span>⭐ 5<br>65 Reviews</span>
-<span>4500+<br>Students Guided</span>
-</div>
+                </div>
 
-<a href="javascript:void(0)" class="study-guide-button" onclick="openRegistrationModal(event)">
-Book FREE Counselling
-</a>
+                <!-- CARD 3 -->
 
-</div>
+                <div class="counsellor-card">
+                    <span class="badge">Senior Counsellor</span>
 
-<!-- CARD 3 -->
+                    <img src="/images/universities/Rishita.png" class="counsellor-img">
 
-<div class="counsellor-card">
-<span class="badge">Senior Counsellor</span>
+                    <div class="counsellor-name">Rishita</div>
+                    <div class="counsellor-role">Study Abroad Counsellor</div>
 
-<img src="/images/universities/Rishita.png" class="counsellor-img">
+                    <p class="counsellor-desc">
+                        Guiding students with university selection, application support and visa process for studying
+                        abroad.
+                    </p>
 
-<div class="counsellor-name">Rishita</div>
-<div class="counsellor-role">Study Abroad Counsellor</div>
+                    <div class="counsellor-meta">
+                        <span>⭐ 4.9<br>57 Reviews</span>
+                        <span>5000+<br>Students Guided</span>
+                    </div>
 
-<p class="counsellor-desc">
-Guiding students with university selection, application support and visa process for studying abroad.
-</p>
+                    <a href="javascript:void(0)" class="study-guide-button" onclick="openRegistrationModal(event)">
+                        Book FREE Counselling
+                    </a>
 
-<div class="counsellor-meta">
-<span>⭐ 4.9<br>57 Reviews</span>
-<span>5000+<br>Students Guided</span>
-</div>
+                </div>
 
-<a href="javascript:void(0)" class="study-guide-button" onclick="openRegistrationModal(event)">
-Book FREE Counselling
-</a>
+            </div>
+        </div>
 
-</div>
-
-</div>
-</div>
-
-</section>
+    </section>
 
     <!-- Our Affiliates -->
     <section class="affiliates-section">
@@ -994,7 +999,8 @@ Book FREE Counselling
                     placements.
                 </p>
             </div>
-            <button class="study-guide-button js-open-custom-study-modal" style="margin-top: 20px; font-weight: 500;">Get a Free Consultation!</button>
+            <button class="study-guide-button js-open-custom-study-modal" style="margin-top: 20px; font-weight: 500;">Get a
+                Free Consultation!</button>
         </div>
 
         <div class="choose-right-slider">
@@ -1101,6 +1107,7 @@ Book FREE Counselling
             line-height: 1.2;
             margin-bottom: 6px;
         }
+
         /* Slide box */
         .choose-slide-box {
             border: 1px solid black;
@@ -1227,49 +1234,49 @@ Book FREE Counselling
         });
 
         function updateContent(sw) {
-                const activeSlide = sw.slides[sw.activeIndex];
-                if (!activeSlide) return;
+            const activeSlide = sw.slides[sw.activeIndex];
+            if (!activeSlide) return;
 
-                const wrapper = document.getElementById('point-wrapper');
-                const titleEl = document.getElementById('point-title');
-                const descEl = document.getElementById('point-desc');
+            const wrapper = document.getElementById('point-wrapper');
+            const titleEl = document.getElementById('point-title');
+            const descEl = document.getElementById('point-desc');
 
-                // Measure current height before change
-                const startHeight = wrapper.offsetHeight;
+            // Measure current height before change
+            const startHeight = wrapper.offsetHeight;
 
-                // Apply burst-out
-                titleEl.style.transform = "scale(0.8)";
-                titleEl.style.opacity = 0;
-                descEl.style.transform = "scale(0.8)";
-                descEl.style.opacity = 0;
+            // Apply burst-out
+            titleEl.style.transform = "scale(0.8)";
+            titleEl.style.opacity = 0;
+            descEl.style.transform = "scale(0.8)";
+            descEl.style.opacity = 0;
 
+            setTimeout(() => {
+                // Update new text
+                titleEl.textContent = activeSlide.dataset.title;
+                descEl.textContent = activeSlide.dataset.desc;
+
+                // Measure new height
+                wrapper.style.height = "auto";
+                const endHeight = wrapper.offsetHeight;
+
+                // Reset to old height then animate to new
+                wrapper.style.height = startHeight + "px";
+                requestAnimationFrame(() => {
+                    wrapper.style.height = endHeight + "px";
+                });
+
+                // Burst-in effect
+                titleEl.style.transform = "scale(1)";
+                titleEl.style.opacity = 1;
+                descEl.style.transform = "scale(1)";
+                descEl.style.opacity = 1;
+
+                // Reset wrapper height after transition
                 setTimeout(() => {
-                    // Update new text
-                    titleEl.textContent = activeSlide.dataset.title;
-                    descEl.textContent = activeSlide.dataset.desc;
-
-                    // Measure new height
                     wrapper.style.height = "auto";
-                    const endHeight = wrapper.offsetHeight;
-
-                    // Reset to old height then animate to new
-                    wrapper.style.height = startHeight + "px";
-                    requestAnimationFrame(() => {
-                        wrapper.style.height = endHeight + "px";
-                    });
-
-                    // Burst-in effect
-                    titleEl.style.transform = "scale(1)";
-                    titleEl.style.opacity = 1;
-                    descEl.style.transform = "scale(1)";
-                    descEl.style.opacity = 1;
-
-                    // Reset wrapper height after transition
-                    setTimeout(() => {
-                        wrapper.style.height = "auto";
-                    }, 500);
-                }, 300); // delay matches burst-out
-            }
+                }, 500);
+            }, 300); // delay matches burst-out
+        }
 
 
 
@@ -1329,14 +1336,16 @@ Book FREE Counselling
                         Step&nbsp;1 <br />Counselling with an Expert
                     </h3>
                     <img src="/new-home-images/svg-icons/plus.svg" class="new-home-service-icon" alt="Plus Icon">
-                    <img src="/new-home-images/discussion.webp" class="new-home-service-image" style="bottom: -15px; right: -10px; height: 160px; width: 160px;" alt="Decorative">
+                    <img src="/new-home-images/discussion.webp" class="new-home-service-image"
+                        style="bottom: -15px; right: -10px; height: 160px; width: 160px;" alt="Decorative">
                 </div>
                 <div class="new-home-service-card">
                     <h3 class="new-home-service-card-title">
                         Step&nbsp;2 <br />Free Profile Evaluation
                     </h3>
                     <img src="/new-home-images/svg-icons/plus.svg" class="new-home-service-icon" alt="Plus Icon">
-                    <img src="/new-home-images/diary.webp" class="new-home-service-image" style="height: 100px; width: 100px;" alt="Decorative">
+                    <img src="/new-home-images/diary.webp" class="new-home-service-image"
+                        style="height: 100px; width: 100px;" alt="Decorative">
                 </div>
                 <div class="new-home-service-card">
                     <h3 class="new-home-service-card-title">
@@ -1350,28 +1359,32 @@ Book FREE Counselling
                         Step&nbsp;4 <br />Admission
                     </h3>
                     <img src="/new-home-images/svg-icons/plus.svg" class="new-home-service-icon" alt="Plus Icon">
-                    <img src="/new-home-images/university.webp" class="new-home-service-image" style="height: 140px; width: 140px; border-bottom-right-radius: 20px;" alt="Decorative">
+                    <img src="/new-home-images/university.webp" class="new-home-service-image"
+                        style="height: 140px; width: 140px; border-bottom-right-radius: 20px;" alt="Decorative">
                 </div>
                 <div class="new-home-service-card">
                     <h3 class="new-home-service-card-title">
                         Step&nbsp;5 <br />SOP
                     </h3>
                     <img src="/new-home-images/svg-icons/plus.svg" class="new-home-service-icon" alt="Plus Icon">
-                    <img src="/new-home-images/studying.webp" class="new-home-service-image" style="bottom: -28px; right: -18px; height: 180px; width: 180px;" alt="Decorative">
+                    <img src="/new-home-images/studying.webp" class="new-home-service-image"
+                        style="bottom: -28px; right: -18px; height: 180px; width: 180px;" alt="Decorative">
                 </div>
                 <div class="new-home-service-card">
                     <h3 class="new-home-service-card-title">
                         Step&nbsp;6 <br />Mock Interviews
                     </h3>
                     <img src="/new-home-images/svg-icons/plus.svg" class="new-home-service-icon" alt="Plus Icon">
-                    <img src="/new-home-images/teaching.webp" class="new-home-service-image" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;" alt="Decorative">
+                    <img src="/new-home-images/teaching.webp" class="new-home-service-image"
+                        style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;" alt="Decorative">
                 </div>
                 <div class="new-home-service-card">
                     <h3 class="new-home-service-card-title">
                         Step&nbsp;7 <br />Travel Arrangements
                     </h3>
                     <img src="/new-home-images/svg-icons/plus.svg" class="new-home-service-icon" alt="Plus Icon">
-                    <img src="/new-home-images/plane-go.webp" class="new-home-service-image" style="bottom: -24px; height: 160px; width: 160px;" alt="Decorative">
+                    <img src="/new-home-images/plane-go.webp" class="new-home-service-image"
+                        style="bottom: -24px; height: 160px; width: 160px;" alt="Decorative">
                 </div>
                 <div class="new-home-service-card">
                     <h3 class="new-home-service-card-title">
@@ -1385,7 +1398,8 @@ Book FREE Counselling
                         Step&nbsp;9 <br />Post Landing Services
                     </h3>
                     <img src="/new-home-images/svg-icons/plus.svg" class="new-home-service-icon" alt="Plus Icon">
-                    <img src="/new-home-images/scholar-blue.webp" class="new-home-service-image" style="bottom: -10px;" alt="Decorative">
+                    <img src="/new-home-images/scholar-blue.webp" class="new-home-service-image" style="bottom: -10px;"
+                        alt="Decorative">
                 </div>
             </div>
         </div>
@@ -1406,198 +1420,245 @@ Book FREE Counselling
 
     </section>
 
-   <!-- Read more content  -->
-<section class="new-home-service-section">
-    <div class="container">
-        <div class="long-box">
+    <!-- Read more content  -->
+    <section class="new-home-service-section">
+        <div class="container">
+            <div class="long-box">
 
-            <h2>WTS Study Abroad Consultants - Your Trusted Partner for Global Education</h2>
-            <p>
-                Planning to study abroad is an exciting step toward a successful future, but the process can often feel overwhelming. From choosing the right university to arranging finances and completing visa formalities, there are many important decisions to make. That’s where WTS Study Abroad Consultants comes in. As one of the most reliable abroad education consultants, we guide students at every stage of their journey, ensuring a smooth and stress-free experience.
-            </p>
-
-            <p>
-                With years of experience in international education, WTS has helped thousands of students achieve their dream of studying overseas. Our team of certified overseas education consultants works closely with students to understand their career goals and recommend the best universities, courses, and countries. Whether you are planning to study in the UK, Canada, Australia, the USA, or other destinations, our experts are here to provide complete support.
-            </p>
-
-            <div class="read-btn-row">
-                <button class="read-toggle" id="readMore">Read More</button>
-            </div>
-
-            <div class="more-content" id="moreContent" style="display:none;">
-
+                <h2>WTS Study Abroad Consultants - Your Trusted Partner for Global Education</h2>
                 <p>
-                    As trusted foreign education consultants, we focus on delivering personalized guidance, transparent processes, and high visa success rates. Our mission is simple — to make global education accessible, affordable, and achievable for every student.
-                </p>
-
-                <h2>Why Students Choose WTS Study Abroad Consultants</h2>
-                <p>
-                    Choosing the right consultancy abroad is one of the most important decisions in your study abroad journey. Students trust WTS because we provide reliable guidance, professional services, and proven results.
-                </p>
-
-                <h3>High Visa Success Rate</h3>
-                <p>
-                    Our experienced student visa consultants understand immigration policies and documentation requirements. We carefully review every application to increase your chances of visa approval.
-                </p>
-
-                <h3>Expert Guidance from Certified Professionals</h3>
-                <p>
-                    Our team includes highly trained abroad education consultants who stay updated with the latest admission and visa regulations. We ensure students receive accurate and professional advice.
-                </p>
-
-                <h3>Wide Network of Global Universities</h3>
-                <p>
-                    As leading overseas education consultants, we partner with top universities and colleges worldwide. This allows students to explore a wide range of programs and career opportunities.
-                </p>
-
-                <h3>Transparent and Ethical Process</h3>
-                <p>
-                    We believe in honesty and transparency. As one of the best consultants for abroad education, we provide clear information about fees, admission requirements, and timelines.
-                </p>
-
-                <h3>End-to-End Support</h3>
-                <p>
-                    From career counseling to post-arrival assistance, our visa consultancy services cover every step of the study abroad journey.
-                </p>
-
-                <h2>Our Services – Complete Support for Your Study Abroad Journey</h2>
-
-                <h3>Career Counseling and University Selection</h3>
-                <p>
-                    Our professional foreign education consultants help students choose the right course and university based on their academic background, career goals, and budget.
-                </p>
-
-                <h3>Application and Admission Assistance</h3>
-                <p>
-                    We guide students in preparing strong applications, ensuring they meet university requirements. Our overseas education consultants help increase admission success rates.
-                </p>
-
-                <h3>Visa Guidance and Documentation</h3>
-                <p>
-                    Our experienced student visa consultants provide complete support for visa applications, including document preparation, interview guidance, and submission.
-                </p>
-
-                <h3>Education Loan and Financial Guidance</h3>
-                <p>
-                    Studying abroad requires financial planning. Our visa consultancy services include assistance with education loans, scholarships, and financial documentation.
-                </p>
-
-                <h3>Accommodation and Travel Assistance</h3>
-                <p>
-                    As trusted abroad education consultants, we help students find safe accommodation and make travel arrangements before departure.
-                </p>
-
-                <h3>Pre-Departure and Post-Arrival Support</h3>
-                <p>
-                    Our consultancy abroad services continue even after you reach your destination. We provide guidance on part-time jobs, banking, and settling into a new country.
-                </p>
-
-                <h2>Study Abroad Destinations We Specialize In</h2>
-
-                <h3>Study in Australia – Quality Education and Work Opportunities</h3>
-                <p>
-                    Australia is one of the most popular destinations for international students due to its world-class universities and strong job market. As experienced overseas education consultants, we help students apply to top institutions and secure post-study work opportunities.
+                    Planning to study abroad is an exciting step toward a successful future, but the process can often feel
+                    overwhelming. From choosing the right university to arranging finances and completing visa formalities,
+                    there are many important decisions to make. That’s where WTS Study Abroad Consultants comes in. As one
+                    of the most reliable abroad education consultants, we guide students at every stage of their journey,
+                    ensuring a smooth and stress-free experience.
                 </p>
 
                 <p>
-                    Graduates in Australia benefit from competitive salaries and high employment rates in fields such as IT, healthcare, engineering, and business.
+                    With years of experience in international education, WTS has helped thousands of students achieve their
+                    dream of studying overseas. Our team of certified overseas education consultants works closely with
+                    students to understand their career goals and recommend the best universities, courses, and countries.
+                    Whether you are planning to study in the UK, Canada, Australia, the USA, or other destinations, our
+                    experts are here to provide complete support.
                 </p>
 
-                <h3>Study in Canada – A Student-Friendly Destination</h3>
-                <p>
-                    Canada is known for its welcoming environment, affordable education, and excellent career opportunities. Our foreign education consultants assist students in choosing the best programs and understanding the Post-Graduation Work Permit (PGWP) system.
-                </p>
-
-                <p>
-                    With guidance from our student visa consultants, students can build a successful career and even explore permanent residency options in Canada.
-                </p>
-
-                <h3>Study in the United Kingdom – Global Education Excellence</h3>
-                <p>
-                    The <a href="/country/study-in-uk">UK</a> offers internationally recognized degrees and strong employment prospects. As one of the best consultants for abroad education, we help students gain admission to prestigious universities and understand the Graduate Route visa.
-                </p>
-
-                <p>
-                    Our expert <a href="/services/visa-assistance">visa consultancy services</a> ensure a smooth transition from application to arrival in the UK.
-                </p>
-
-                <h3>Study in the United States – Innovation and Career Growth</h3>
-                <p>
-                    The USA is home to some of the world’s leading universities and offers unmatched career opportunities. Our abroad education consultants guide students through university selection, application procedures, and visa requirements.
-                </p>
-
-                <p>
-                    With support from our consultancy abroad, students can explore internships, research opportunities, and high-paying careers in technology, business, and healthcare.
-                </p>
-
-                <h3>Study in New Zealand and Ireland – Emerging Global Destinations</h3>
-                <p>
-                    <a href="/country/study-in-new-zealand">New Zealand</a> and Ireland are becoming increasingly popular for international students. Our overseas education consultants help students discover programs in growing industries such as IT, engineering, and healthcare.
-                </p>
-
-                <p>
-                    These countries provide excellent work opportunities after graduation, making them ideal choices for students seeking long-term career growth.
-                </p>
-
-                <h2>Popular Cities We Serve</h2>
-
-                <p>
-                    WTS Study Abroad Consultants proudly provides services to students across major cities in India. Our experienced abroad education consultants and student visa consultants offer both online and offline support to students nationwide.
-                </p>
-
-                <p><strong>Popular Cities We Serve:</strong></p>
-
-                <table>
-                    <tr>
-                        <td><a href="/study-abroad-consultants-in-delhi">Delhi</a></td>
-                        <td><a href="/study-abroad-consultants-in-mumbai">Mumbai</a></td>
-                        <td><a href="/study-abroad-consultants-in-hyderabad">Hyderabad</a></td>
-                        <td><a href="/study-abroad-consultants-in-bengaluru">Bangalore</a></td>
-                        <td><a href="/study-abroad-consultants-in-chennai">Chennai</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="/study-abroad-consultants-in-pune">Pune</a></td>
-                        <td><a href="/study-abroad-consultants-in-kochi">Kochi</a></td>
-                        <td><a href="/study-abroad-consultants-in-chandigarh">Chandigarh</a></td>
-                        <td><a href="/study-abroad-consultants-in-ahmedabad">Ahmedabad</a></td>
-                        <td><a href="/study-abroad-consultants-in-jaipur">Jaipur</a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="/study-abroad-consultants-in-lucknow">Lucknow</a></td>
-                        <td><a href="/study-abroad-consultants-in-kolkata">Kolkata</a></td>
-                        <td><a href="/study-abroad-consultants-in-coimbatore">Coimbatore</a></td>
-                        <td><a href="/study-abroad-consultants-in-indore">Indore</a></td>
-                        <td><a href="/study-abroad-consultants-in-surat">Surat</a></td>
-                    </tr>
-                </table>
-                <p>No matter where you are located, our best consultancy for abroad studies is ready to guide you toward your international education goals.</p>
-
-                <h2>Start Your Study Abroad Journey with WTS Today</h2>
-
-                <p>
-                    Your dream of studying abroad begins with choosing the right partner. At WTS, we are committed to helping students succeed through expert guidance, reliable services, and personalized support. As trusted foreign education consultants and experienced student visa consultants, we ensure every student receives the attention and assistance they deserve.
-                </p>
-
-                <p>
-                    Whether you are exploring options or ready to apply, our team of professional abroad education consultants is here to help you achieve your goals. With our proven visa consultancy services and global university network, WTS stands among the best consultants for abroad education in India.
-                </p>
-
-                <p>
-                    Take the first step toward your international future today.
-                </p>
-
-                <p>
-                    Connect with WTS your reliable consultancy abroad partner and make your study abroad dream a reality.
-                </p>
-
-                <div class="read-btn-row" style="margin-top:20px;">
-                    <button class="read-toggle" id="readLess">Read Less</button>
+                <div class="read-btn-row">
+                    <button class="read-toggle" id="readMore">Read More</button>
                 </div>
 
+                <div class="more-content" id="moreContent" style="display:none;">
+
+                    <p>
+                        As trusted foreign education consultants, we focus on delivering personalized guidance, transparent
+                        processes, and high visa success rates. Our mission is simple — to make global education accessible,
+                        affordable, and achievable for every student.
+                    </p>
+
+                    <h2>Why Students Choose WTS Study Abroad Consultants</h2>
+                    <p>
+                        Choosing the right consultancy abroad is one of the most important decisions in your study abroad
+                        journey. Students trust WTS because we provide reliable guidance, professional services, and proven
+                        results.
+                    </p>
+
+                    <h3>High Visa Success Rate</h3>
+                    <p>
+                        Our experienced student visa consultants understand immigration policies and documentation
+                        requirements. We carefully review every application to increase your chances of visa approval.
+                    </p>
+
+                    <h3>Expert Guidance from Certified Professionals</h3>
+                    <p>
+                        Our team includes highly trained abroad education consultants who stay updated with the latest
+                        admission and visa regulations. We ensure students receive accurate and professional advice.
+                    </p>
+
+                    <h3>Wide Network of Global Universities</h3>
+                    <p>
+                        As leading overseas education consultants, we partner with top universities and colleges worldwide.
+                        This allows students to explore a wide range of programs and career opportunities.
+                    </p>
+
+                    <h3>Transparent and Ethical Process</h3>
+                    <p>
+                        We believe in honesty and transparency. As one of the best consultants for abroad education, we
+                        provide clear information about fees, admission requirements, and timelines.
+                    </p>
+
+                    <h3>End-to-End Support</h3>
+                    <p>
+                        From career counseling to post-arrival assistance, our visa consultancy services cover every step of
+                        the study abroad journey.
+                    </p>
+
+                    <h2>Our Services – Complete Support for Your Study Abroad Journey</h2>
+
+                    <h3>Career Counseling and University Selection</h3>
+                    <p>
+                        Our professional foreign education consultants help students choose the right course and university
+                        based on their academic background, career goals, and budget.
+                    </p>
+
+                    <h3>Application and Admission Assistance</h3>
+                    <p>
+                        We guide students in preparing strong applications, ensuring they meet university requirements. Our
+                        overseas education consultants help increase admission success rates.
+                    </p>
+
+                    <h3>Visa Guidance and Documentation</h3>
+                    <p>
+                        Our experienced student visa consultants provide complete support for visa applications, including
+                        document preparation, interview guidance, and submission.
+                    </p>
+
+                    <h3>Education Loan and Financial Guidance</h3>
+                    <p>
+                        Studying abroad requires financial planning. Our visa consultancy services include assistance with
+                        education loans, scholarships, and financial documentation.
+                    </p>
+
+                    <h3>Accommodation and Travel Assistance</h3>
+                    <p>
+                        As trusted abroad education consultants, we help students find safe accommodation and make travel
+                        arrangements before departure.
+                    </p>
+
+                    <h3>Pre-Departure and Post-Arrival Support</h3>
+                    <p>
+                        Our consultancy abroad services continue even after you reach your destination. We provide guidance
+                        on part-time jobs, banking, and settling into a new country.
+                    </p>
+
+                    <h2>Study Abroad Destinations We Specialize In</h2>
+
+                    <h3>Study in Australia – Quality Education and Work Opportunities</h3>
+                    <p>
+                        Australia is one of the most popular destinations for international students due to its world-class
+                        universities and strong job market. As experienced overseas education consultants, we help students
+                        apply to top institutions and secure post-study work opportunities.
+                    </p>
+
+                    <p>
+                        Graduates in Australia benefit from competitive salaries and high employment rates in fields such as
+                        IT, healthcare, engineering, and business.
+                    </p>
+
+                    <h3>Study in Canada – A Student-Friendly Destination</h3>
+                    <p>
+                        Canada is known for its welcoming environment, affordable education, and excellent career
+                        opportunities. Our foreign education consultants assist students in choosing the best programs and
+                        understanding the Post-Graduation Work Permit (PGWP) system.
+                    </p>
+
+                    <p>
+                        With guidance from our student visa consultants, students can build a successful career and even
+                        explore permanent residency options in Canada.
+                    </p>
+
+                    <h3>Study in the United Kingdom – Global Education Excellence</h3>
+                    <p>
+                        The <a href="/country/study-in-uk">UK</a> offers internationally recognized degrees and strong
+                        employment prospects. As one of the best consultants for abroad education, we help students gain
+                        admission to prestigious universities and understand the Graduate Route visa.
+                    </p>
+
+                    <p>
+                        Our expert <a href="/services/visa-assistance">visa consultancy services</a> ensure a smooth
+                        transition from application to arrival in the UK.
+                    </p>
+
+                    <h3>Study in the United States – Innovation and Career Growth</h3>
+                    <p>
+                        The USA is home to some of the world’s leading universities and offers unmatched career
+                        opportunities. Our abroad education consultants guide students through university selection,
+                        application procedures, and visa requirements.
+                    </p>
+
+                    <p>
+                        With support from our consultancy abroad, students can explore internships, research opportunities,
+                        and high-paying careers in technology, business, and healthcare.
+                    </p>
+
+                    <h3>Study in New Zealand and Ireland – Emerging Global Destinations</h3>
+                    <p>
+                        <a href="/country/study-in-new-zealand">New Zealand</a> and Ireland are becoming increasingly
+                        popular for international students. Our overseas education consultants help students discover
+                        programs in growing industries such as IT, engineering, and healthcare.
+                    </p>
+
+                    <p>
+                        These countries provide excellent work opportunities after graduation, making them ideal choices for
+                        students seeking long-term career growth.
+                    </p>
+
+                    <h2>Popular Cities We Serve</h2>
+
+                    <p>
+                        WTS Study Abroad Consultants proudly provides services to students across major cities in India. Our
+                        experienced abroad education consultants and student visa consultants offer both online and offline
+                        support to students nationwide.
+                    </p>
+
+                    <p><strong>Popular Cities We Serve:</strong></p>
+
+                    <table>
+                        <tr>
+                            <td><a href="/study-abroad-consultants-in-delhi">Delhi</a></td>
+                            <td><a href="/study-abroad-consultants-in-mumbai">Mumbai</a></td>
+                            <td><a href="/study-abroad-consultants-in-hyderabad">Hyderabad</a></td>
+                            <td><a href="/study-abroad-consultants-in-bengaluru">Bangalore</a></td>
+                            <td><a href="/study-abroad-consultants-in-chennai">Chennai</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/study-abroad-consultants-in-pune">Pune</a></td>
+                            <td><a href="/study-abroad-consultants-in-kochi">Kochi</a></td>
+                            <td><a href="/study-abroad-consultants-in-chandigarh">Chandigarh</a></td>
+                            <td><a href="/study-abroad-consultants-in-ahmedabad">Ahmedabad</a></td>
+                            <td><a href="/study-abroad-consultants-in-jaipur">Jaipur</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/study-abroad-consultants-in-lucknow">Lucknow</a></td>
+                            <td><a href="/study-abroad-consultants-in-kolkata">Kolkata</a></td>
+                            <td><a href="/study-abroad-consultants-in-coimbatore">Coimbatore</a></td>
+                            <td><a href="/study-abroad-consultants-in-indore">Indore</a></td>
+                            <td><a href="/study-abroad-consultants-in-surat">Surat</a></td>
+                        </tr>
+                    </table>
+                    <p>No matter where you are located, our best consultancy for abroad studies is ready to guide you toward
+                        your international education goals.</p>
+
+                    <h2>Start Your Study Abroad Journey with WTS Today</h2>
+
+                    <p>
+                        Your dream of studying abroad begins with choosing the right partner. At WTS, we are committed to
+                        helping students succeed through expert guidance, reliable services, and personalized support. As
+                        trusted foreign education consultants and experienced student visa consultants, we ensure every
+                        student receives the attention and assistance they deserve.
+                    </p>
+
+                    <p>
+                        Whether you are exploring options or ready to apply, our team of professional abroad education
+                        consultants is here to help you achieve your goals. With our proven visa consultancy services and
+                        global university network, WTS stands among the best consultants for abroad education in India.
+                    </p>
+
+                    <p>
+                        Take the first step toward your international future today.
+                    </p>
+
+                    <p>
+                        Connect with WTS your reliable consultancy abroad partner and make your study abroad dream a
+                        reality.
+                    </p>
+
+                    <div class="read-btn-row" style="margin-top:20px;">
+                        <button class="read-toggle" id="readLess">Read Less</button>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- FAQ Section -->
@@ -1610,7 +1671,9 @@ Book FREE Counselling
                     Our experts are here to guide you - just reach out.
                 </p>
                 <div class="new-faq-graphic">
-                    <img src="/new-home-images/faq-image2.jpeg" style="border-top-right-radius: 20px; border-top-left-radius: 20px; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;" alt="FAQ Graphic" />
+                    <img src="/new-home-images/faq-image2.jpeg"
+                        style="border-top-right-radius: 20px; border-top-left-radius: 20px; border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;"
+                        alt="FAQ Graphic" />
                 </div>
             </div>
 
@@ -1627,7 +1690,8 @@ Book FREE Counselling
                             aligned with your long-term professional objectives.</div>
                     </div>
                     <div class="new-faq-item">
-                        <button class="new-faq-btn">What are the Preconditions for Studying Abroad? <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
+                        <button class="new-faq-btn">What are the Preconditions for Studying Abroad? <p><span><img
+                                        src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">Admission criteria differ by country and institution. Typical
                             requirements are academic transcripts, language
@@ -1636,7 +1700,8 @@ Book FREE Counselling
                             require entrance exams.</div>
                     </div>
                     <div class="new-faq-item">
-                        <button class="new-faq-btn">How can I apply for Scholarships? <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p></button>
+                        <button class="new-faq-btn">How can I apply for Scholarships? <p><span><img
+                                        src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p></button>
                         <div class="new-faq-content">Begin by investigating scholarship opportunities provided by
                             universities, governments and private agencies. Read and
                             fully understand the eligibility requirements and timelines. Develop a good application with a
@@ -1644,7 +1709,8 @@ Book FREE Counselling
                             and supporting materials.</div>
                     </div>
                     <div class="new-faq-item">
-                        <button class="new-faq-btn">Which Country is Best for My Studies Abroad? <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
+                        <button class="new-faq-btn">Which Country is Best for My Studies Abroad? <p><span><img
+                                        src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">Cost differs according study visa apply to country, university and
                             lifestyle. Fees cost between a few thousand to tens
@@ -1653,7 +1719,8 @@ Book FREE Counselling
                             and student financial aid may minimize the cost.</div>
                     </div>
                     <div class="new-faq-item">
-                        <button class="new-faq-btn">How Much Does it Cost? <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p></button>
+                        <button class="new-faq-btn">How Much Does it Cost? <p><span><img
+                                        src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p></button>
                         <div class="new-faq-content">Cost differs according study visa apply to country, university and
                             lifestyle. Fees cost between a few thousand to tens
                             of thousands of dollars per year. Living accommodation, eating, travelling and insurance are
@@ -1661,7 +1728,8 @@ Book FREE Counselling
                             and student financial aid may minimize the cost.</div>
                     </div>
                     <div class="new-faq-item">
-                        <button class="new-faq-btn">Which Scholarships for International Students? <p><span><img src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
+                        <button class="new-faq-btn">Which Scholarships for International Students? <p><span><img
+                                        src="/new-home-images/svg-icons/faq-plus.svg" alt="Plus icon"></span></p>
                         </button>
                         <div class="new-faq-content">Fulbright Program (USA), Chevening Scholarships (United Kingdom), DAAD
                             Scholarships (Germany) and Australia Awards are
@@ -1687,7 +1755,8 @@ Book FREE Counselling
                 <p class="new-cta-text">
                     Start your educational adventure with expert guidance and personalized support.
                 </p>
-                <button class="study-guide-button" style="font-weight: 500;" onclick="openRegistrationModal(event)">Get a Free Consultation!</button>
+                <button class="study-guide-button" style="font-weight: 500;" onclick="openRegistrationModal(event)">Get a
+                    Free Consultation!</button>
             </div>
 
             <div class="new-cta-image-wrapper">

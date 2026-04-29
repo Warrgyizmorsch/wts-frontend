@@ -3,7 +3,8 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Poland for Global Education and Long-Term Career Opportunities</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Poland for Global Education and Long-Term Career
+                Opportunities</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
                 <p>WTS is a leading Study in Poland consultancy in India, offering complete support for choosing the
                     right
@@ -57,6 +58,10 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
             </div>
         </div>
@@ -72,7 +77,13 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top: 30px;">Study in Poland and take the first step toward an affordable, globally recognized education in Europe. Poland has become an increasingly popular destination for international students due to its high-quality education, modern universities, and low cost of living. With internationally accepted degrees, innovative teaching methods, and strong academic standards, Poland offers excellent opportunities for students planning to study in Europe. Choosing to study in Poland for international students means gaining valuable academic exposure while enjoying a rich cultural experience in the heart of Europe.</p>
+                <p style="margin-top: 30px;">Study in Poland and take the first step toward an affordable, globally
+                    recognized education in Europe. Poland has become an increasingly popular destination for international
+                    students due to its high-quality education, modern universities, and low cost of living. With
+                    internationally accepted degrees, innovative teaching methods, and strong academic standards, Poland
+                    offers excellent opportunities for students planning to study in Europe. Choosing to study in Poland for
+                    international students means gaining valuable academic exposure while enjoying a rich cultural
+                    experience in the heart of Europe.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/polandnew.webp" loading="lazy" alt="Study in poland">

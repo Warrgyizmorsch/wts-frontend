@@ -3,11 +3,14 @@
 
     <section class="service-hero">
         <div class="service-hero-content">
-            <h1 class="main-heading" style="font-size: 34px;">Study in Romania – A Gateway to Global Education and Career Success</h1>
+            <h1 class="main-heading" style="font-size: 34px;">Study in Romania – A Gateway to Global Education and Career
+                Success</h1>
             <div style="margin-bottom: 30px; margin-top:10px; text-align: left;">
-                <p>WTS is a leading Study in Romania consultancy in India, offering complete support for choosing the right course and
-                university, securing scholarships, visa approval, and ensuring a seamless transition to academic and professional life
-                in Romania.</p>
+                <p>WTS is a leading Study in Romania consultancy in India, offering complete support for choosing the right
+                    course and
+                    university, securing scholarships, visa approval, and ensuring a seamless transition to academic and
+                    professional life
+                    in Romania.</p>
 
                 <h3 style="color: #FC9118; font-weight: 600; margin-bottom: 14px;">
                     Google Reviews
@@ -54,8 +57,12 @@
                     <p style="font-size: 14px; color: #444; line-height: 1.5; margin-bottom: 14px;">
                         Trusted by 150+ students on Google for expert guidance and smooth study-abroad processing.
                     </p>
+                    <a href="javascript:void(0)" class="study-guide-button js-open-custom-study-modal"
+                        style="text-decoration: none;">
+                        Book Free Consultation
+                    </a>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <!-- Hero Image -->
@@ -69,7 +76,12 @@
         <div class="sub-hero-content">
             <div class="sub-hero-text">
                 <h2 class="new-section-title">Start Your Journey</h2>
-                <p style="margin-top:30px;">Study in Romania and take the first step toward a globally recognized education. Romania offers high-quality academic programs, innovative research opportunities, and strong post-study career prospects. We guide students on Romania university admission, scholarships, and course selection. With its reputable universities and welcoming environment, Romania has become a preferred destination for international students seeking quality education. Students can focus on building a successful academic and professional future in one of Europe’s fastest-growing education hubs.</p>
+                <p style="margin-top:30px;">Study in Romania and take the first step toward a globally recognized education.
+                    Romania offers high-quality academic programs, innovative research opportunities, and strong post-study
+                    career prospects. We guide students on Romania university admission, scholarships, and course selection.
+                    With its reputable universities and welcoming environment, Romania has become a preferred destination
+                    for international students seeking quality education. Students can focus on building a successful
+                    academic and professional future in one of Europe’s fastest-growing education hubs.</p>
             </div>
             <div class="sub-hero-img">
                 <img src="/images/romanianew.webp" loading="lazy" alt="Study in australia">
@@ -78,28 +90,24 @@
     </section>
 
 
-<!-- choose us section -->
-@php
-    $sectionTitle = 'Why Study in Romania?';
-    $sectionDescription = 'Romania has emerged as a top choice for international students due to its affordable, world-class education system, globally recognized degrees, and strong industry exposure. With a safe, English-speaking environment and a growing international student community, study in Romania offers excellent academic opportunities and long-term career growth. For students looking for Romania university for international students, the country provides top-notch programs and cultural diversity.';
+    <!-- choose us section -->
+    @php
+        $sectionTitle = 'Why Study in Romania?';
+        $sectionDescription = 'Romania has emerged as a top choice for international students due to its affordable, world-class education system, globally recognized degrees, and strong industry exposure. With a safe, English-speaking environment and a growing international student community, study in Romania offers excellent academic opportunities and long-term career growth. For students looking for Romania university for international students, the country provides top-notch programs and cultural diversity.';
 
-    $cards = [
-        ['title' => '1. World-Class Education System ', 'desc' => 'Romanian universities are recognized globally for academic excellence, research, and practical learning. Institutions in Romania focus on industry-relevant education, innovation, and skill development, preparing students for successful careers worldwide.'],
-        ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the advantages of studying in Romania is its flexible academic structure. Students can choose programs aligned with industry needs, gaining practical experience through internships, research projects, and hands-on learning opportunities offered by Romania university programs.'],
-        ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Romania welcomes students from all over the world, offering a multicultural campus environment. Studying in such a diverse setting develops global perspectives, strong communication skills, and international networks.'],
-        ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Romania is rapidly growing in sectors like IT, engineering, business, and healthcare. Universities maintain strong ties with industries, offering internships, research projects, and employment guidance that enhance students’ employability.'],
-        ['title' => '5. Research and Innovation ', 'desc' => 'Universities in Romania encourage research and innovation, especially in technology, medicine, and engineering. Students actively participate in projects, gaining valuable academic and professional experience through Romania university for international students programs.'],
-        ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Romania offers various scholarships and funding opportunities to support international students. Students planning to study in Romania can also explore scholarships or financial aid options available for tuition and living expenses.'],
-        ['title' => '7. International Student Support Services  ', 'desc' => 'Romanian universities provide excellent support services, including academic advising, career counseling, health services, and cultural integration programs. These help international students adjust smoothly to life in Romania.'],
-    ];
-@endphp
-<x-choose-us 
-    :section-title="$sectionTitle" 
-    :section-description="$sectionDescription" 
-    :cards="$cards" 
-/>
+        $cards = [
+            ['title' => '1. World-Class Education System ', 'desc' => 'Romanian universities are recognized globally for academic excellence, research, and practical learning. Institutions in Romania focus on industry-relevant education, innovation, and skill development, preparing students for successful careers worldwide.'],
+            ['title' => '2. Flexible and Career-Oriented Programs ', 'desc' => 'One of the advantages of studying in Romania is its flexible academic structure. Students can choose programs aligned with industry needs, gaining practical experience through internships, research projects, and hands-on learning opportunities offered by Romania university programs.'],
+            ['title' => '3. Cultural Diversity and Global Exposure ', 'desc' => 'Romania welcomes students from all over the world, offering a multicultural campus environment. Studying in such a diverse setting develops global perspectives, strong communication skills, and international networks.'],
+            ['title' => '4. Career Opportunities and Industry Exposure ', 'desc' => 'Romania is rapidly growing in sectors like IT, engineering, business, and healthcare. Universities maintain strong ties with industries, offering internships, research projects, and employment guidance that enhance students’ employability.'],
+            ['title' => '5. Research and Innovation ', 'desc' => 'Universities in Romania encourage research and innovation, especially in technology, medicine, and engineering. Students actively participate in projects, gaining valuable academic and professional experience through Romania university for international students programs.'],
+            ['title' => '6. Scholarships and Financial Assistance ', 'desc' => 'Romania offers various scholarships and funding opportunities to support international students. Students planning to study in Romania can also explore scholarships or financial aid options available for tuition and living expenses.'],
+            ['title' => '7. International Student Support Services  ', 'desc' => 'Romanian universities provide excellent support services, including academic advising, career counseling, health services, and cultural integration programs. These help international students adjust smoothly to life in Romania.'],
+        ];
+    @endphp
+    <x-choose-us :section-title="$sectionTitle" :section-description="$sectionDescription" :cards="$cards" />
 
-@include('./components/stats')
+    @include('./components/stats')
 
 
     <!-- universities section -->
@@ -149,14 +157,14 @@
             ],
         ];
         $universitySection = [
-        'heading' => 'Top Universities in Romania',
-        'highlight' => '',
-        'sub_heading' => 'Romania is home to prestigious universities known for academic excellence and research. Romania university admission is open for international students across these top institutions:',
-        'footer' => ''
-    ];
+            'heading' => 'Top Universities in Romania',
+            'highlight' => '',
+            'sub_heading' => 'Romania is home to prestigious universities known for academic excellence and research. Romania university admission is open for international students across these top institutions:',
+            'footer' => ''
+        ];
     @endphp
 
-    <x-universities :universities="$universities" :universitySection="$universitySection"/>
+    <x-universities :universities="$universities" :universitySection="$universitySection" />
 
     <!-- course section  -->
     @php
@@ -168,18 +176,14 @@
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [
-        'title' => 'Popular Courses to Study in Romania',
-        'desc' => 'Romanian universities offer a wide range of globally recognized programs across multiple fields. These programs are designed to meet industry requirements and ensure strong career outcomes.',
-        'footer' => '',
-    ];
+            'title' => 'Popular Courses to Study in Romania',
+            'desc' => 'Romanian universities offer a wide range of globally recognized programs across multiple fields. These programs are designed to meet industry requirements and ensure strong career outcomes.',
+            'footer' => '',
+        ];
     @endphp
 
-<x-courses 
-    :courses="$courses" 
-    :title="$courseContent['title']"
-    :desc="$courseContent['desc']"
-    :footer="$courseContent['footer']"
-/>
+    <x-courses :courses="$courses" :title="$courseContent['title']" :desc="$courseContent['desc']"
+        :footer="$courseContent['footer']" />
 
 
     <!-- cost of living section  -->
@@ -194,84 +198,79 @@
         $description = "";
 
         $ukCostOfLiving = [
-        'heading' => 'Cost of Studying in Romania',
-        'description' => 'Studying in Romania is affordable compared to other European countries. Proper financial planning, scholarships, or personal funding ensures smooth academic progress.',
+            'heading' => 'Cost of Studying in Romania',
+            'description' => 'Studying in Romania is affordable compared to other European countries. Proper financial planning, scholarships, or personal funding ensures smooth academic progress.',
         ];
         $livingFees = [
-                ['label' => 'Housing', 'value' => '€2,500 – €5,000', 'note' => 'Shared apartments reduce costs'],
-                ['label' => 'Food', 'value' => '€1,500 – €2,500', 'note' => 'Cooking at home is cheaper'],
-                ['label' => 'Transportation', 'value' => '€400 – €700', 'note' => 'Public transport with student cards'],
-                ['label' => 'Personal Expenses', 'value' => '€600 – €1,000', 'note' => 'Utilities and leisure'],
-                ['label' => 'Total', 'value' => '€5,000 – €9,000', 'note' => 'Costs vary by city'],
-            ];
+            ['label' => 'Housing', 'value' => '€2,500 – €5,000', 'note' => 'Shared apartments reduce costs'],
+            ['label' => 'Food', 'value' => '€1,500 – €2,500', 'note' => 'Cooking at home is cheaper'],
+            ['label' => 'Transportation', 'value' => '€400 – €700', 'note' => 'Public transport with student cards'],
+            ['label' => 'Personal Expenses', 'value' => '€600 – €1,000', 'note' => 'Utilities and leisure'],
+            ['label' => 'Total', 'value' => '€5,000 – €9,000', 'note' => 'Costs vary by city'],
+        ];
         $ukCostOfLivingRight = [
             'heading' => 'Living Expenses in Romania for Indian Students',
             'description' => 'The cost of living in Romania is moderate and depends on the city and lifestyle. On average, international students spend between €5,000 – €9,000 per year.',
         ];
     @endphp
-<x-cost-of-living 
-    :tuitionFees="$tuitionFees" 
-    :description="$description" 
-    :ukCostOfLiving="$ukCostOfLiving" 
-    :livingFees="$livingFees"
-    :ukCostOfLivingRight="$ukCostOfLivingRight"
-/>
+    <x-cost-of-living :tuitionFees="$tuitionFees" :description="$description" :ukCostOfLiving="$ukCostOfLiving"
+        :livingFees="$livingFees" :ukCostOfLivingRight="$ukCostOfLivingRight" />
     <!-- scholarship section -->
     @php
-    $scholarship = [
-        'title' => 'Student Life in Romania: What to Expect?',
-        'desc' => 'Student life in Romania is vibrant and engaging. Universities offer cultural events, clubs, sports, and student societies to help international students feel at home. Friendly locals, safe cities, and strong academic support make Romania an ideal destination for those who want to study in Romania and build a global career. Romania university for international students programs provide guidance and opportunities to balance academics and personal growth.',
-        'footer' => '',
-        'guide_title' => 'How to Apply for Universities in Romania?',
-        'guide_steps' => [
-            'Research and Select Universities: Choose programs that match your academic and career goals.',
-            'Meet Entry Requirements: Academic qualifications and English proficiency (or Romanian, depending on program) are required.',
-            'Prepare Application Documents: Academic transcripts, statement of purpose, and recommendation letters.',
-            'Check Application Deadlines: Deadlines vary by university and intake.',
-            'Receive Offer Letter: Conditional or unconditional admission from the Romania university.',
-            'Confirm Admission and Apply for Visa: Accept the offer and apply for a student visa to study in Romania.',
-        ],
-        'image' => 'images/whattoexpect.avif'
-    ];
+        $scholarship = [
+            'title' => 'Student Life in Romania: What to Expect?',
+            'desc' => 'Student life in Romania is vibrant and engaging. Universities offer cultural events, clubs, sports, and student societies to help international students feel at home. Friendly locals, safe cities, and strong academic support make Romania an ideal destination for those who want to study in Romania and build a global career. Romania university for international students programs provide guidance and opportunities to balance academics and personal growth.',
+            'footer' => '',
+            'guide_title' => 'How to Apply for Universities in Romania?',
+            'guide_steps' => [
+                'Research and Select Universities: Choose programs that match your academic and career goals.',
+                'Meet Entry Requirements: Academic qualifications and English proficiency (or Romanian, depending on program) are required.',
+                'Prepare Application Documents: Academic transcripts, statement of purpose, and recommendation letters.',
+                'Check Application Deadlines: Deadlines vary by university and intake.',
+                'Receive Offer Letter: Conditional or unconditional admission from the Romania university.',
+                'Confirm Admission and Apply for Visa: Accept the offer and apply for a student visa to study in Romania.',
+            ],
+            'image' => 'images/whattoexpect.avif'
+        ];
     @endphp
-    <x-scholarship :scholarship="$scholarship"/>
- 
+    <x-scholarship :scholarship="$scholarship" />
+
     <!-- document section -->
     @php
-    $documentContent = [
-    'title' => 'Documents Required to Study in Romania',
-    'desc' => 'Students planning to study in Romania from India should prepare the following:',
-    'list' => [
-        'Academic Transcripts',
-        'English Proficiency Test Scores (IELTS / TOEFL / PTE)',
-        'Letters of Recommendation',
-        'Statement of Purpose',
-        'Valid Passport',
-        'Financial Proof or Bank Statement',
-        'Offer Letter from an Approved Romania university for international students',
-        ]
-    ];
+        $documentContent = [
+            'title' => 'Documents Required to Study in Romania',
+            'desc' => 'Students planning to study in Romania from India should prepare the following:',
+            'list' => [
+                'Academic Transcripts',
+                'English Proficiency Test Scores (IELTS / TOEFL / PTE)',
+                'Letters of Recommendation',
+                'Statement of Purpose',
+                'Valid Passport',
+                'Financial Proof or Bank Statement',
+                'Offer Letter from an Approved Romania university for international students',
+            ]
+        ];
 
-    $guideContent = [
-    'title' => 'Romania Study Visa Process: Step-by-Step Guide',
-    'desc' => 'To study in Romania, international students need a study visa. The process is simple and involves the following steps:',
-    'list' => [
-        'Receive Offer Letter from an Approved University: Admission from a recognized Romania university is mandatory.',
-        'Pay Tuition Fee Deposit: Confirm your seat by paying the required deposit.',
-        'Arrange Financial Proof: Show sufficient funds to cover tuition and living expenses.',
-        'Complete Online Visa Application: Apply for a Romania student visa through the official portal.',
-        'Submit Documents and Biometrics: Provide passport, offer letter, financial proof, and other required documents at the nearest Romanian Embassy.',
-        'Visa Approval and Travel: Once approved, travel to Romania and register with local authorities.',
-        ],
-    'footer' => 'Following these steps ensures students planning to study in Hungary for international students have a smooth and hassle-free process.'
-    ];
+        $guideContent = [
+            'title' => 'Romania Study Visa Process: Step-by-Step Guide',
+            'desc' => 'To study in Romania, international students need a study visa. The process is simple and involves the following steps:',
+            'list' => [
+                'Receive Offer Letter from an Approved University: Admission from a recognized Romania university is mandatory.',
+                'Pay Tuition Fee Deposit: Confirm your seat by paying the required deposit.',
+                'Arrange Financial Proof: Show sufficient funds to cover tuition and living expenses.',
+                'Complete Online Visa Application: Apply for a Romania student visa through the official portal.',
+                'Submit Documents and Biometrics: Provide passport, offer letter, financial proof, and other required documents at the nearest Romanian Embassy.',
+                'Visa Approval and Travel: Once approved, travel to Romania and register with local authorities.',
+            ],
+            'footer' => 'Following these steps ensures students planning to study in Hungary for international students have a smooth and hassle-free process.'
+        ];
     @endphp
     <x-documents :documentContent="$documentContent" :guideContent="$guideContent" />
 
     @include('./components/cta-button')
 
     <!-- faq section  -->
-     @php
+    @php
         $faqs = [
             [
                 "question" => "1.	Is Romania a good country for international students?",
