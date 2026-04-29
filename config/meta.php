@@ -37,8 +37,8 @@ return [
             'keywords' => '',
         ],
         'course_selection' => [
-            'title' => 'Expert Course Selection for Study Abroad | Visa Consultancy',
-            'description' => 'Get expert guidance on course selection for studying abroad. Find the best programs suited to your career goals with our trusted visa consultancy services.',
+            'title' => 'Course Selection Guidance for Study Abroad | Expert Help',
+            'description' => 'Get expert course selection guidance for studying abroad. Choose the right program based on your career goals, budget, and eligibility with professional support.',
             'keywords' => '',
         ],
         'getting_admission' => [
@@ -57,8 +57,8 @@ return [
             'keywords' => '',
         ],
         'visa_assistance' => [
-            'title' => 'Visa Assistance Services | Expert Guidance for Fast Visa Approval',
-            'description' => 'Get expert student visa assistance for smooth processing, correct documentation, and fast approvals. Start your international education journey today!',
+            'title' => 'Study Visa Consultants in India | Expert Student Visa Help',
+            'description' => 'Find trusted study visa consultants in India for fast approval. Get expert guidance on documents, application process, and university admission support today.',
             'keywords' => '',
         ],
         'free_profile_evaluation' => [
@@ -118,7 +118,7 @@ return [
             'description' => 'Planning to study in the UK from India? Explore higher education in the UK with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-       
+
         'ireland' => [
             'title' => 'Study in Ireland for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Ireland from India? Explore higher education in Ireland with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
@@ -144,7 +144,7 @@ return [
             'description' => 'Planning to study in Singapore from India? Explore higher education in Singapore with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'switzerland' => [
+        'switzerland' => [
             'title' => 'Study in Switzerland for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Switzerland from India? Explore higher education in Switzerland with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
@@ -164,358 +164,358 @@ return [
             'description' => 'Planning to study in Italy from India? Explore higher education in Italy with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'finland'=> [
+        'finland' => [
             'title' => 'Study in Finland for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Finland from India? Explore higher education in Finland with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'poland'=> [
+        'poland' => [
             'title' => 'Study in Poland for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Poland from India? Explore higher education in Poland with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'russia'=> [
+        'russia' => [
             'title' => 'Study in Russia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Russia from India? Explore higher education in Russia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'sweden'=> [
+        'sweden' => [
             'title' => 'Study in Sweden for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Sweden from India? Explore higher education in Sweden with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'austria'=> [
+        'austria' => [
             'title' => 'Study in Austria for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Austria from India? Explore higher education in Austria with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'denmark'=> [
+        'denmark' => [
             'title' => 'Study in Denmark for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Denmark from India? Explore higher education in Denmark with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'norway'=> [
+        'norway' => [
             'title' => 'Study in Norway for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Norway from India? Explore higher education in Norway with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'cyprus'=> [
+        'cyprus' => [
             'title' => 'Study in Cyprus for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Cyprus from India? Explore higher education in Cyprus with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'latvia'=> [
+        'latvia' => [
             'title' => 'Study in Latvia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Latvia from India? Explore higher education in Latvia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'luxembourg'=> [
+        'luxembourg' => [
             'title' => 'Study in Luxembourg for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Luxembourg from India? Explore higher education in Luxembourg with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        'malta'=> [
+        'malta' => [
             'title' => 'Study in Malta for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Malta from India? Explore higher education in Malta with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'georgia'=> [
+        'georgia' => [
             'title' => 'Study in Georgia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Georgia from India? Explore higher education in Georgia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'lithuania'=> [
+        'lithuania' => [
             'title' => 'Study in Lithuania for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Lithuania from India? Explore higher education in Lithuania with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'czechrepublic'=> [
+        'czechrepublic' => [
             'title' => 'Study in Czech Republic for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Czech Republic from India? Explore higher education in Czech Republic with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'hungary'=> [
+        'hungary' => [
             'title' => 'Study in Hungary for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Hungary from India? Explore higher education in Hungary with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'romania'=> [
+        'romania' => [
             'title' => 'Study in Romania for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Romania from India? Explore higher education in Romania with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'belgium'=> [
+        'belgium' => [
             'title' => 'Study in Belgium for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Belgium from India? Explore higher education in Belgium with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'estonia'=> [
+        'estonia' => [
             'title' => 'Study in Estonia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Estonia from India? Explore higher education in Estonia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'greece'=> [
+        'greece' => [
             'title' => 'Study in Greece for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Greece from India? Explore higher education in Greece with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'portugal'=> [
+        'portugal' => [
             'title' => 'Study in Portugal for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Portugal from India? Explore higher education in Portugal with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'slovenia'=> [
+        'slovenia' => [
             'title' => 'Study in Slovenia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Slovenia from India? Explore higher education in Slovenia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'iceland'=> [
+        'iceland' => [
             'title' => 'Study in Iceland for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Iceland from India? Explore higher education in Iceland with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'turkey'=> [
+        'turkey' => [
             'title' => 'Study in Turkey for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Turkey from India? Explore higher education in Turkey with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'slovakia'=> [
+        'slovakia' => [
             'title' => 'Study in Slovakia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Slovakia from India? Explore higher education in Slovakia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'belarus'=> [
+        'belarus' => [
             'title' => 'Study in Belarus for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Belarus from India? Explore higher education in Belarus with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'bulgaria'=> [
+        'bulgaria' => [
             'title' => 'Study in Bulgaria for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Bulgaria from India? Explore higher education in Bulgaria with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'croatia'=> [
+        'croatia' => [
             'title' => 'Study in Croatia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Croatia from India? Explore higher education in Croatia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'kazakhstan'=> [
+        'kazakhstan' => [
             'title' => 'Study in Kazakhstan for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Kazakhstan from India? Explore higher education in Kazakhstan with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'monaco'=> [
+        'monaco' => [
             'title' => 'Study in Monaco for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Monaco from India? Explore higher education in Monaco with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'liechtenstein'=> [
+        'liechtenstein' => [
             'title' => 'Study in Liechtenstein for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Liechtenstein from India? Explore higher education in Liechtenstein with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'moldova'=> [
+        'moldova' => [
             'title' => 'Study in Moldova for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Moldova from India? Explore higher education in Moldova with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'serbia'=> [
+        'serbia' => [
             'title' => 'Study in Serbia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Serbia from India? Explore higher education in Serbia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'ukraine'=> [
+        'ukraine' => [
             'title' => 'Study in Ukraine for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Ukraine from India? Explore higher education in Ukraine with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'albania'=> [
+        'albania' => [
             'title' => 'Study in Albania for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Albania from India? Explore higher education in Albania with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'azerbaijan'=> [
+        'azerbaijan' => [
             'title' => 'Study in Azerbaijan for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Azerbaijan from India? Explore higher education in Azerbaijan with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'armenia'=> [
+        'armenia' => [
             'title' => 'Study in Armenia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Armenia from India? Explore higher education in Armenia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'bosnia'=> [
+        'bosnia' => [
             'title' => 'Study in Bosnia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Bosnia from India? Explore higher education in Bosnia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'andorra'=> [
+        'andorra' => [
             'title' => 'Study in Andorra for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Andorra from India? Explore higher education in Andorra with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'kosovo'=> [
+        'kosovo' => [
             'title' => 'Study in Kosovo for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Kosovo from India? Explore higher education in Kosovo with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'montenegro'=> [
+        'montenegro' => [
             'title' => 'Study in Montenegro for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Montenegro from India? Explore higher education in Montenegro with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'northmacedonia'=> [
+        'northmacedonia' => [
             'title' => 'Study in North Macedonia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in North Macedonia from India? Explore higher education in North Macedonia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'sanmarino'=> [
+        'sanmarino' => [
             'title' => 'Study in San Marino for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in San Marino from India? Explore higher education in San Marino with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'vaticancity'=> [
+        'vaticancity' => [
             'title' => 'Study in Vatican City for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Vatican City from India? Explore higher education in Vatican City with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'saudiarabia'=> [
+        'saudiarabia' => [
             'title' => 'Study in Saudi Arabia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Saudi Arabia from India? Explore higher education in Saudi Arabia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'japan'=> [
+        'japan' => [
             'title' => 'Study in Japan for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Japan from India? Explore higher education in Japan with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'china'=> [
+        'china' => [
             'title' => 'Study in China for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in China from India? Explore higher education in China with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'malaysia'=> [
+        'malaysia' => [
             'title' => 'Study in Malaysia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Malaysia from India? Explore higher education in Malaysia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'southkorea'=> [
+        'southkorea' => [
             'title' => 'Study in South Korea for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in South Korea from India? Explore higher education in South Korea with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'taiwan'=> [
+        'taiwan' => [
             'title' => 'Study in Taiwan for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Taiwan from India? Explore higher education in Taiwan with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'philippines'=> [
+        'philippines' => [
             'title' => 'Study in Philippines for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Philippines from India? Explore higher education in Philippines with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'thailand'=> [
+        'thailand' => [
             'title' => 'Study in Thailand for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Thailand from India? Explore higher education in Thailand with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'israel'=> [
+        'israel' => [
             'title' => 'Study in Israel for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Israel from India? Explore higher education in Israel with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'vietnam'=> [
+        'vietnam' => [
             'title' => 'Study in Vietnam for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Vietnam from India? Explore higher education in Vietnam with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'iran'=> [
+        'iran' => [
             'title' => 'Study in Iran for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Iran from India? Explore higher education in Iran with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'uzbekistan'=> [
+        'uzbekistan' => [
             'title' => 'Study in Uzbekistan for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Uzbekistan from India? Explore higher education in Uzbekistan with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'indonesia'=> [
+        'indonesia' => [
             'title' => 'Study in Indonesia for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Indonesia from India? Explore higher education in Indonesia with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'iraq'=> [
+        'iraq' => [
             'title' => 'Study in Iraq for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Iraq from India? Explore higher education in Iraq with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'kuwait'=> [
+        'kuwait' => [
             'title' => 'Study in Kuwait for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Kuwait from India? Explore higher education in Kuwait with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'qatar'=> [
+        'qatar' => [
             'title' => 'Study in Qatar for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Qatar from India? Explore higher education in Qatar with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'kyrgyzstan'=> [
+        'kyrgyzstan' => [
             'title' => 'Study in Kyrgyzstan for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Kyrgyzstan from India? Explore higher education in Kyrgyzstan with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-         'oman'=> [
+        'oman' => [
             'title' => 'Study in Oman for Indian Students 2026 - Free Counselling',
             'description' => 'Planning to study in Oman from India? Explore higher education in Oman with the right guidance on colleges, courses, and scholarships. Begin your education journey with clarity.',
             'keywords' => '',
         ],
-        
+
         //policy
-        'privacy_policy'=>[
+        'privacy_policy' => [
             'title' => 'Privacy Policy | Secure Data Use at WTS Visa Consultancy',
-            'description' =>  'Learn how wtsvisa.com protects your personal data during visa applications. Discover our secure practices, cookie use, and your rights as a user.',
+            'description' => 'Learn how wtsvisa.com protects your personal data during visa applications. Discover our secure practices, cookie use, and your rights as a user.',
             'keywords' => '',
         ],
-        'terms_of_service'=>[
+        'terms_of_service' => [
             'title' => 'WTS Visa Consultancy | Terms & Conditions of Service',
             'description' => 'Discover the terms of using WTS Visa Consultancy’s services. Learn your rights, responsibilities, and our legal policies before using our platform.',
             'keywords' => '',
         ],
 
         // landing-pages
-        'study_abroad_consultant'=>[
+        'study_abroad_consultant' => [
             'title' => 'Best Overseas Education Consultants for Students | WTS',
             'description' => 'Get expert guidance from trusted study abroad and foreign education consultants. Country selection, universities, scholarships & visa support - all in one place.',
             'keywords' => '',
         ],
-        'study_abroad_consultant_v1'=>[
+        'study_abroad_consultant_v1' => [
             'title' => 'WTS - Trusted Study Abroad Consultant',
             'description' => 'Get expert study abroad guidance and support with WTS.',
             'keywords' => '',
         ],
 
         // informational-pages
-        'study-abroad'=>[
+        'study-abroad' => [
             'title' => 'Study Abroad - Your Gateway to a Global Future | WTS Visa',
             'description' => 'Discover study abroad opportunities that open doors to global education and career growth. Start your journey with expert guidance from WTS Visa today for you.',
             'keywords' => '',
         ],
-        'cost-of-living'=>[
+        'cost-of-living' => [
             'title' => 'Complete Study Abroad Cost of Living Guide with Key Details',
             'description' => 'Explore essential cost-of-living details, including housing, food, transport, utilities, and daily expenses, to help you plan and manage your study abroad journey.',
             'keywords' => '',
         ],
-        'letter-of-recommendation'=>[
+        'letter-of-recommendation' => [
             'title' => 'Letter of Recommendation Guide for University Applications',
             'description' => 'Learn how a strong Letter of Recommendation can boost your application. Understand its purpose, format, key elements, and tips to create impactful academic references.',
             'keywords' => '',
         ],
-        'ielts-training'=>[
+        'ielts-training' => [
             'title' => 'IELTS Training Guide to Achieve High Band Scores',
             'description' => 'Enhance your English skills and achieve your desired IELTS band score. Get tips, strategies, and guidance to succeed in all sections of the IELTS exam.',
             'keywords' => '',
         ],
-        'career-counseling'=>[
+        'career-counseling' => [
             'title' => 'Career Counseling Guide to Choose the Right Path',
             'description' => 'Get expert guidance to explore career options, make informed decisions, and plan your professional journey effectively with personalized career counseling tips.',
             'keywords' => '',
