@@ -456,43 +456,47 @@
             <!-- LEFT: wide column -->
             <div class="new-blog-left-col">
                 @if($blogs->first())
-                    @php $featured = $blogs->first(); @endphp
-                    <div class="new-blog-card">
-                        <a href="{{ url('/blog', $featured->slug) }}">
-                            <img src="{{ asset($featured->images) }}" alt="{{ $featured->title }}" class="new-blog-card-img">
-                        </a>
-                        <div class="new-blog-card-body">
-                            <div class="new-blog-meta">{{ $featured->created_at->format('F j, Y') }}</div>
-                            <h2 class="new-blog-card-title">
-                                <a href="{{ url('/blog', $featured->slug) }}">{{ $featured->title }}</a>
-                            </h2>
-                            <p class="new-blog-card-text">
-                                {{ Str::limit(strip_tags($featured->content), 140, '…') }}
-                            </p>
-                            <a href="{{ url('/blog', $featured->slug) }}" class="new-blog-custom-btn">Read more</a>
-                        </div>
-                    </div>
+                                @php $featured = $blogs->first(); @endphp
+                                <div class="new-blog-card">
+                                    <a href="{{ url('/blog', $featured->slug) }}">
+                                        <img src="{{ $featured->images
+        ? config('app.backend_url') . '/' . ltrim($featured->images, '/')
+        : config('app.backend_url') . '/default.jpg' }}" alt="{{ $featured->title }}" class="new-blog-card-img">
+                                    </a>
+                                    <div class="new-blog-card-body">
+                                        <div class="new-blog-meta">{{ $featured->created_at->format('F j, Y') }}</div>
+                                        <h2 class="new-blog-card-title">
+                                            <a href="{{ url('/blog', $featured->slug) }}">{{ $featured->title }}</a>
+                                        </h2>
+                                        <p class="new-blog-card-text">
+                                            {{ Str::limit(strip_tags($featured->content), 140, '…') }}
+                                        </p>
+                                        <a href="{{ url('/blog', $featured->slug) }}" class="new-blog-custom-btn">Read more</a>
+                                    </div>
+                                </div>
                 @endif
 
                 <!-- Remaining posts: two per row -->
                 <div id="blog-container" class="new-blog-card-grid">
                     @foreach ($blogs->skip(1) as $blog)
-                        <div class="new-blog-card new-blog-card-sm">
-                            <a href="{{ url('/blog', $blog->slug) }}">
-                                <img src="{{ asset($blog->images) }}" alt="{{ $blog->title }}" class="new-blog-card-img">
-                            </a>
-                            <div class="new-blog-card-body">
-                                <div class="new-blog-meta">{{ $blog->created_at->format('F j, Y') }}</div>
-                                <h3 class="new-blog-card-title" style="font-size:16px;">
-                                    <a href="{{ url('/blog', $blog->slug) }}">{{ $blog->title }}</a>
-                                </h3>
-                                <p class="new-blog-card-text">
-                                    {{ Str::limit(strip_tags($blog->content), 100, '…') }}
-                                </p>
-                                <a href="{{ url('/blog', $blog->slug) }}" class="new-blog-custom-btn"
-                                    style="background:#fff;color:#FC9118;border:1px solid #FC9118;box-shadow:none;">Read</a>
-                            </div>
-                        </div>
+                                        <div class="new-blog-card new-blog-card-sm">
+                                            <a href="{{ url('/blog', $blog->slug) }}">
+                                                <img src="{{ $blog->images
+                        ? config('app.backend_url') . '/' . ltrim($blog->images, '/')
+                        : config('app.backend_url') . '/default.jpg' }}" alt="{{ $blog->title }}" class="new-blog-card-img">
+                                            </a>
+                                            <div class="new-blog-card-body">
+                                                <div class="new-blog-meta">{{ $blog->created_at->format('F j, Y') }}</div>
+                                                <h3 class="new-blog-card-title" style="font-size:16px;">
+                                                    <a href="{{ url('/blog', $blog->slug) }}">{{ $blog->title }}</a>
+                                                </h3>
+                                                <p class="new-blog-card-text">
+                                                    {{ Str::limit(strip_tags($blog->content), 100, '…') }}
+                                                </p>
+                                                <a href="{{ url('/blog', $blog->slug) }}" class="new-blog-custom-btn"
+                                                    style="background:#fff;color:#FC9118;border:1px solid #FC9118;box-shadow:none;">Read</a>
+                                            </div>
+                                        </div>
                     @endforeach
                 </div>
 

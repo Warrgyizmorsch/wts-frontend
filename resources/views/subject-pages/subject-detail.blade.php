@@ -485,7 +485,7 @@
             padding: 20px 0;
 
             @if($isValidImage)
-                background-image: url('{{ asset($image) }}');
+                background-image: url('{{ config('app.backend_url') . '/' . ltrim($image, '/') }}');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;

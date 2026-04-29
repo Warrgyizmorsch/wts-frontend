@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'backend_url' => env('BACKEND_URL', 'http://localhost:8000'),
+
 ];

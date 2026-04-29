@@ -191,7 +191,10 @@
             <div class="swiper-slide">
                 <article class="blog-card">
                     <div class="media">
-                        <img src="{{ asset($blog->images) }}" alt="{{ $blog->title }}">
+                        <img src="{{ $blog->images 
+                            ? config('app.backend_url') . '/' . ltrim($blog->images, '/') 
+                            : config('app.backend_url') . '/default.jpg' }}" 
+                            alt="{{ $blog->title }}">
                         <div class="date">{{ \Carbon\Carbon::parse($blog->created_at)->format('d M Y') }}</div>
                     </div>
                     <div class="content">

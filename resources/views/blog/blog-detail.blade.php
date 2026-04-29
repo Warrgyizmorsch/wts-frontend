@@ -84,7 +84,7 @@
 
             /* Content */
             .new-blog-content { color:#262633; font-size: 16px; line-height: 1.65; }
-            .new-blog-content p { margin-bottom: 5px; text-align: justify; }
+            .new-blog-content p { margin-bottom: 5px; text-align: left; }
             .new-blog-content img { width: 100%; height: auto; display: block; border-radius: 8px; }
             .new-blog-content table {
               width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px;
@@ -206,7 +206,7 @@
 
     /* Fix tables properly */
     .new-blog-content table {
-      display: block;
+      /* display: block; */
       overflow-x: auto;
       width: 100%;
     }
@@ -258,7 +258,9 @@
                       <div class="new-blog-meta">{{ \Carbon\Carbon::parse($data['blog']['created_at'])->format('F j, Y') }}</div>
                     </div>
                     @if(!empty($data['blog']['images']))
-                      <img src="{{ asset($data['blog']['images']) }}" alt="{{ $data['blog']['title'] }}" class="new-blog-hero-img">
+                        <img src="{{ config('app.backend_url') . '/' . ltrim($data['blog']['images'], '/') }}" 
+                            alt="{{ $data['blog']['title'] }}" 
+                            class="new-blog-hero-img">
                     @endif
                     <div class="new-blog-card-body">
                       <div class="new-blog-content">

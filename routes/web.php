@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\CRM\BlogController;
-use App\Http\Controllers\CRM\SubjectPageController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\SubjectPageController;
 use App\Http\Controllers\MasterController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MailController;

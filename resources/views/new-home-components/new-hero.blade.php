@@ -6,87 +6,10 @@
         <div class="swiper-wrapper">
             <!-- 1st Slide  -->
             <div class="swiper-slide">
-
-                <div class="hero-content-wrapper">
-
-                    <div class="home-hero-content">
-                        <h2 class="hero-title">
-                            <span
-                                style="font-size: 2.7rem; font-weight: bold; line-height: 2.7rem; text-align: left; color: black;">
-                                Study <br>Beyond Borders</span> <br>
-                            <span style="color: #FC9118;">Take the First Step</span><br class="hide-on-mobile" />
-                            Towards Global Education
-                        </h2>
-
-
-                        <ul class="custom-bullets">
-                            <li>From planning to placement</li>
-                            <li>One partner. Full support</li>
-                            <li>Guided. Trusted. Global.</li>
-                        </ul>
-
-
-                        <div style="margin-bottom: 30px; text-align: left;">
-                            <h3 style="color: #FC9118; font-weight: 600; text-align: left">Contact Us: </h3>
-                            <a href="https://wa.me/919116076837?text=Hi%2C%20I%E2%80%99m%20looking%20for%20visa%20consultation%20services.%20Can%20you%20please%20assist%20me%20with%20the%20next%20steps%3F"
-                                target="_blank" class="study-guide-button" style="display: inline-flex; align-items: center; gap: 6px;
-                                        background-color: #25D366; /* WhatsApp green */
-                                        color: #fff; 
-                                        border: 2px solid #fff;
-                                        border-radius: 11px;
-                                        padding: 10px 16px;
-                                        font-size: 18px;
-                                        font-weight: 600;
-                                        text-align: left;
-                                        text-decoration: none;
-                                        transition: all 0.3s ease-in-out;">
-                                <img src="/new-home-images/svg-icons/black-whatsapp.svg" alt="WhatsApp"
-                                    style="height: 28px; filter: brightness(0) invert(1);">
-                                +91 9116076837
-                            </a>
-                            <!-- <a href="https://wa.me/919116076837?text=Hi%2C%20I%E2%80%99m%20looking%20for%20visa%20consultation%20services.%20Can%20you%20please%20assist%20me%20with%20the%20next%20steps%3F" target="_blank"
-                                style="display: flex; align-items: center; gap: 6px; font-size: 18px; color: black; text-decoration: none; font-weight: 600;"><span><img
-                                        src="/new-home-images/svg-icons/black-whatsapp.svg" alt="" style="height: 30px;"></span> +91 9116076837</a> -->
-                        </div>
-                    </div>
-
-                    <div class="map-container">
-                        <img src="new-home-images/hero-img.webp" alt="hero-img" class="map-image" fetchpriority="high"
-                            width="800" height="500">
-
-                        <a href="/services/post-landing-services">
-                            <div class="card-country UK-card">
-                                <p class="hero-card-title">Accommodation Support</p>
-                                <p class="hero-card-description">Assistance with finding suitable housing</p>
-                            </div>
-                        </a>
-
-                        <a href="/services/travel-arrangements">
-                            <div class="card-country usa-card">
-                                <p class="hero-card-title">Airport Pickup</p>
-                                <p class="hero-card-description">Reliable Pickup from airports</p>
-                            </div>
-                        </a>
-
-                        <a href="/services/visa-assistance">
-                            <div class="card-country canada-card">
-                                <p class="hero-card-title">University Virtual Tour</p>
-                                <p class="hero-card-description">Step inside your Future, virtually!</p>
-                            </div>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- 2nd Slide  -->
-            <div class="swiper-slide">
                 <div class="hero-second-slide-wrapper">
                     <div class="hero-second-slide-content">
                         <h1 class="hero-second-slide-title">
-                            <span
-                                style="font-size: 2.7rem; font-weight: bold; line-height: 2.7rem; text-align: left; color: black;">
+                            <span style="font-size: 2.7rem; font-weight: bold; line-height: 2.7rem; text-align: left; color: black;">
                                 Best <br>Study Abroad</span><br>
                             <span style="color: #FC9118;">Consultants for</span> <br /> Global Education
                         </h1>
@@ -95,30 +18,30 @@
                             <li>Scholarship guidance</li>
                             <li>Visa & documentation assistance</li>
                         </ul>
-
+                
                         <div style="margin-bottom: 30px; text-align: left;">
-                            <h3 style="color: #FC9118; font-weight: 600; text-align: left">Contact Us: </h3>
+                            <h3 style="color: #FC9118; font-weight: 600; text-align: left">Book Free Consultant: </h3>
                             <a href="https://wa.me/919116076837?text=Hi%2C%20I%E2%80%99m%20looking%20for%20visa%20consultation%20services.%20Can%20you%20please%20assist%20me%20with%20the%20next%20steps%3F"
                                 class="study-guide-button" target="_blank" style="display: inline-flex; align-items: center; gap: 6px;
-                                        background-color: #25D366; /* WhatsApp green */
-                                        color: #fff; 
-                                        border: 2px solid #fff;
-                                        border-radius: 11px;
-                                        padding: 10px 16px;
-                                        font-size: 18px;
-                                        font-weight: 600;
-                                        text-align: left;
-                                        text-decoration: none;
-                                        transition: all 0.3s ease-in-out;">
+                                                        background-color: #25D366; /* WhatsApp green */
+                                                        color: #fff; 
+                                                        border: 2px solid #fff;
+                                                        border-radius: 11px;
+                                                        padding: 10px 16px;
+                                                        font-size: 18px;
+                                                        font-weight: 600;
+                                                        text-align: left;
+                                                        text-decoration: none;
+                                                        transition: all 0.3s ease-in-out;">
                                 <img src="/new-home-images/svg-icons/black-whatsapp.svg" alt="WhatsApp"
                                     style="height: 28px; filter: brightness(0) invert(1);">
                                 +91 9116076837
                             </a>
                         </div>
-
-
+                
+                
                     </div>
-
+                
                     <!-- Floating Cards -->
                     <a href="/services/counseling-with-an-expert">
                         <div class="hero-second-slide-card alumni-card">
@@ -126,20 +49,96 @@
                             <p class="hero-card-description">Learn from alumni, choose wisely abroad.</p>
                         </div>
                     </a>
-
+                
                     <a href="/services/education-loan">
                         <div class="hero-second-slide-card loan-card">
                             <h4 class="hero-card-title">Student Loan Assistance</h4>
                             <p class="hero-card-description">Simplifying student loans for your education.</p>
                         </div>
                     </a>
-
+                
                     <a href="/services/post-landing-services">
                         <div class="hero-second-slide-card job-card">
                             <h4 class="hero-card-title">Part-Time Job Assistance</h4>
                             <p class="hero-card-description">Work opportunities that support your studies.</p>
                         </div>
                     </a>
+                </div>
+
+                
+
+            </div>
+            <!-- 2nd Slide  -->
+            <div class="swiper-slide">
+                <div class="hero-content-wrapper">
+                
+                    <div class="home-hero-content">
+                        <h2 class="hero-title">
+                            <span style="font-size: 2.7rem; font-weight: bold; line-height: 2.7rem; text-align: left; color: black;">
+                                Study <br>Beyond Borders</span> <br>
+                            <span style="color: #FC9118;">Take the First Step</span><br class="hide-on-mobile" />
+                            Towards Global Education
+                        </h2>
+                
+                
+                        <ul class="custom-bullets">
+                            <li>From planning to placement</li>
+                            <li>One partner. Full support</li>
+                            <li>Guided. Trusted. Global.</li>
+                        </ul>
+                
+                
+                        <div style="margin-bottom: 30px; text-align: left;">
+                            <h3 style="color: #FC9118; font-weight: 600; text-align: left">Book Free Consultant: </h3>
+                            <a href="https://wa.me/919116076837?text=Hi%2C%20I%E2%80%99m%20looking%20for%20visa%20consultation%20services.%20Can%20you%20please%20assist%20me%20with%20the%20next%20steps%3F"
+                                target="_blank" class="study-guide-button" style="display: inline-flex; align-items: center; gap: 6px;
+                                                        background-color: #25D366; /* WhatsApp green */
+                                                        color: #fff; 
+                                                        border: 2px solid #fff;
+                                                        border-radius: 11px;
+                                                        padding: 10px 16px;
+                                                        font-size: 18px;
+                                                        font-weight: 600;
+                                                        text-align: left;
+                                                        text-decoration: none;
+                                                        transition: all 0.3s ease-in-out;">
+                                <img src="/new-home-images/svg-icons/black-whatsapp.svg" alt="WhatsApp"
+                                    style="height: 28px; filter: brightness(0) invert(1);">
+                                +91 9116076837
+                            </a>
+                            <!-- <a href="https://wa.me/919116076837?text=Hi%2C%20I%E2%80%99m%20looking%20for%20visa%20consultation%20services.%20Can%20you%20please%20assist%20me%20with%20the%20next%20steps%3F" target="_blank"
+                                                style="display: flex; align-items: center; gap: 6px; font-size: 18px; color: black; text-decoration: none; font-weight: 600;"><span><img
+                                                        src="/new-home-images/svg-icons/black-whatsapp.svg" alt="" style="height: 30px;"></span> +91 9116076837</a> -->
+                        </div>
+                    </div>
+                
+                    <div class="map-container">
+                        <img src="new-home-images/hero-img.webp" alt="hero-img" class="map-image" fetchpriority="high" width="800"
+                            height="500">
+                
+                        <a href="/services/post-landing-services">
+                            <div class="card-country UK-card">
+                                <p class="hero-card-title">Accommodation Support</p>
+                                <p class="hero-card-description">Assistance with finding suitable housing</p>
+                            </div>
+                        </a>
+                
+                        <a href="/services/travel-arrangements">
+                            <div class="card-country usa-card">
+                                <p class="hero-card-title">Airport Pickup</p>
+                                <p class="hero-card-description">Reliable Pickup from airports</p>
+                            </div>
+                        </a>
+                
+                        <a href="/services/visa-assistance">
+                            <div class="card-country canada-card">
+                                <p class="hero-card-title">University Virtual Tour</p>
+                                <p class="hero-card-description">Step inside your Future, virtually!</p>
+                            </div>
+                        </a>
+                
+                    </div>
+                
                 </div>
             </div>
 
@@ -180,13 +179,13 @@
                 },
                 slideChangeTransitionEnd() {
                     if (swiper.realIndex === 0) {        // only run on first slide
-                        const cards = document.querySelectorAll('.card-country');
+                        const cards = document.querySelectorAll('.hero-second-slide-card');
                         cards.forEach((c, i) => {
                             setTimeout(() => c.classList.add('animate-in'), i * 600); // stagger
                         });
                     }
                     if (swiper.realIndex === 1) { // second slide
-                        const secondCards = document.querySelectorAll('.hero-second-slide-card');
+                        const secondCards = document.querySelectorAll('.card-country');
                         secondCards.forEach((c, i) => {
                             setTimeout(() => c.classList.add('animate-in'), i * 600);
                         });
@@ -196,7 +195,7 @@
         });
 
         // initial trigger
-        const firstCards = document.querySelectorAll('.card-country');
+        const firstCards = document.querySelectorAll('.hero-second-slide-card');
         firstCards.forEach((c, i) => setTimeout(() => c.classList.add('animate-in'), i * 600));
     });
 </script>
@@ -294,5 +293,8 @@
             margin: auto;
         }
 
+    }
+    .hero-main .swiper {
+        padding-bottom: 0 !important;
     }
 </style>

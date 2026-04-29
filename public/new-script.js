@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
         },
-        { threshold: 0.1 }
+        { threshold: 0.1 },
     );
 
     titles.forEach((title) => observer.observe(title));
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     (f) =>
                         `<li style="display:flex;align-items:center;gap:8px;">
                             <img src="/new-home-images/svg-icons/check-circle.svg" style="height:20px;"> ${f}
-                         </li>`
+                         </li>`,
                 )
                 .join("");
             fadeElement(listEl, newFeaturesHTML);
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 stopLoop();
             }
         },
-        { threshold: 0.3 }
+        { threshold: 0.3 },
     );
 
     observer.observe(section);
@@ -578,7 +578,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const content =
                         entry.target.querySelector(".new-cta-content");
                     const image = entry.target.querySelector(
-                        ".new-cta-image-wrapper"
+                        ".new-cta-image-wrapper",
                     );
 
                     if (content) content.classList.add("visible");
@@ -595,16 +595,32 @@ document.addEventListener("DOMContentLoaded", function () {
                     const content =
                         entry.target.querySelector(".new-cta-content");
                     const image = entry.target.querySelector(
-                        ".new-cta-image-wrapper"
+                        ".new-cta-image-wrapper",
                     );
                     if (content) content.classList.remove("visible");
                     if (image) image.classList.remove("visible");
                 }
             });
         },
-        { threshold: 0.2 }
+        { threshold: 0.2 },
     );
 
     ctaSections.forEach((section) => observer.observe(section));
 });
 // CTA Section JS Ended
+
+// Long content section js
+const more = document.getElementById("moreContent");
+const rm = document.getElementById("readMore");
+const rl = document.getElementById("readLess");
+
+rm.onclick = function () {
+    more.style.display = "block";
+    rm.style.display = "none";
+};
+
+rl.onclick = function () {
+    more.style.display = "none";
+    rm.style.display = "inline-block";
+    document.querySelector(".long-box").scrollIntoView({ behavior: "smooth" });
+};

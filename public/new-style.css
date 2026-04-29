@@ -626,7 +626,7 @@ p {
     position: relative;
     margin-left: 0;
     margin-right: auto;
-    top: 0;
+    top: 5px;
 }
 
 .map-image {
@@ -2239,7 +2239,7 @@ p {
 }
 
 .new-service-note-cta {
-    display:flex;
+    display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -2282,7 +2282,7 @@ p {
 
 /* TEXT */
 .long-box h2 {
-    font-size: 26px;
+    font-size: 29px;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -2305,6 +2305,49 @@ p {
 
 .long-box li {
     margin-bottom: 6px;
+}
+
+.long-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.long-box table td,
+.long-box table th {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.long-box table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.long-box table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.long-box table th {
+    background-color: #18336c;
+    color: #fff;
+    font-weight: 600;
+}
+
+.long-box a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Make table responsive */
+@media (max-width: 768px) {
+    .long-box table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }
 
 .long-box {
@@ -2355,7 +2398,7 @@ p {
 }
 
 .long-box h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .long-box h3 {

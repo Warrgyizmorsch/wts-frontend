@@ -1,7 +1,8 @@
 @foreach ($blogs as $blog)
     <div class="new-blog-card new-blog-card-sm">
         <a href="{{ url('/blog', $blog->slug) }}">
-            <img src="{{ asset($blog->images) }}" alt="{{ $blog->title }}" class="new-blog-card-img">
+            <img src="{{ config('app.backend_url') . '/' . ltrim($blog->images, '/') }}" alt="{{ $blog->title }}"
+                class="new-blog-card-img">
         </a>
         <div class="new-blog-card-body">
             <div class="new-blog-meta">{{ $blog->created_at->format('F j, Y') }}</div>

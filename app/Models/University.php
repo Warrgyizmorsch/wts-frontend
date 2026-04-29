@@ -45,15 +45,18 @@ class University extends Model
 
     public function getBannerImageUrlAttribute()
     {
-        // 1. From university_details (storage)
+        $baseUrl = config('app.backend_url');
+
+        // 1. From university_details
         if ($this->details && $this->details->banner_image) {
-            return asset('storage/' . $this->details->banner_image);
+            return $baseUrl . '/storage/' . ltrim($this->details->banner_image, '/');
         }
 
-        // 2. From university table (storage)
+        // 2. From university table
         if ($this->banner_image) {
-            return asset('storage/' . $this->banner_image);
+            return $baseUrl . '/storage/' . ltrim($this->banner_image, '/');
         }
+
 
         // 3. fallback
         return asset('images/default-banner.jpg');
@@ -61,15 +64,17 @@ class University extends Model
 
     public function getLogoImageUrlAttribute()
     {
-        // 1. From university_details (thumbnail in storage)
+        $baseUrl = config('app.backend_url');
+
+        // 1. From university_details
         if ($this->details && $this->details->thumbnail_image) {
-            return asset('storage/' . $this->details->thumbnail_image);
+            return $baseUrl . '/storage/' . ltrim($this->details->thumbnail_image, '/');
         }
 
-        // 2. From university table (custom folder)
+        // 2. From university table
         if ($this->logo_image && $this->logo_image !== '0') {
             $file = basename($this->logo_image);
-            return asset('university-logos/' . $file);
+            return $baseUrl . '/university-logos/' . $file;
         }
 
         // 3. fallback

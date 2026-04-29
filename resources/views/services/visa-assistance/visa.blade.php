@@ -811,22 +811,5 @@
             <!-- modal code start -->
             @include('components.course-registration-form-modal')
 
-            <script>
-                const more = document.getElementById("moreContent");
-                const rm = document.getElementById("readMore");
-                const rl = document.getElementById("readLess");
-
-                rm.onclick = function () {
-                    more.style.display = "block";
-                    rm.style.display = "none";
-                }
-
-                rl.onclick = function () {
-                    more.style.display = "none";
-                    rm.style.display = "inline-block";
-                    document.querySelector(".long-box").scrollIntoView({ behavior: "smooth" });
-                }
-            </script>
-
 
 @endsection
