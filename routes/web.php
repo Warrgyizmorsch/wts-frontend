@@ -387,6 +387,7 @@ Route::middleware('auth')->group(function () {
 Route::post('/submit-registration', [MailController::class, 'sendVisaAssistanceEmail'])->name('submit.registration');
 Route::post('/submit-lead', [MailController::class, 'sendLeadToCrm'])->name('submit.lead');
 Route::post('/submit-lead-landing-page', [MailController::class, 'sendLandingPageLeadToCrm'])->name('submit.lead.landing.page');
+Route::post('/submit-uni-application', [MailController::class, 'submitUniApplicationLead'])->name('submit.uni.application');
 Route::post('/contact-submit', [MailController::class, 'contactSubmit'])->name('contact.submit');
 Route::post('/send-otp', [MailController::class, 'sendOtp'])->name('send.otp');
 Route::post('/verify-otp', [MailController::class, 'verifyOtp'])->name('verify.otp');

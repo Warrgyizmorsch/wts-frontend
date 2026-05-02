@@ -1,4 +1,12 @@
 <div id="univ-modal-overlay" class="univ-modal-overlay">
+    <!-- Loading Overlay -->
+    <div id="univ-loading-overlay" class="univ-loading-overlay">
+        <div style="text-align: center;">
+            <div class="univ-spinner"></div>
+            <div class="univ-loading-text">Submitting your form...</div>
+        </div>
+    </div>
+
     <div class="univ-modal-container">
 
         <button type="button" id="univ-btn-back" class="univ-btn-back" style="display: none;">
@@ -96,15 +104,9 @@
                     </div>
                     <div class="univ-input-group">
                         <label>Mobile Number</label>
-                        <div class="univ-phone-wrapper">
-                            <select name="country_code" class="univ-country-select">
-                                <option value="+91">🇮🇳 +91</option>
-                                <option value="+1">🇺🇸 +1</option>
-                                <option value="+98">🇮🇷 +98</option>
-                                <option value="+81">🇯🇵 +81</option>
-                            </select>
-                            <input type="tel" name="mobile" class="univ-input univ-phone-input">
-                        </div>
+                        <input type="tel" id="univ-phone-number" name="phone_number" class="univ-input"
+                            placeholder="Enter your phone number">
+                        <input type="hidden" id="univ-phone-full" name="phone_number_full">
                     </div>
                     <button type="button" class="univ-btn-next">NEXT</button>
                 </div>
@@ -160,7 +162,7 @@
                             <input type="text" name="12th_year" class="univ-input">
                         </div>
                     </div>
-                    <button type="button" class="univ-btn-next">NEXT</button>
+                    <button type="button" id="univ-submit-btn" class="univ-btn-next">SUBMIT</button>
                 </div>
 
                 <div class="univ-step" id="univ-step-9">
@@ -171,7 +173,8 @@
 
                         <h2>Yay! Thanks for<br>sharing your details</h2>
 
-                        <button type="submit" class="univ-btn-submit">Talk to our expert now</button>
+                        <a href="tel:+918001028670" class="univ-btn-submit"
+                            style="text-decoration: none; display: inline-block;">Talk to our expert now</a>
 
                         <p class="univ-thank-you-sub">Our in-house experts will evaluate<br>your profile and reach out
                             to you</p>
@@ -195,6 +198,10 @@
         --univ-gray: #777;
         --univ-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
         --univ-input-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .swal2-container {
+        z-index: 999999 !important;
     }
 
     .univ-modal-overlay * {
@@ -598,6 +605,49 @@
     }
 
     /* Responsive */
+    /* Loading Overlay */
+    .univ-loading-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 100000;
+        backdrop-filter: blur(3px);
+    }
+
+    .univ-loading-overlay.active {
+        display: flex;
+    }
+
+    .univ-spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid rgba(243, 112, 33, 0.2);
+        border-top: 5px solid var(--univ-orange);
+        border-radius: 50%;
+        animation: univ-spin 0.8s linear infinite;
+    }
+
+    @keyframes univ-spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .univ-loading-text {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 15px;
+        text-align: center;
+    }
+
     /* Responsive - Tightened up for Mobile */
     @media (max-width: 768px) {
         .univ-modal-left {
@@ -896,7 +946,25 @@
     }
 </style>
 
+<!-- Include jQuery, SweetAlert and libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
+
 <script>document.addEventListener('DOMContentLoaded', function () {
+        // Initialize intl-tel-input for phone number
+        var iti = window.intlTelInput(document.querySelector("#univ-phone-number"), {
+            separateDialCode: true,
+            preferredCountries: ["in"],
+            hiddenInput: "univ-phone-full",
+            utilsScript: "//cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"
+        });
+
+        // Restrict phone input to numbers only
+        document.querySelector("#univ-phone-number").addEventListener('input', function (e) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
         const triggerBtns = document.querySelectorAll('.uni-btn-apply');
         const modal = document.getElementById('univ-modal-overlay');
         const closeBtn = document.getElementById('univ-modal-close');
@@ -941,44 +1009,124 @@
         }
 
         // --- Validation Logic ---
-        function validateStep(index) {
-            const step = steps[index];
-            let isValid = true;
-            const existingError = step.querySelector('.univ-error-msg');
-            if (existingError) existingError.remove();
+       function validateStep(index) {
+                const step = steps[index];
+                let isValid = true;
 
-            function showError(msg) {
-                const errorP = document.createElement('p');
-                errorP.className = 'univ-error-msg';
-                errorP.innerText = msg;
-                step.insertBefore(errorP, step.querySelector('.univ-btn-next'));
-            }
+                // remove old error
+                const existingError = step.querySelector('.univ-error-msg');
+                if (existingError) existingError.remove();
 
-            if (index === 0) {
-                if (!step.querySelector('input[name="start_date"]:checked')) {
-                    isValid = false;
-                    showError("Please select a start date to continue.");
+                function showError(msg) {
+                    const errorP = document.createElement('p');
+                    errorP.className = 'univ-error-msg';
+                    errorP.innerText = msg;
+                    step.insertBefore(errorP, step.querySelector('.univ-btn-next'));
                 }
-            } else if (index === 1) {
-                if (!step.querySelector('input[name="level_of_study"]:checked')) {
-                    isValid = false;
-                    showError("Please select your level of study.");
-                }
-            } else if (index === 5) {
-                const otpInputs = step.querySelectorAll('.univ-otp-input');
-                otpInputs.forEach(input => {
-                    if (input.value.trim() === '') {
+
+                // STEP 1 → Start Date
+                if (index === 0) {
+                    if (!step.querySelector('input[name="start_date"]:checked')) {
                         isValid = false;
-                        input.style.borderColor = 'red';
-                    } else {
-                        input.style.borderColor = 'var(--univ-orange)';
+                        showError("Please select a start date to continue.");
                     }
-                });
-                if (!isValid) showError("Please enter the complete 6-digit OTP.");
-            }
+                }
 
-            return isValid;
-        }
+                // STEP 2 → Level of Study
+                else if (index === 1) {
+                    if (!step.querySelector('input[name="level_of_study"]:checked')) {
+                        isValid = false;
+                        showError("Please select your level of study.");
+                    }
+                }
+
+                // STEP 3 → Specialisation
+                else if (index === 2) {
+                    const specialisation = step.querySelector('input[name="specialisation"]').value.trim();
+                    if (!specialisation) {
+                        isValid = false;
+                        showError("Please enter your specialisation.");
+                    }
+                }
+
+                // STEP 4 → Name
+                else if (index === 3) {
+                    const firstName = step.querySelector('input[name="first_name"]').value.trim();
+                    const lastName = step.querySelector('input[name="last_name"]').value.trim();
+
+                    if (!firstName || !lastName) {
+                        isValid = false;
+                        showError("Please enter your full name.");
+                    }
+                }
+
+                // STEP 5 → Email + Phone
+                else if (index === 4) {
+                    const email = step.querySelector('input[name="email"]').value.trim();
+                    const phone = step.querySelector('input[name="phone_number"]').value.trim();
+
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                    if (!email || !emailRegex.test(email)) {
+                        isValid = false;
+                        showError("Please enter a valid email address.");
+                    } else if (!phone || phone.length < 7) {
+                        isValid = false;
+                        showError("Please enter a valid mobile number.");
+                    }
+                }
+
+                // STEP 6 → OTP
+                else if (index === 5) {
+                    const otpInputs = step.querySelectorAll('.univ-otp-input');
+                    let otpValid = true;
+
+                    otpInputs.forEach(input => {
+                        if (input.value.trim() === '') {
+                            otpValid = false;
+                            input.style.borderColor = 'red';
+                        } else {
+                            input.style.borderColor = 'var(--univ-orange)';
+                        }
+                    });
+
+                    if (!otpValid) {
+                        isValid = false;
+                        showError("Please enter the complete 6-digit OTP.");
+                    }
+                }
+
+                // STEP 7 → Funding + Budget
+                else if (index === 6) {
+                    const fund = step.querySelector('input[name="fund_plan"]').value.trim();
+                    const budget = step.querySelector('input[name="budget"]').value.trim();
+
+                    if (!fund || !budget) {
+                        isValid = false;
+                        showError("Please fill funding plan and budget.");
+                    }
+                }
+
+                // STEP 8 → Academic Details
+                else if (index === 7) {
+                    const tenth = step.querySelector('input[name="10th_percentile"]').value.trim();
+                    const tenthYear = step.querySelector('input[name="10th_year"]').value.trim();
+                    const twelfth = step.querySelector('input[name="12th_percentile"]').value.trim();
+                    const twelfthYear = step.querySelector('input[name="12th_year"]').value.trim();
+
+                    if (!tenth || !tenthYear || !twelfth || !twelfthYear) {
+                        isValid = false;
+                        showError("Please fill all academic details.");
+                    }
+                }
+
+                return isValid;
+            }
+        document.getElementById('univ-submit-btn').addEventListener('click', function () {
+                if (validateStep(currentStep)) {
+                    submitFormData();
+                }
+            });
 
         // --- Navigation Logic ---
         function updateNavigation() {
@@ -990,6 +1138,7 @@
             const leftImg = document.querySelector('.univ-left-image');
 
             if (currentStep === 8) {
+                // ✅ Apply final step UI
                 container.classList.add('is-final-step');
                 leftImg.src = "{{ asset('images/form-images/image 32.png') }}";
             } else {
@@ -1049,5 +1198,87 @@
             });
         });
 
-    }); // ← Single closing brace for DOMContentLoaded
+        // --- Final Form Submission ---
+        function submitFormData() {
+            // Show loading overlay
+            document.getElementById('univ-loading-overlay').classList.add('active');
+
+            // Get full phone number from intl-tel-input
+            var fullPhoneNumber = iti.getNumber(intlTelInputUtils.numberFormat.E164);
+            var selectedCountry = iti.getSelectedCountryData();
+            var phoneNumberOnly = iti.getNumber(intlTelInputUtils.numberFormat.NATIONAL).replace(/\D/g, '');
+
+            // Collect form data from all steps
+            const formData = new FormData();
+
+            // Add CSRF token
+            formData.append('_token', document.querySelector('input[name="_token"]').value);
+
+            // Collect data from each step
+            formData.append('first_name', form.querySelector('input[name="first_name"]').value);
+            formData.append('last_name', form.querySelector('input[name="last_name"]').value);
+            formData.append('email', form.querySelector('input[name="email"]').value);
+            formData.append('country_code', selectedCountry.dialCode);
+            formData.append('mobile', phoneNumberOnly);
+            formData.append('start_date', form.querySelector('input[name="start_date"]:checked')?.value || '');
+            formData.append('level_of_study', form.querySelector('input[name="level_of_study"]:checked')?.value || '');
+            formData.append('specialisation', form.querySelector('input[name="specialisation"]').value);
+            formData.append('fund_plan', form.querySelector('input[name="fund_plan"]').value);
+            formData.append('budget', form.querySelector('input[name="budget"]').value);
+            formData.append('10th_percentile', form.querySelector('input[name="10th_percentile"]').value);
+            formData.append('10th_year', form.querySelector('input[name="10th_year"]').value);
+            formData.append('12th_percentile', form.querySelector('input[name="12th_percentile"]').value);
+            formData.append('12th_year', form.querySelector('input[name="12th_year"]').value);
+            formData.append('page_url', window.location.href);
+
+            // Use AJAX to submit the form
+            $.ajax({
+                url: "{{ route('submit.uni.application') }}",
+                method: "POST",
+                data: formData,
+                processData: false,
+                contentType: false,
+               success: function (response) {
+                    setTimeout(function () {
+                        document.getElementById('univ-loading-overlay').classList.remove('active');
+
+                        if (response && response.success === true) {
+                            currentStep = 8;
+                            updateNavigation();
+                        } else {
+                            // ❌ Do NOT move to final step
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Submission Failed',
+                                text: 'Something went wrong. Please try again.'
+                            });
+                        }
+                    }, 1000);
+                },
+                error: function (xhr) {
+                    document.getElementById('univ-loading-overlay').classList.remove('active');
+
+                    var errors = xhr.responseJSON?.errors || {};
+                    var errorMessage = '';
+
+                    if (Object.keys(errors).length > 0) {
+                        $.each(errors, function (key, value) {
+                            errorMessage += value[0] + '<br>';
+                        });
+                    } else {
+                        errorMessage = 'An error occurred while submitting the form. Please try again.';
+                    }
+
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Submission Error',
+                        html: errorMessage,
+                        showConfirmButton: true
+                    });
+                }
+            });
+        }
+
+    });
 </script>
+</div>

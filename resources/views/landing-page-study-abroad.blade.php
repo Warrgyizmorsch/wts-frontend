@@ -1532,7 +1532,7 @@
     </script>
 
     <!-- Want Study Abroad Guide ? -->
-    <section class="study-guide-section">
+    <section class="study-guide-section" style="overflow: hidden;">
         <div class="study-guide-container" style="margin-bottom: 0px;">
             <div class="study-guide-content">
                 <h2 style="font-weight: 600;">Ready to start your global education journey?</h2>

@@ -11,7 +11,9 @@ use Illuminate\Support\Facades\Session;
 use App\Models\Leads;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Validator;
 
 class MailController extends Controller
 {
@@ -32,26 +34,26 @@ class MailController extends Controller
             'Authorization' => 'Bearer ' . env('AISENSY_API_KEY'),
             'Content-Type' => 'application/json'
         ])->post('https://backend.aisensy.com/campaign/t1/api/v2', [
-            "apiKey" => env('AISENSY_API_KEY'),
-            "campaignName" => env('AISENSY_CAMPAIGN'), // e.g., 'user_verification'
-            "destination" => $phone, // E.g., 919772196309
-            "userName" => env('AISENSY_USERNAME'), // e.g., 'WTS Visa Consultancy'
-            "templateParams" => [$otpString],
-            "buttons" => [
-                [
-                    "type" => "button",
-                    "sub_type" => "url",
-                    "index" => 0,
-                    "parameters" => [
+                    "apiKey" => env('AISENSY_API_KEY'),
+                    "campaignName" => env('AISENSY_CAMPAIGN'), // e.g., 'user_verification'
+                    "destination" => $phone, // E.g., 919772196309
+                    "userName" => env('AISENSY_USERNAME'), // e.g., 'WTS Visa Consultancy'
+                    "templateParams" => [$otpString],
+                    "buttons" => [
                         [
-                            "type" => "text",
-                            "text" => $otpString // <-- this fills {{1}} in button URL
+                            "type" => "button",
+                            "sub_type" => "url",
+                            "index" => 0,
+                            "parameters" => [
+                                [
+                                    "type" => "text",
+                                    "text" => $otpString // <-- this fills {{1}} in button URL
+                                ]
+                            ]
                         ]
-                    ]
-                ]
-            ],
-            "source" => "otp-verification"
-        ]);
+                    ],
+                    "source" => "otp-verification"
+                ]);
 
         if ($response->successful()) {
             \Log::info('Aisensy OTP Sent Successfully: ' . $response->body());
@@ -104,7 +106,7 @@ class MailController extends Controller
 
         // Validate the incoming request data with custom messages
         $validatedData = $request->validate([
-            'name' => 'required|string|max:255', 
+            'name' => 'required|string|max:255',
             'phone_number.main' => 'required|string|regex:/^[0-9]{10}$/',
             'phone_number.full' => 'required|string|regex:/^\+[1-9]{1}[0-9]{3,14}$/',
             'email' => 'required|email|max:255',
@@ -130,7 +132,7 @@ class MailController extends Controller
 
         // Extract the country code by removing the main phone number part from the full phone number
         $countryCode = str_replace($mainPhoneNumber, '', $fullPhoneNumber);
-        
+
         // Create a new array with the form data
         $formData = [
             'name' => $validatedData['name'],
@@ -139,7 +141,7 @@ class MailController extends Controller
             'email' => $validatedData['email'],
             'visa_country' => $validatedData['visa_country'],
             'visa_type' => $validatedData['visa_type'],
-            
+
             // 'counselling_mode' => $validatedData['counselling_mode'],
         ];
         // ✅ Only include counselling_mode if it was submitted (in case it's not required)
@@ -148,7 +150,7 @@ class MailController extends Controller
         }
 
         Mail::to('vikramsuthar.wm@gmail.com') // Replace with the recipient email address
-                ->send(new VisaAssistanceFormSubmitted($formData));
+            ->send(new VisaAssistanceFormSubmitted($formData));
         // try {
         //     // Try sending the email to the recipient
         //     Mail::to('vikramsuthar.wm@gmail.com') // Replace with the recipient email address
@@ -171,7 +173,7 @@ class MailController extends Controller
             'redirect_url' => route('thankyou')
         ]);
     }
-    
+
     public function contactSubmit(Request $request)
     {
         // Define custom error messages
@@ -192,7 +194,7 @@ class MailController extends Controller
 
         // Validate the incoming request data with custom messages
         $validatedData = $request->validate([
-            'name' => 'required|string|max:255', 
+            'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'phone_number.main' => 'required|string|regex:/^\d{10}$/', // 10-digit phone number validation
             'phone_number.full' => 'required|string|regex:/^\+[1-9]{1}[0-9]{3,14}$/', // Full phone number validation (international format)
@@ -208,13 +210,13 @@ class MailController extends Controller
 
         // Extract the country code by removing the main phone number part from the full phone number
         $countryCode = str_replace($mainPhoneNumber, '', $fullPhoneNumber);
-        
-         $user = User::where('email', $request->email)
+
+        $user = User::where('email', $request->email)
             ->where('contact_no', $mainPhoneNumber)
             ->first();
 
         if (!$user) {
-            
+
             $existingEmailUser = User::where('email', $request->email)->first();
             if ($existingEmailUser) {
                 return response()->json([
@@ -223,7 +225,7 @@ class MailController extends Controller
                 ], 422);
             }
 
-            
+
             $existingPhoneUser = User::where('contact_no', $mainPhoneNumber)->first();
             if ($existingPhoneUser) {
                 return response()->json([
@@ -232,15 +234,15 @@ class MailController extends Controller
                 ], 422);
             }
 
-            
+
             try {
                 $user = User::create([
-                    'name'         => $request->name,
-                    'email'        => $request->email,
-                    'contact_no'   => $mainPhoneNumber,
+                    'name' => $request->name,
+                    'email' => $request->email,
+                    'contact_no' => $mainPhoneNumber,
                     'country_code' => $countryCode,
-                    'role_id'      => 2,
-                    'password'     => Hash::make('user@123'),
+                    'role_id' => 2,
+                    'password' => Hash::make('user@123'),
                 ]);
             } catch (\Illuminate\Database\QueryException $e) {
                 if ($e->getCode() == 23000) {
@@ -253,7 +255,7 @@ class MailController extends Controller
             }
         }
 
-    
+
         $defaultBucketId = 1;
 
         $defaultStatus = \DB::table('buckets')
@@ -262,13 +264,13 @@ class MailController extends Controller
 
         Leads::create([
             'lead_bucket_id' => $defaultBucketId,
-            'lead_status'    => $defaultStatus,
-            'lead_owner'     => null,
-            'date'           => now()->format('Y-m-d'),
-            'platform'       => 'Website',
-            'page_url'       => $request->page_url ?? null,
-            'description'        => $request->message,
-            'uid'            => $user->id,
+            'lead_status' => $defaultStatus,
+            'lead_owner' => null,
+            'date' => now()->format('Y-m-d'),
+            'platform' => 'Website',
+            'page_url' => $request->page_url ?? null,
+            'description' => $request->message,
+            'uid' => $user->id,
         ]);
 
         // Create a new array with the form data
@@ -300,7 +302,7 @@ class MailController extends Controller
             'success' => true,
             'redirect_url' => route('thankyou')
         ]);
-        
+
     }
     public function sendLeadToCrm(Request $request)
     {
@@ -370,15 +372,15 @@ class MailController extends Controller
         // ==============================
         // ✅ AUTO ASSIGN DEFAULT BUCKET & STATUS
         // ==============================
-        
+
         // Example: Assign default bucket "New Leads"
         $defaultBucketId = 1; // your lead bucket ID
 
         // Example: Assign default status bucket
         $defaultStatus = \DB::table('buckets')
-                            ->where('id', 2)   // your status bucket
-                            ->value('name');
-                            
+            ->where('id', 2)   // your status bucket
+            ->value('name');
+
         // -----------------------------
         // 2. Create the Lead for this user
         // -----------------------------
@@ -481,14 +483,14 @@ class MailController extends Controller
         // ==============================
         // ✅ AUTO ASSIGN DEFAULT BUCKET & STATUS
         // ==============================
-        
+
         // Example: Assign default bucket "New Leads"
         $defaultBucketId = 1; // your lead bucket ID
 
         // Example: Assign default status bucket
         $defaultStatus = \DB::table('buckets')
-                            ->where('id', 2)   // your status bucket
-                            ->value('name');
+            ->where('id', 2)   // your status bucket
+            ->value('name');
 
         // -----------------------------
         // 2. Create the Lead for this user
@@ -525,6 +527,135 @@ class MailController extends Controller
         ]);
     }
 
+    public function submitUniApplicationLead(Request $request)
+    {
+        $customMessages = [
+            'first_name.required' => 'First name is required.',
+            'last_name.required' => 'Last name is required.',
+            'email.required' => 'Email is required.',
+            'email.email' => 'Please provide a valid email address.',
+            'mobile.required' => 'Mobile number is required.',
+            'mobile.regex' => 'The mobile number must be a valid number.',
+            'start_date.required' => 'Please select a start date.',
+            'level_of_study.required' => 'Please select your level of study.',
+            'specialisation.required' => 'Please select your specialisation.',
+        ];
 
+        // ✅ Proper validator for AJAX
+        $validator = Validator::make($request->all(), [
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'country_code' => 'required|string|max:10',
+            'mobile' => 'required|regex:/^[0-9]{7,15}$/',
+            'start_date' => 'required|string',
+            'level_of_study' => 'required|string',
+            'specialisation' => 'required|string|max:255',
+            'fund_plan' => 'nullable|string|max:500',
+            'budget' => 'nullable|string|max:255',
+            '10th_percentile' => 'nullable|string|max:10',
+            '10th_year' => 'nullable|string|max:10',
+            '12th_percentile' => 'nullable|string|max:10',
+            '12th_year' => 'nullable|string|max:10',
+        ], $customMessages);
+
+        // ❌ If validation fails → return JSON (no redirect)
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'errors' => $validator->errors()
+            ], 422);
+        }
+
+        $validatedData = $validator->validated();
+
+        try {
+            DB::beginTransaction();
+
+            // 📞 Phone handling
+            $mainPhoneNumber = $validatedData['mobile'];
+            $countryCode = $validatedData['country_code'];
+
+            // 👤 Find or create user
+            $user = \App\Models\User::where('email', $validatedData['email'])->first();
+
+            if (!$user) {
+                $user = \App\Models\User::create([
+                    'name' => $validatedData['first_name'] . ' ' . $validatedData['last_name'],
+                    'email' => $validatedData['email'],
+                    'contact_no' => $mainPhoneNumber,
+                    'country_code' => $countryCode,
+                    'role_id' => 2,
+                    'password' => Hash::make('user@123'),
+                ]);
+            } else {
+                $user->update([
+                    'name' => $validatedData['first_name'] . ' ' . $validatedData['last_name'],
+                    'contact_no' => $mainPhoneNumber,
+                    'country_code' => $countryCode,
+                ]);
+            }
+
+            // 📊 Default bucket & status
+            $defaultBucketId = 1;
+            $defaultStatus = DB::table('buckets')
+                ->where('id', 2)
+                ->value('name');
+
+            // 🧾 Build description safely
+            $academicDetails = [];
+
+            if (!empty($validatedData['fund_plan'])) {
+                $academicDetails[] = "How to fund: {$validatedData['fund_plan']}";
+            }
+            if (!empty($validatedData['10th_percentile'])) {
+                $academicDetails[] = "10th Percentile: {$validatedData['10th_percentile']}";
+            }
+            if (!empty($validatedData['10th_year'])) {
+                $academicDetails[] = "10th Year: {$validatedData['10th_year']}";
+            }
+            if (!empty($validatedData['12th_percentile'])) {
+                $academicDetails[] = "12th Percentile: {$validatedData['12th_percentile']}";
+            }
+            if (!empty($validatedData['12th_year'])) {
+                $academicDetails[] = "12th Year: {$validatedData['12th_year']}";
+            }
+
+            $description = implode(" | ", $academicDetails);
+
+            // 🧲 Create Lead
+            $lead = \App\Models\Leads::create([
+                'lead_bucket_id' => $defaultBucketId,
+                'lead_status' => $defaultStatus,
+                'lead_owner' => null,
+                'date' => now()->format('Y-m-d'),
+                'platform' => 'Website',
+                'page_url' => $request->page_url ?? null,
+                'whats_your_preferred_intake' => $validatedData['start_date'],
+                'what_course_are_you_planning_to_study' => $validatedData['specialisation'],
+                'budget' => $validatedData['budget'] ?? null,
+                'description' => $description,
+                'uid' => $user->id,
+            ]);
+
+            DB::commit();
+
+            // ✅ Success response (NO redirect)
+            return response()->json([
+                'success' => true,
+                'lead_id' => $lead->id,
+                'user_id' => $user->id,
+            ]);
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Something went wrong. Please try again.',
+                'error' => $e->getMessage() // remove in production if needed
+            ], 500);
+        }
+    }
 
 }
