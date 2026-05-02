@@ -178,7 +178,7 @@
             ['title' => 'Engineering', 'image' => 'images/courses/engineering.jpg'],
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/computer.jpg'],
-            ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/fine-arts.png'],
+            ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/fine-arts.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [
@@ -285,13 +285,13 @@
             [
                 "question" => "2.	What are the top universities in Czech Republic for international students?",
                 "answer" => "<p>Some of the most popular universities in Czech Republic for international students include:</p>
-                        <ol>
-                            <li>Charles University, Prague</li>
-                            <li>Czech Technical University, Prague</li>
-                            <li>Masaryk University, Brno</li>
-                            <li>University of Economics, Prague</li>
-                            <li>Palacký University, Olomouc</li>
-                        </ol>"
+                                <ol>
+                                    <li>Charles University, Prague</li>
+                                    <li>Czech Technical University, Prague</li>
+                                    <li>Masaryk University, Brno</li>
+                                    <li>University of Economics, Prague</li>
+                                    <li>Palacký University, Olomouc</li>
+                                </ol>"
             ],
             [
                 "question" => "3.	Can I study in Czech Republic from India?",
@@ -300,23 +300,23 @@
             [
                 "question" => "4.	What courses can I study in Czech Republic?",
                 "answer" => "<p>Czech universities offer a wide range of programs, including:</p>
-                        <ol>
-                            <li>Engineering</li>
-                            <li>Business and Management</li>
-                            <li>Computer Science / IT</li>
-                            <li>Medicine and Health Sciences</li>
-                            <li>Social Sciences and Humanities</li>
-                        </ol>"
+                                <ol>
+                                    <li>Engineering</li>
+                                    <li>Business and Management</li>
+                                    <li>Computer Science / IT</li>
+                                    <li>Medicine and Health Sciences</li>
+                                    <li>Social Sciences and Humanities</li>
+                                </ol>"
             ],
             [
                 "question" => "5.	How much does it cost to study in Czech Republic?",
                 "answer" => "<p>Tuition fees vary depending on the university and program. On average:</p>
-                        <ol>
-                            <li>Undergraduate: €3,000 – €12,000/year</li>
-                            <li>Master’s: €4,000 – €15,000/year</li>
-                            <li>MBA: €8,000 – €20,000/year</li>
-                            <li>PhD: €4,000 – €12,000/year</li>
-                        </ol>"
+                                <ol>
+                                    <li>Undergraduate: €3,000 – €12,000/year</li>
+                                    <li>Master’s: €4,000 – €15,000/year</li>
+                                    <li>MBA: €8,000 – €20,000/year</li>
+                                    <li>PhD: €4,000 – €12,000/year</li>
+                                </ol>"
             ],
         ];
     @endphp

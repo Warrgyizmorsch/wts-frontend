@@ -153,9 +153,9 @@
         $courses = [
             ['title' => 'Engineering', 'image' => 'images/courses/engineering.jpg'],
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
-            ['title' => 'Finance and Banking', 'image' => 'images/courses/it.png'],
+            ['title' => 'Finance and Banking', 'image' => 'images/courses/it.webp'],
             ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/computer.jpg'],
-            ['title' => 'Law and European Studies', 'image' => 'images/courses/fine-arts.png'],
+            ['title' => 'Law and European Studies', 'image' => 'images/courses/fine-arts.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [

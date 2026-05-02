@@ -166,7 +166,7 @@
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Renewable Energy and Sustainability', 'image' => 'images/courses/environment.jpg'],
-            ['title' => 'Life Sciences and Biotechnology', 'image' => 'images/courses/it.png'],
+            ['title' => 'Life Sciences and Biotechnology', 'image' => 'images/courses/it.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/hospitality.jpg'],
         ];
         $courseContent = [

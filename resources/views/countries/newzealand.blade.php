@@ -192,7 +192,7 @@
         $courses = [
             ['title' => 'Engineering', 'image' => 'images/courses/engineering.jpg'],
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
-            ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/it.png'],
+            ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/it.webp'],
             ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/medicine.jpg'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];

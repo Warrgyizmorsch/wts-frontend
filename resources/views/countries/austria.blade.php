@@ -168,7 +168,7 @@
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science and IT', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Natural Sciences', 'image' => 'images/courses/environment.jpg'],
-            ['title' => 'Arts, Music, and Design', 'image' => 'images/courses/fine-arts.png'],
+            ['title' => 'Arts, Music, and Design', 'image' => 'images/courses/fine-arts.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/hospitality.jpg'],
         ];
         $courseContent = [

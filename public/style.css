@@ -1951,21 +1951,6 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 30px;
 }
 
-.bg-img {
-    height: 250px;
-    width: 200px;
-    background-image: url(assets/ai-generated-8918637_1280.jpg);
-    /* Add the image path */
-    background-size: cover;
-    /* Ensure the image covers the container */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Prevent image repetition */
-    border-radius: 10px;
-    /* Optional: Add rounded corners */
-}
-
 .founder-image img {
     /* width: 100%;
     max-width: 400px; */
@@ -2558,21 +2543,6 @@ h1, h2, h3, h4, h5, h6, p {
 
     .foun-image {
         margin: auto;
-    }
-
-    .bg-img {
-        height: 200px;
-        width: 200px;
-        background-image: url(assets/ai-generated-8918637_1280-cropped.jpg);
-        /* Add the image path */
-        background-size: cover;
-        /* Ensure the image covers the container */
-        background-position: center;
-        /* Center the image */
-        background-repeat: no-repeat;
-        /* Prevent image repetition */
-        border-radius: 50%;
-        /* Optional: Add rounded corners */
     }
 
     .founder-image img {

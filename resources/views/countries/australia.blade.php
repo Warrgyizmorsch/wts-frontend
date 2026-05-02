@@ -139,7 +139,7 @@
             ],
             [
                 'name' => 'Monash University',
-                'logo' => 'images/universities/Monash_Logo.jpeg',
+                'logo' => 'images/universities/Monash_Logo.webp',
                 'course' => 'Arts & Humanities',
                 'ranking' => 22
             ],

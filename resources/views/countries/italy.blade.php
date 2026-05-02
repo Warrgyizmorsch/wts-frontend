@@ -172,7 +172,7 @@
             ['title' => 'Computer Science/Information Technology', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/medicine.jpg'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
-            ['title' => 'Design and Arts', 'image' => 'images/courses/fine-arts.png'],
+            ['title' => 'Design and Arts', 'image' => 'images/courses/fine-arts.webp'],
         ];
         $courseContent = [
             'title' => 'Popular Courses to Study in Italy',
@@ -291,13 +291,13 @@
             [
                 "question" => "5.	How much does it cost to study in Italy?",
                 "answer" => "<p>Tuition fees vary by course and university:</p>
-                            <ol>
-                                <li>Undergraduate: €8,000 – €20,000 per year</li>
-                                <li>Master’s: €10,000 – €25,000 per year</li>
-                                <li>MBA: €18,000 – €35,000 per year</li>
-                            </ol>
-                            <p>Living expenses typically range from €7,000 – €12,000 annually.</p>
-                            "
+                                    <ol>
+                                        <li>Undergraduate: €8,000 – €20,000 per year</li>
+                                        <li>Master’s: €10,000 – €25,000 per year</li>
+                                        <li>MBA: €18,000 – €35,000 per year</li>
+                                    </ol>
+                                    <p>Living expenses typically range from €7,000 – €12,000 annually.</p>
+                                    "
             ],
             [
                 "question" => "6.	What documents are required for studying in Italy?",

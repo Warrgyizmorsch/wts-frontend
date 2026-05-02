@@ -161,7 +161,7 @@
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science and IT', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Artificial Intelligence and Data Science', 'image' => 'images/courses/ai.jpg'],
-            ['title' => 'Media, Film, and Entertainment Studies', 'image' => 'images/courses/it.png'],
+            ['title' => 'Media, Film, and Entertainment Studies', 'image' => 'images/courses/it.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [

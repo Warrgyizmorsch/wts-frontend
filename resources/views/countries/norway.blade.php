@@ -162,7 +162,7 @@
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Environmental Science and Sustainability', 'image' => 'images/courses/environment.jpg'],
-            ['title' => 'Renewable Energy', 'image' => 'images/courses/it.png'],
+            ['title' => 'Renewable Energy', 'image' => 'images/courses/it.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/hospitality.jpg'],
         ];
         $courseContent = [

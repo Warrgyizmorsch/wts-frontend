@@ -167,7 +167,7 @@
             ['title' => 'Computer Science/Information Technology', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/medicine.jpg'],
             ['title' => 'Life Sciences and Social Sciences', 'image' => 'images/courses/environment.jpg'],
-            ['title' => 'Finance and Economics', 'image' => 'images/courses/international-relations.png'],
+            ['title' => 'Finance and Economics', 'image' => 'images/courses/international-relations.webp'],
             ['title' => 'Hospitality and Tourism', 'image' => 'images/courses/hospitality.jpg'],
         ];
         $courseContent = [

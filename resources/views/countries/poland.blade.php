@@ -168,7 +168,7 @@
             ['title' => 'Computer Science/Information Technology', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/medicine.jpg'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
-            ['title' => 'Economics and Finance', 'image' => 'images/courses/international-relations.png'],
+            ['title' => 'Economics and Finance', 'image' => 'images/courses/international-relations.webp'],
         ];
         $courseContent = [
             'title' => 'Popular Courses to Study in Poland',

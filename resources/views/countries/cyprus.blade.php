@@ -162,7 +162,7 @@
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science / Information Technology', 'image' => 'images/courses/computer.jpg'],
             ['title' => 'Hospitality and Tourism Management', 'image' => 'images/courses/hospitality.jpg'],
-            ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/fine-arts.png'],
+            ['title' => 'Medicine and Health Sciences', 'image' => 'images/courses/fine-arts.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
         ];
         $courseContent = [

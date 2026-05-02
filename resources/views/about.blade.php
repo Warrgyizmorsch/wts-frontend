@@ -7,7 +7,7 @@
       position: relative;
       width: 100%;
       height: 820px;
-      background: url('/images/wts-about-us.png') no-repeat center center;
+      background: url('/images/wts-about-us.webp') no-repeat center center;
       background-size: cover;
       display: flex;
       align-items: center;
@@ -726,7 +726,7 @@
 </section>
 
   <!-- Want Study Abroad Guide ? -->
-<section class="study-guide-section">
+<section class="study-guide-section" style="overflow: hidden;">
     <div class="study-guide-container">
         <div class="study-guide-content">
             <h2 style="font-weight: 600;">Want Study Abroad Guide?</h2>

@@ -174,7 +174,7 @@
             ['title' => 'Engineering', 'image' => 'images/courses/engineering.jpg'],
             ['title' => 'Business and Management', 'image' => 'images/courses/business.jpg'],
             ['title' => 'Computer Science/Information Technology', 'image' => 'images/courses/computer.jpg'],
-            ['title' => 'Fashion and Luxury Management', 'image' => 'images/courses/fine-arts.png'],
+            ['title' => 'Fashion and Luxury Management', 'image' => 'images/courses/fine-arts.webp'],
             ['title' => 'Social Sciences and Humanities', 'image' => 'images/courses/environment.jpg'],
             ['title' => 'Hospitality and Tourism', 'image' => 'images/courses/hospitality.jpg'],
         ];
