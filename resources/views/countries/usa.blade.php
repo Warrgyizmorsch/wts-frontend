@@ -120,7 +120,7 @@
             ],
             [
                 'name' => 'Stanford University ',
-                'logo' => 'images/universities/Stanford_University_Logo.webp',
+                'logo' => 'images/universities/Stanford_University_Logo.png',
                 'course' => 'Engineering & Technology',
                 'ranking' => 2
             ],

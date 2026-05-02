@@ -286,9 +286,9 @@
               <div class="card-content">
                 <div class="university-header">
                   <img class="university-logo" loading="lazy" decoding="async"
-                    src="{{ !empty($uni['university']['image']) ? $s3Base . '/' . ltrim($uni['university']['image'], '/') : asset('images/universities/glasgow.png') }}"
+                    src="{{ !empty($uni['university']['image']) ? $s3Base . '/' . ltrim($uni['university']['image'], '/') : asset('images/universities/glasgow.webp') }}"
                     alt="{{ $uni['university']['name'] ?? 'University' }} Logo"
-                    onerror="this.onerror=null;this.src='{{ asset('images/universities/glasgow.png') }}';">
+                    onerror="this.onerror=null;this.src='{{ asset('images/universities/glasgow.webp') }}';">
                   <h4 title="{{ $uni['university']['name'] ?? 'Unnamed University' }}">
                     {{ trim($uni['university']['name'] ?? 'Unnamed University') }}
                   </h4>

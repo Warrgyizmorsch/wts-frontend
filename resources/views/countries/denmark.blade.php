@@ -114,7 +114,7 @@
         $universities = [
             [
                 'name' => 'University of Copenhagen',
-                'logo' => 'images/universities/Copenhagen_logo.png',
+                'logo' => 'images/universities/Copenhagen.png',
                 'course' => 'Science & Medicine',
                 'ranking' => 1
             ],
