@@ -2697,5 +2697,12 @@ p {
     .mobile-process-img {
         display: block;
     }
+
+    .cta-content h2 {
+        text-align: center !important;
+    }   
 }
 
+.cta-content h2 {
+    text-align: left;
+}
