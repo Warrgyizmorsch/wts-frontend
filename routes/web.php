@@ -54,7 +54,6 @@ Route::get('/terms-and-conditions', function () {
 
 
 
-Route::get('/universities', [UniversityController::class, 'showByCountry'])->name('universities.index');
 Route::get('/course-finder', [UniversityController::class, 'courseFinder'])->name('course.finder');
 Route::post('/course-finder-submit', [UniversityController::class, 'courseFinderPageLeadToCrm'])->name('submit.lead.course.finder');
 
