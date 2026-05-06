@@ -1,0 +1,786 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6760</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="m/d/yy"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="22" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="21"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">created_time</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ad_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ad_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adset_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">adset_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">campaign_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">campaign_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">form_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">form_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">is_organic</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">platform</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_is_your_preferred_intake?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_is_your_budget?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">confirm_the_country_for_which_you_are_applying_for_visa?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_course_are_you_planning_to_study?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">first_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">last_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">email</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">phone_number</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">city</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">lead_status</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1358282148980605</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T16:49:30.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - Duolingo Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Yusuf</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tambawala</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">yusuftamb@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+917304244935</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mumbai</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1512956726703283</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T13:27:13.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893340554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - Russell Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">australia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Abhishek</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sahani</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">shaniabhishek234@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919555621720</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Delhi</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">818852817391522</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T12:49:23.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893340554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - Russell Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sharathchandra</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">goud</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">shaathchandrakakkerla11@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+917680900548</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Warangal</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1718855905468510</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T11:45:04.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893370554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - 48 hours offer</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Amarnadh Ravi</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Parippil</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">amarnadhravi7@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919961339931</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Doha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">834536589040048</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T11:35:21.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158500554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158470554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_lookalike_ROI_states - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vadecha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RajbeerRajbharjl</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">vadechamansukh960@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918401391880</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rajkot</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2226946301142725</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T09:54:29.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893330554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">others</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bob</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Negi</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">vk8356211@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918580526922</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rampur Bushahr</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4246739492273045</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T09:16:50.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - Duolingo Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">new_zealand</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">parvat__Thakur_750</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pipalde</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ps1269291@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919691419197</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Damoh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">679883058510539</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T08:58:49.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mihir</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Makwana PM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">mihirpmakwana786@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918460716859</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Anand</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1546478759710139</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T08:34:32.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893370554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - 48 hours offer</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sai</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reddy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Saireddy13826@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919666176998</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Chennai</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1310047283927723</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T06:06:17.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893330554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DC</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dinesh Kumar</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">dineshkumardineshkumar15219@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+35794575786</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pätiälä</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">572734395922378</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T04:51:46.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - Duolingo Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">new_zealand</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">রামপ্রসাদ দাস রামপ্রসাদ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">দাস</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ramprosaddasramprosaddas55@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919332593137</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Siliguri</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1334151894847771</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T02:12:22.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893330554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">others</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&#120037;&#120050;&#120057;&#120062;&#120053;</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&#120035;&#120049;&#120042;&#120052;&#120042;&#120059;&#120046;</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">vipulthakare47@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919067627850</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nandurbar</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1382751603267572</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T01:47:20.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - Duolingo Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">कमाल खान</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">रहुमा</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">kkamaalkhankamaalkhan@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+917014894005</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">अअ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1269992075144065</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T01:27:23.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893360554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - MOI Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">others</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jabrul Abida</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jabir</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jabrul168@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919863503947</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Yairipok tulihal</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1338618571607829</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T00:20:06.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Yugraj</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Chib</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">kingrajput633@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919541902731</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jammu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1150276187231050</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-19T00:12:30.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">others</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&#120016;&#120054;&#120042;&#120055;</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&#120031;&#120042;&#120055;&#120045;&#120050;&#120061;</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">asharma27688@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918053122632</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&#120439;&#120458;&#120475;&#120466;&#120482;&#120458;&#120471;&#120458; &#120447;&#120458;&#120471;&#120466;&#120473;&#120458;&#120477;</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1857544075192590</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T23:48:41.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893360554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - MOI Ad 1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Opikul</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Islam</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">opikulislam801@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918072891402</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tirupur</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1330555202052272</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T21:43:01.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">europe</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">kishori</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bahekar</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">kishoribahekar477@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919373175183</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pune</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1492681411997719</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T21:04:04.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158500554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158470554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_lookalike_ROI_states - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ẞrk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Masum</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">masummolla6028@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918927479256</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1000000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1593496582027787</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T17:09:13.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158500554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158470554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_lookalike_ROI_states - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">australia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pankaj</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kumar</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ankaj1034@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918292821599</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Karimganj</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">689675783687780</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T13:07:20.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158500554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158470554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_lookalike_ROI_states - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Aniket</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rajput</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">anikrt555@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918758999600</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ahmedabad</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">4280363238915950</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T10:22:59.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">arshad</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Arshad</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">arshadshaik34508@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+916300984669</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nellore</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">25222357807400909</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T09:51:25.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893330554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">others</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sujith</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nani</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sujithn915@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+916305826370</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kavali</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1557506412104887</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T09:11:36.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158500554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158470554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_lookalike_ROI_states - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">usa</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Raanjit</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Chahan</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">chuhanhairanjitranjit@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+9131385920</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ghjjnh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1478683966725005</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T09:01:51.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ugresh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Patel</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">patelugren66@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919725010690</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Navsari</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">700625995810484</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T08:45:54.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">usa</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">JD__ZALA___</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">__1888</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">zjaydipsinh66@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919664855044</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Morbi</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1306090251545034</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T08:23:26.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767893350554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study_UK Video - Jan 2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233767781810554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_Interest_ROI - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Aditya</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kumar</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">adityavivek2556@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919528400747</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lucknow</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">817452660696866</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-18T06:35:07.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158500554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK - study in 15 lacs</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120233768158470554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UK_Study_lookalike_ROI_states - Conversion</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120221292902910554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Visa_Consultancy_Lead_Generation_UK_Study</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1806166346684150</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_UK_Jan2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sweety__khan</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bro</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">anglekhan241@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9705842604</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bettiah</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <LeftColumnVisible>10</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>14</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

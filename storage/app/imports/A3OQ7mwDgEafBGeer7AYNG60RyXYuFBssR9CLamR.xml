@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                      <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:x="urn:schemas-microsoft-com:office:excel"
+                       xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+                       xmlns:html="http://www.w3.org/TR/REC-html40">
+                      <Styles>
+                        <Style ss:ID="s17">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s18">
+                          <NumberFormat ss:Format="m/d/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s19">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s20">
+                          <NumberFormat ss:Format="m/yy"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s21">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s22">
+                          <NumberFormat ss:Format="m/d/yy h:mm AM/PM"/>
+                          <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s23">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s24">
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s25">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s26">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s27">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s28">
+                         <NumberFormat ss:Format="0"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s29">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s30">
+                         <NumberFormat ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* (#,##0.00);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s31">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s32">
+                         <NumberFormat ss:Format="Percent"/>
+                         <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s33">
+                         <NumberFormat ss:Format="YYYY-mm-dd"/>
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                        </Style>
+                        <Style ss:ID="s34">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana" ss:Bold="1"/>
+                        </Style>
+                        <Style ss:ID="s35">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                        <Style ss:ID="s36">
+                         <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+                         <Font ss:FontName="Verdana"/>
+                        </Style>
+                      </Styles>
+<Worksheet ss:Name="Sheet1">
+<Table>
+<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="14" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="16" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="17" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="18" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="19" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="20" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="21" ss:AutoFitWidth="0" ss:Width="150"/>
+<Column ss:Index="22" ss:AutoFitWidth="0" ss:Width="150"/>
+<Row>
+<Cell ss:StyleID="s24"><Data ss:Type="String">id</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">created_time</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">ad_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">ad_name</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">adset_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">adset_name</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">campaign_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">campaign_name</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">form_id</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">form_name</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">is_organic</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">platform</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">what_is_your_preferred_intake?</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">what_is_your_budget?</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">confirm_the_country_for_which_you_are_applying_for_visa?</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">what_course_are_you_planning_to_study?</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">first_name</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">last_name</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">email</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">phone_number</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">city</Data></Cell>
+<Cell ss:StyleID="s26"><Data ss:Type="String">lead_status</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1284544283691650</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2025-11-30T20:02:54.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235906158620554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Static</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235906158640554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">int_behavior</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235899973780554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Leads_UKstudy_2025-2026 20 Nov</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1922193255386009</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">WTS_UK_Jan2026-Nov with OTP</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ig</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">jan_2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">uk</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">bachelor’s</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Dsantosh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Santosh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">santhoshdharavath956@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+916304381021</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Dsanthoth</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">complete</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1915583772330060</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2025-11-30T12:34:40.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120236365062180554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New creative jan 2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235906158640554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">int_behavior</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235899973780554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Leads_UKstudy_2025-2026 20 Nov</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1922193255386009</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">WTS_UK_Jan2026-Nov with OTP</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ig</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">jan_2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">uk</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">bachelor’s</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Syed</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Jalal</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">s8137704@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+917305413023</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Hi sir</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">complete</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1193254876062585</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2025-11-30T10:38:18.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120236365062180554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New creative jan 2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235906158640554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">int_behavior</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235899973780554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Leads_UKstudy_2025-2026 20 Nov</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1922193255386009</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">WTS_UK_Jan2026-Nov with OTP</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">ig</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">jan_2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">uk</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">bachelor’s</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">الملك أوميز</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Syedumaiz</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">kingumaiz2@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+918453676259</Data></Cell>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">0214</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">complete</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s27"><Data ss:Type="Number">736440592198904</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2025-11-30T08:52:58.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120236365062180554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">New creative jan 2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235906158640554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">int_behavior</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235899973780554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Leads_UKstudy_2025-2026 20 Nov</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1922193255386009</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">WTS_UK_Jan2026-Nov with OTP</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">jan_2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">europe</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">master's_degree</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Mukesh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Singh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">singhm47662@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+919004818225</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Mumbai</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">complete</Data></Cell>
+</Row>
+
+<Row>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1393500169026847</Data></Cell>
+<Cell ss:StyleID="s17"><Data ss:Type="DateTime">2025-11-29T08:25:42.000</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235905840360554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Static</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235899973790554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Lookalike qualified leads</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">120235899973780554</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Leads_UKstudy_2025-2026 20 Nov</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">1922193255386009</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">WTS_UK_Jan2026-Nov with OTP</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">false</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">fb</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">may_2026</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">new_zealand</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">master's_degree</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Mayur</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">Goel</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">mayurgoel4@gmail.com</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">+917982766755</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">rohini</Data></Cell>
+<Cell ss:StyleID="s25"><Data ss:Type="String">complete</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

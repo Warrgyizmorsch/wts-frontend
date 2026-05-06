@@ -1,0 +1,3 @@
+Date,campaign_name,adset_name,ad_name,platform,whats_your_preferred_intake?,highest_level_of_education_completed,"any_academic_gap_(i.e.,_time_off_between_or_during_studies)?",what_is_your_budget?,which_country_are_you_applying_for_a_visa?,what_course_are_you_planning_to_study?,first_name,last_name,email,phone_number,city
+2025-08-28,Summer Campaign,AdSet A,Ad 1,Facebook,Fall 2025,Bachelor's,1,20000,Canada,Computer Science,John,Doe,john.doe@example.com,1234567897,New York
+2025-08-27,Winter Campaign,AdSet B,Ad 2,Google,Spring 2026,Master's,3,30000,UK,Business Administration,Alice,Smith,alice.smith@example.com,9876543210,London

@@ -1,0 +1,620 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6820</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="m/d/yy"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="22" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="21"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ad_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ad_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adset_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">adset_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">campaign_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">campaign_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">form_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">form_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">is_organic</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">platform</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_is_your_preferred_intake?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_is_your_budget?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">confirm_the_country_for_which_you_are_applying_for_visa?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_course_are_you_planning_to_study?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">first_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">last_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">email</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">phone_number</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">city</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">lead_status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3997167547278839</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T13:52:57.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SJ:)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jamewar</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">shweta98jamewar@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918149790642</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bhopal</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1189593996528980</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T13:38:54.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023080554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">جميل رحمن</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jamil</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jamilrahman87170@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919345443992</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Thiruvarur</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1304318411353809</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T12:42:09.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023080554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Saranya</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Doni</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vikimohan111@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918870441094</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Coimbatore</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1118766373548876</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T11:54:01.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023080554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Honey</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Physio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">hanumanayakbhukya66412@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919966194753</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ambajipeta</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">3075271186010191</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T11:44:25.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mohd</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Saad</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">saadshaizi@icloud.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919336810062</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lucknow</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">24423022044017205</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T11:11:03.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023080554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nanditha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reddy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">duvvurunamratha02@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918374914286</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hyderabad</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1482867639558422</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T10:55:10.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">yaaarkannu</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kushwaha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">kanikakushwaha90@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918076438705</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Gurugram</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2285497875241080</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T10:43:12.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023080554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Abhijith Syra</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sahadevan</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">abhijithksaho@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919744493672</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tiruvalla</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1116096733274913</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T10:16:15.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tanishkaa</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">n</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">tanishka19n@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918237063367</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mumbai</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1986493275498703</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T09:56:15.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023080554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dr R</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sekar</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">gsekar2004@yahoo.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919488681720</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SIVAGANGA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1935924607188281</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T00:29:14.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Raghav</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pro</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">montyraghav789@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918630009202</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tundla</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1747406365947446</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-03T00:00:34.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231590094130554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - Nov intake 2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Praveen_vignesh.pk</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">praveenvignesh07@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918675634870</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pondicherry</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1648141485853500</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T23:35:32.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231590094130554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - Nov intake 2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dr Jifriya</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Najeeb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jifriyanajeeb@icloud.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919544987834</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Muvattupuzha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1026088276150688</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T23:03:03.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023070554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - Afreen Video</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sugi</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sugitha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">suloshanhealthcare@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919080829048</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">tirchy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2414185215648978</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T21:55:26.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reeta</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Choradia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">reeta002@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919962249000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Chennai</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1301928771276085</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T18:18:33.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Razia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">raziasn@yahoo.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919740488664</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">vijayapura</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1154861339899243</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T17:32:26.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">others</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rudranshi</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mishra</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">anujamishra963@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+918534877554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Noida</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">742998778564488</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T17:21:15.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">australia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Aadil</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hussain</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">aadilhu8765@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919661016511</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Delhi</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1764315761140557</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T17:14:51.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023070554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - Afreen Video</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231473023050554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_South</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Manjusha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mathew</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">mathewmanjusha@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919961310569</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ernakulam</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">813495767768927</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T13:58:21.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">november_2025</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pranjal</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vats</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">pranjalvatz8923@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+917417519202</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Greater Noida</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2594238964261115</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-09-02T13:43:30.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231471283940554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Study in Dubai - only 50% required</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470801320554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dubai_Interests</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">120231470735780554</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Study_Leads</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">694734270247334</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WTS_Dubai_Leads</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">2026_intake</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">uae</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Musthafa kamal batcha</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Akbarjohn</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">amkbmusthafa@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">+919944810899</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tuticorin Tamilnadu India</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <LeftColumnVisible>10</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>12</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

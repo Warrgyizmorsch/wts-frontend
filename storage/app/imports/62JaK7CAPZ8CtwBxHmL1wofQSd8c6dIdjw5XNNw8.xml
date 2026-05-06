@@ -1,0 +1,763 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6760</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="m/d/yy"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="22" ss:ExpandedRowCount="28" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="21"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">created_time</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ad_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ad_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">adset_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">adset_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">campaign_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">campaign_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">form_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">form_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">is_organic</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">platform</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_is_your_preferred_intake?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_is_your_budget?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">confirm_the_country_for_which_you_are_applying_for_visa?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">what_course_are_you_planning_to_study?</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">first_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">last_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">email</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">phone_number</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">city</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">lead_status</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">809211988167397</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T13:42:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prajna</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Murthy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">prajnamurthy10@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919844136023</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Banglore</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">649115871355052</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T13:15:27.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ananya Mariya</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tom</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ananyamariyajoseph9@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+918848793343</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Bengaluru</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24573309568977982</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T11:25:36.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Parvathy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">M</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">parvathyprarthana1504@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+917795085561</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Bangalore</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1458724968570784</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T11:23:44.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">new_zealand</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prashanth</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prashanth</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">kurriprashanth4@gamil.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+918331816253</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Kamareddy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2234775083697031</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T08:56:50.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Dipa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ghosh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">gdipa014@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+917501880749</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mankar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">4063588710561040</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T08:47:28.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">europe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">It's All music</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Fernandes</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">queens_7ash@yahoo.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919920399545</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mumbai</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1383144063252878</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T05:31:34.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">usa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Shivani</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Chahal</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">shivanichahal0000@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919588138847</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Kaithal</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1776918066275696</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T03:58:53.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Manik</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">chakrabortyavijiy202@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">chakraborty@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+917029452879</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">delhi</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">778861934918016</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T02:27:11.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Fardeen</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Niyazi</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">64ahplastics@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919892320610</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mumbai</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2564323163901520</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-06T00:05:38.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">usa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">DISHANK</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">PAWAR</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">dishankpawar16@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919967212320</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Diva East</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">734293812973972</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T23:20:37.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Putta varshith</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Varshith</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">putta.kalpana@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+918328509910</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Hyderabad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1352564459820170</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T19:49:28.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">_Nih@s_World</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Niha</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">rajininiha@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+918341296257</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Vmr Nagar Nellore</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1290040299063822</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T19:17:58.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mohith</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Balakrishnan</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">mohithbala10146@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+916381733410</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Chennai</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1488111055838760</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T18:14:52.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Priya</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sundaram</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">prthejasundaram@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919444411622</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Chengalpattu</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25218851014365680</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T17:26:16.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">above_₹ 15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sri Balaji Prabhu J</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">J</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sribalajicourse@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919597853903</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Rajapalayam</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2116505958759971</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T15:23:06.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 10_-_15 lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">usa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Abhi Naresh Saigal</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">saigalabhijeet@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919730203501</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Nashik</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">862744569655145</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T15:08:21.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Shaik Chetla Khadar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Basha</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">mabubashashaikchetla@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919490749041</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Kadapa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1039084438238938</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T14:28:41.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ADHI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">G</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">memooga03@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+916282783440</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Palakkad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">831781492535314</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-05T12:57:19.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ʏᴀᴢʜini</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Celestina</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">yazhinicelestina@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919894550733</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tamilnadu</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1842924656302124</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T22:41:16.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">europe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pallavi</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Bandagale</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">palluban@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+918879601220</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Mumbai</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1420409342943777</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T22:30:36.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">new_zealand</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">꧁☆☬&#127362;&#127351;&#127357;&#127363;&#127351;.&#127365;☬☆꧂</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Venkatesh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">vshantha8888@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919740921569</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Bengaluru</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1490142752194858</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T21:41:41.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sanjay</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Birala</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sanjaybirala4921@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919466885416</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Kharia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1304866364076888</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T19:16:51.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">may_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">bachelor’s</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ⲧꪖ&#120159;ia</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">♡</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">taniachander077@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+917719530278</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Shahkot</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">726922387066117</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T17:50:16.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sep_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">vansu1109</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Das</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">dassuparna3090@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919258270558</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">KASHIPUR UTTARAKHAND</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1546135220140221</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T16:11:29.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Rahul</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">gurjar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">neharlove@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919617176684</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Harda</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">818243937309782</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T14:45:38.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">uk</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jovita sebastian</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">அமலநாதன்</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">joeamal53@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+917845803053</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Chennai</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">775360765309625</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-10-04T13:52:41.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">You don't have enough permissions. Please refer to this help page: https://www.facebook.com/business/help/766393076839635</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">2153386691852012</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WTS_UK_Lead_new_27th Sept</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ig</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">jan_2026</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">₹ 5_-_10_ lakh</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">usa</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">master's_degree</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sameera</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pussy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">imranlatif9960@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">+919121200798</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Hyderabad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">complete</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <LeftColumnVisible>10</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>14</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
